@@ -22,6 +22,14 @@ The links open the pages on GitHub Pages. To view them locally instead, open the
 
 ---
 
+## Using Numen
+
+Numen is a working prototype, shown here on one script. Running it on a new script isn't packaged yet: the pipeline is built and tested end to end on *Full of Grace*, and a one-step version is on the roadmap.
+
+If you're on a studio or development team and would like a read of your own script, get in touch on [LinkedIn](https://www.linkedin.com/in/shoconno).
+
+---
+
 ## Why archetypes
 
 Development notes are often about what a character *does* in the story: the mentor who disappears after act one, the hero who never acts, the mother figure who controls rather than protects. Archetypes give those functions names and make them trackable across a whole script.
@@ -84,6 +92,7 @@ These are results for one script and one AI run.
 
 ## What's next
 
+- **A one-step runner:** point Numen at any screenplay PDF and get a Story Report, with no script-specific setup.
 - **Running on a studio's own machines.** The pipeline is designed so the AI can be swapped. A next step is running it on an open-weight AI, so scripts never leave a studio's own machines. That sits alongside enterprise API agreements with no data retention as ways to keep scripts confidential.
 - **Before that, a small comparison:** a few *Full of Grace* scenes through a smaller open-weight AI, checked against the current output.
 - **Fields the tagging still lacks:** a one-line rationale for each archetype call, and the Great Mother's pole (light or dark), which today is read from the review records.
@@ -134,3 +143,9 @@ python demo_prototype/build_archetype_cards.py
 **Run the tests:** `python -m unittest discover -p "test_*.py"`. The layout checks use headless Chrome and are skipped without it. The card builder needs `pdfplumber` and `Pillow`.
 
 **Live AI runs** need the `anthropic` package and an `ANTHROPIC_API_KEY` set in your own environment; no key is stored in the repo. The runners have free dry-run or plan modes.
+
+---
+
+## Rights
+
+All rights reserved. The code and pages are published for reading and evaluation; please get in touch before reusing any of it. The bundled fonts are under the SIL Open Font License (see `fonts/`).
