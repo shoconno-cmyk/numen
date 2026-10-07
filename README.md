@@ -10,8 +10,8 @@ Numen reads a screenplay and maps where each character presents as one of seven 
 
 All built from one feature script, *Full of Grace*:
 
+- **[The Walkthrough](https://shoconno-cmyk.github.io/numen/numen_walkthrough.html)**: the same script followed from PDF to report, stage by stage.
 - **[The Story Report](https://shoconno-cmyk.github.io/numen/fog_story_report.html)**: the finished report, with an AI Output / Human Reviewed switch on each section.
-- **[The walkthrough](https://shoconno-cmyk.github.io/numen/numen_walkthrough.html)**: the same script followed from PDF to report, stage by stage.
 - Four demo cards, one moment each, shown the way review checks it:
   - [Holly: Trickster Archetype](https://shoconno-cmyk.github.io/numen/demo_prototype/holly_scene3_beat2_card.html)
   - [Mackie: Great Mother or Shadow Archetype?](https://shoconno-cmyk.github.io/numen/demo_prototype/mackie_scene140_beat6_card.html)
