@@ -1,0 +1,1568 @@
+{
+ "description": "FOG Pass 2 human review worklist. Two separate sections; only the first has draft values to correct.",
+ "built_from": "fog_tagged.json + fog_pass2_calls/synthesis_*.json at commit 0cab37f; no values changed",
+ "sections": {
+  "needs_correction_review": "Drafted Pass 2 entries whose characterization_consistency is not 'consistent', plus finding 17's drafted mandatory entries. Each has a causal_integrity block; accept or correct it via log_correction().",
+  "arc_claim_check_no_draft": "Synthesis turning points on beats where the character's entry has no causal_integrity block, so Pass 2 made no draft. There is NO field to correct via log_correction(); check the arc-level claim itself (is this a real turning point? do other drafts rely on it?) and record the outcome in the review notes."
+ },
+ "counts": {
+  "needs_correction_review": 138,
+  "arc_claim_check_no_draft": 22,
+  "total": 160
+ },
+ "needs_correction_review": [
+  {
+   "character": "ANGIE",
+   "beat_id": "scene78_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "ANGIE",
+   "beat_id": "scene79_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "ANGIE",
+   "beat_id": "scene80_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "ANGIE",
+   "beat_id": "scene80_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "ANGIE",
+   "beat_id": "scene81_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "BETH",
+   "beat_id": "scene7_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "BETH",
+   "beat_id": "scene9_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "BETH",
+   "beat_id": "scene9_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "BETH",
+   "beat_id": "scene11_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "BETH",
+   "beat_id": "scene85_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "BLACK KID",
+   "beat_id": "scene19_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, boundary_revealed -> consistent (log 842) -- see FOG_BLACKKID_REVIEW.md"
+  },
+  {
+   "character": "CAPTAIN MARCHAND",
+   "beat_id": "scene120_beat6",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "CAPTAIN MARCHAND",
+   "beat_id": "scene120_beat7",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "CAPTAIN MARCHAND",
+   "beat_id": "scene120_beat8",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "CAPTAIN MARCHAND",
+   "beat_id": "scene185_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "CAPTAIN MARCHAND",
+   "beat_id": "scene204_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "CHEYENNE",
+   "beat_id": "scene133_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "CHEYENNE",
+   "beat_id": "scene135_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "CHEYENNE",
+   "beat_id": "scene149_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "CHEYENNE",
+   "beat_id": "scene150_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "CHEYENNE",
+   "beat_id": "scene155_beat5",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "CHEYENNE",
+   "beat_id": "scene155_beat9",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "CHEYENNE",
+   "beat_id": "scene155_beat11",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "CHEYENNE",
+   "beat_id": "scene179_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "CHEYENNE",
+   "beat_id": "scene181_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene101_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": true
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene118_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene123_beat7",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene123_beat9",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene123_beat14",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene123_beat15",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene175_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene177_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene197_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": true
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene199_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene207_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "HOLLY",
+   "beat_id": "scene6_beat3",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "HOLLY",
+   "beat_id": "scene214_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "HOLLY",
+   "beat_id": "scene215_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "HOLLY",
+   "beat_id": "scene216_beat3",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "HOLLY",
+   "beat_id": "scene216_beat5",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene103_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": true
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene108_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "mismatch",
+   "finding17": true
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene119_beat3",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene119_beat6",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene119_beat7",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene119_beat8",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene138_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": true
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene152_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene154_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene155_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene163_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene164_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene165_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene172_beat6",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene172_beat7",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene175_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": true
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene185_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene213_beat3",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": true
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene217_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene217_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene218_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene223_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "LATINO KID",
+   "beat_id": "scene19_beat3",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, boundary_revealed -> consistent (log 843) -- see FOG_LATINOKID_REVIEW.md"
+  },
+  {
+   "character": "MACKIE",
+   "beat_id": "scene140_beat5",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "mismatch",
+   "finding17": false
+  },
+  {
+   "character": "MACKIE",
+   "beat_id": "scene140_beat6",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "mismatch",
+   "finding17": false
+  },
+  {
+   "character": "MACKIE",
+   "beat_id": "scene140_beat7",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "mismatch",
+   "finding17": false
+  },
+  {
+   "character": "MACKIE",
+   "beat_id": "scene140_beat8",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "mismatch",
+   "finding17": false
+  },
+  {
+   "character": "MACKIE",
+   "beat_id": "scene140_beat9",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "mismatch",
+   "finding17": false
+  },
+  {
+   "character": "MACKIE",
+   "beat_id": "scene140_beat11",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "mismatch",
+   "finding17": false
+  },
+  {
+   "character": "O’SHEA",
+   "beat_id": "scene154_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "O’SHEA",
+   "beat_id": "scene155_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "O’SHEA",
+   "beat_id": "scene155_beat7",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "consistent",
+   "weight_proportionality": "matched",
+   "finding17": true
+  },
+  {
+   "character": "O’SHEA",
+   "beat_id": "scene155_beat9",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "O’SHEA",
+   "beat_id": "scene155_beat10",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "O’SHEA",
+   "beat_id": "scene155_beat11",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "O’SHEA",
+   "beat_id": "scene155_beat12",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "PETE",
+   "beat_id": "scene122_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, boundary_revealed -> consistent (log 840) -- see FOG_PETE_REVIEW.md"
+  },
+  {
+   "character": "PETE",
+   "beat_id": "scene122_beat6",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, boundary_revealed -> consistent (log 841) -- see FOG_PETE_REVIEW.md"
+  },
+  {
+   "character": "RAYMOND",
+   "beat_id": "scene196_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "RAYMOND",
+   "beat_id": "scene196_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "RAYMOND",
+   "beat_id": "scene201_beat5",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": true
+  },
+  {
+   "character": "RAYMOND",
+   "beat_id": "scene205_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene94_beat3",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "consistent",
+   "weight_proportionality": "matched",
+   "finding17": true
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene95_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene132_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene134_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene136_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene167_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene168_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene172_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene172_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene172_beat3",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene172_beat4",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene172_beat5",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene172_beat6",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene175_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene175_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "RICARDO",
+   "beat_id": "scene111_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "RICARDO",
+   "beat_id": "scene114_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "RICARDO",
+   "beat_id": "scene115_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "RICARDO",
+   "beat_id": "scene119_beat9",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "RICARDO",
+   "beat_id": "scene119_beat10",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "RICARDO",
+   "beat_id": "scene119_beat11",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "RICARDO",
+   "beat_id": "scene119_beat12",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene40_beat3",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene57_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene57_beat3",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "consistent",
+   "weight_proportionality": "matched",
+   "finding17": true
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene131_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene143_beat6",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene143_beat7",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene188_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene194_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene195_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene195_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene195_beat4",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene213_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene213_beat7",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene214_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene214_beat3",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene214_beat4",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene215_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene216_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene216_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene216_beat4",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene216_beat5",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene216_beat6",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene216_beat7",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene217_beat1",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "YOUNG CHEYENNE",
+   "beat_id": "scene60_beat4",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "YOUNG JOHN",
+   "beat_id": "scene75_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "consistent",
+   "weight_proportionality": "matched",
+   "finding17": true
+  },
+  {
+   "character": "YOUNG JOHN",
+   "beat_id": "scene75_beat3",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "YOUNG JOHN",
+   "beat_id": "scene75_beat4",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "YOUNG JOHN",
+   "beat_id": "scene75_beat5",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "YOUNG JOHN",
+   "beat_id": "scene140_beat2",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "YOUNG JOHN",
+   "beat_id": "scene140_beat5",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "YOUNG JOHN",
+   "beat_id": "scene140_beat6",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "throughline_evolution",
+   "weight_proportionality": "matched",
+   "finding17": false
+  },
+  {
+   "character": "YOUNG JOHN",
+   "beat_id": "scene140_beat8",
+   "category": "needs_correction_review",
+   "correct_via": "log_correction() on the drafted causal_integrity fields",
+   "characterization_consistency": "boundary_revealed",
+   "weight_proportionality": "matched",
+   "finding17": false
+  }
+ ],
+ "arc_claim_check_no_draft": [
+  {
+   "character": "ALBERTO",
+   "beat_id": "scene171_beat1",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "continuation",
+   "comparison_beat_id": "scene170_beat7",
+   "trait_it_relates_to": "Alberto is shown as a brutalized torture victim, revealed in a state of extreme physical devastation and unable to do more than react to his captivity",
+   "likely_category": "throughline_evolution",
+   "what_changes": "Alberto's scream from the previous beat carries directly across the scene cut, the same act of terror continuing into the next scene without interruption.",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, claim does not hold -- see FOG_ALBERTO_REVIEW.md"
+  },
+  {
+   "character": "ALBERTO",
+   "beat_id": "scene172_beat8",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "continuation",
+   "comparison_beat_id": "scene172_beat7",
+   "trait_it_relates_to": "Alberto is shown as a brutalized torture victim, revealed in a state of extreme physical devastation and unable to do more than react to his captivity",
+   "likely_category": "throughline_evolution",
+   "what_changes": "The gunfight's scream directly continues into wails as the chaos moves upstairs -- the same unbroken moment of terror extending, not a new escalation.",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, claim does not hold -- see FOG_ALBERTO_REVIEW.md"
+  },
+  {
+   "character": "ALBERTO",
+   "beat_id": "scene182_beat1",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "escalation",
+   "comparison_beat_id": "scene172_beat8",
+   "trait_it_relates_to": "Alberto is shown as a brutalized torture victim, revealed in a state of extreme physical devastation and unable to do more than react to his captivity",
+   "likely_category": "boundary_revealed",
+   "what_changes": "Alberto's last conscious state was wailing in terror; here he is found comatose on a ventilator, having lost all capacity to scream, speak, or react -- exposing the ultimate limit his body's ordeal has reached.",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, claim does not hold -- see FOG_ALBERTO_REVIEW.md"
+  },
+  {
+   "character": "BETH",
+   "beat_id": "scene8_beat1",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "continuation",
+   "comparison_beat_id": "scene7_beat2",
+   "trait_it_relates_to": "Bossy, impatient, and dismissive toward friends' fears, hesitations, or objections",
+   "likely_category": "boundary_revealed",
+   "what_changes": "The crack in her composure from the previous beat continues without a gap into physical panicked action -- running through the woods shouting Holly's name.",
+   "finding17": false
+  },
+  {
+   "character": "BETH",
+   "beat_id": "scene11_beat1",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "continuation",
+   "comparison_beat_id": "scene9_beat2",
+   "trait_it_relates_to": "Bossy, impatient, and dismissive toward friends' fears, hesitations, or objections",
+   "likely_category": "boundary_revealed",
+   "what_changes": "The fear from discovering the hobbyhorse culminates, without narrative gap, in open sobbing at the police station -- the same emotional unraveling reaching its next stage.",
+   "finding17": false
+  },
+  {
+   "character": "DET. MCAVOY",
+   "beat_id": "scene14_beat12",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "continuation",
+   "comparison_beat_id": "scene14_beat11",
+   "trait_it_relates_to": "Escalates to genuinely hostile, vulgar hostility when provoked",
+   "likely_category": "consistent",
+   "what_changes": "The same confrontation resolves in the same unbroken sequence: Sarge intervenes with authority, McAvoy is ordered out, mutters a final insult, and leaves -- the direct continuation and endpoint of the escalating exchange begun in the prior two beats.",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, claim holds as consistent; not a turning point, nothing to draft -- see FOG_MCAVOY_REVIEW.md"
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene175_beat3",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "continuation",
+   "comparison_beat_id": "scene175_beat2",
+   "trait_it_relates_to": "Doug offers John gentle companionship and consideration for his emotional state without pressuring him",
+   "likely_category": "throughline_evolution",
+   "what_changes": "Immediately after delivering the news, Doug offers to take on the burden of telling Cheyenne himself, continuing the same protective gentleness before yielding to John's insistence.",
+   "finding17": false
+  },
+  {
+   "character": "FEDERAL AGENT",
+   "beat_id": "scene201_beat5",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "escalation",
+   "comparison_beat_id": "scene201_beat4",
+   "trait_it_relates_to": "Uses aggressive, profanity-laced confrontation and psychological pressure (insults, mockery of Raymond's disability and prospects) to force a confession",
+   "likely_category": "throughline_evolution",
+   "what_changes": "The pressure moves from verbal mockery to an explicit, concrete threat of legal consequence ('twenty five to life') paired with cruel wordplay ('time to play a different tune'), raising the stakes from taunting to a direct statement of Raymond's ruined future.",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, claim does not hold -- see FOG_FEDERALAGENT_REVIEW.md"
+  },
+  {
+   "character": "FEDERAL AGENT",
+   "beat_id": "scene202_beat1",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "escalation",
+   "comparison_beat_id": "scene201_beat5",
+   "trait_it_relates_to": "Uses aggressive, profanity-laced confrontation and psychological pressure (insults, mockery of Raymond's disability and prospects) to force a confession",
+   "likely_category": "boundary_revealed",
+   "what_changes": "Having escalated his control over Raymond to threats of life imprisonment, the agent's dominance is abruptly interrupted by an unknown outside authority ('This stops now'); his defensive, confused 'Who the hell are you?' exposes that his aggressive control only functions on Raymond, not on someone with actual authority over him -- a previously untested limit.",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, claim does not hold -- see FOG_FEDERALAGENT_REVIEW.md"
+  },
+  {
+   "character": "FEDERAL AGENT",
+   "beat_id": "scene205_beat1",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "echo",
+   "comparison_beat_id": "scene201_beat1",
+   "trait_it_relates_to": "Uses aggressive, profanity-laced confrontation and psychological pressure (insults, mockery of Raymond's disability and prospects) to force a confession",
+   "likely_category": "boundary_revealed",
+   "what_changes": "When the lawyer calls the interrogators 'monsters' after Raymond injures himself, the agent's flat deflection 'He volunteered to talk' directly answers his own opening line ('You're not being honest with us... time to man-up') by revealing he still frames the coercive pressure he initiated as Raymond's free choice, refusing any accountability for the harm his own tactic produced.",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, claim does not hold -- see FOG_FEDERALAGENT_REVIEW.md"
+  },
+  {
+   "character": "HOLLY",
+   "beat_id": "scene7_beat3",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "continuation",
+   "comparison_beat_id": "scene6_beat3",
+   "trait_it_relates_to": "Genuine fear/vulnerability surfaces beneath her playful exterior when confronted with real danger",
+   "likely_category": "boundary_revealed",
+   "what_changes": "The danger she spotted in the previous beat materializes without a gap: her own scream is heard, cut off suddenly as if by force, the direct unbroken continuation of the threat she reacted to.",
+   "finding17": false
+  },
+  {
+   "character": "HOLLY",
+   "beat_id": "scene216_beat7",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "continuation",
+   "comparison_beat_id": "scene216_beat5",
+   "trait_it_relates_to": "Genuine fear/vulnerability surfaces beneath her playful exterior when confronted with real danger",
+   "likely_category": "boundary_revealed",
+   "what_changes": "The same physical struggle continues to its end without a gap: her resistance finally leaves her entirely and she goes lifeless, the ultimate and final limit of the fight for survival begun earlier.",
+   "finding17": false
+  },
+  {
+   "character": "KRISTA",
+   "beat_id": "scene8_beat1",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "escalation",
+   "comparison_beat_id": "scene3_beat1",
+   "trait_it_relates_to": "Feels apprehensive or unsure when facing an unfamiliar or risky situation",
+   "likely_category": "throughline_evolution",
+   "what_changes": "At scene3_beat1 Krista is merely 'unsure' about a dark trail -- a vague, low-stakes apprehension. Here she cries out in real alarm ('Beth!') immediately after hearing a terrifying scream, reacting to an actual crisis rather than an imagined worry -- a clear jump in intensity and stakes.",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, claim does not hold -- see FOG_KRISTA_REVIEW.md"
+  },
+  {
+   "character": "KRISTA",
+   "beat_id": "scene11_beat1",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "continuation",
+   "comparison_beat_id": "scene9_beat1",
+   "trait_it_relates_to": "Feels apprehensive or unsure when facing an unfamiliar or risky situation",
+   "likely_category": "throughline_evolution",
+   "what_changes": "The fear-and-confusion state from the woods carries through, unbroken, into the aftermath at the house with police present, now surfacing as audible sobbing -- the same continuous emotional arc, not a fresh trigger.",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, claim does not hold -- see FOG_KRISTA_REVIEW.md"
+  },
+  {
+   "character": "KRISTA",
+   "beat_id": "scene84_beat1",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "echo",
+   "comparison_beat_id": "scene3_beat1",
+   "trait_it_relates_to": "Approaches her hobbyhorse 'Bella' with gentle, nurturing care, treating the imaginative play as emotionally real",
+   "likely_category": "throughline_evolution",
+   "what_changes": "Krista is shown carrying the same hobbyhorse into a real competition arena, a concrete callback to the hobbyhorse-comforting introduced at scene3_beat1 -- despite the trauma of losing Holly, the same specific object and activity persists, showing this part of her identity survives intact rather than being erased.",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, claim does not hold -- see FOG_KRISTA_REVIEW.md"
+  },
+  {
+   "character": "MANAGEMENT",
+   "beat_id": "scene107_beat2",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "escalation",
+   "comparison_beat_id": "scene103_beat1",
+   "trait_it_relates_to": "Professional, courteous host who conducts business with calm procedural composure",
+   "likely_category": "boundary_revealed",
+   "what_changes": "Every prior beat shows MANAGEMENT calm, procedural, and in control of the interaction (greeting, touring, reciting figures, patiently repeating 'Mr. Matthews?'). Here, confronted with John abruptly bolting, his composure breaks into a confused, alarmed question and a shouted 'Hey!' -- exposing that his professional calm was contingent on normal circumstances rather than an unshakeable trait, a previously untested limit rather than a new capacity or escalation of the same behavior.",
+   "finding17": true,
+   "model_turning_point_type": "boundary_revealed",
+   "note": "turning_point_type 'escalation' is the AUTO-HEAL forced value (finding 17); the model wrote 'boundary_revealed' in turning_point_type and claimed no type",
+   "review_status": "reviewed 2026-10-03, claim does not hold; finding 17 item 5 closed, no causal_integrity block needed -- see FOG_MANAGEMENT_REVIEW.md"
+  },
+  {
+   "character": "O’SHEA",
+   "beat_id": "scene155_beat8",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "continuation",
+   "comparison_beat_id": "scene155_beat7",
+   "trait_it_relates_to": "Shows genuine tenderness and concern for Cheyenne beneath his tough exterior",
+   "likely_category": "throughline_evolution",
+   "what_changes": "Immediately after voicing his own shame, O'Shea visibly softens and sighs in direct response to Cheyenne's pleading look -- the same emotional thread continuing to its point of surrender just before he discloses what he knows.",
+   "finding17": false
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene172_beat7",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "continuation",
+   "comparison_beat_id": "scene172_beat6",
+   "trait_it_relates_to": "Willing to use lethal force to enforce his own sense of justice",
+   "likely_category": "boundary_revealed",
+   "what_changes": "Immediately after the exchange of gunfire, Reggie is hit and howls in pain -- the same unbroken exchange now exposing his own physical vulnerability and the failure of his violent campaign.",
+   "finding17": false
+  },
+  {
+   "character": "RICARDO",
+   "beat_id": "scene119_beat4",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "escalation",
+   "comparison_beat_id": "scene106_beat1",
+   "trait_it_relates_to": "Freezes and reacts with visible fear when summoned by an authority figure",
+   "likely_category": "throughline_evolution",
+   "what_changes": "His fear response, first triggered by a routine PA summons, now escalates to visible terror under the explicit threat of an ICE call -- a categorically higher personal stake than the earlier workplace summons.",
+   "finding17": false
+  },
+  {
+   "character": "RICARDO",
+   "beat_id": "scene119_beat7",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "escalation",
+   "comparison_beat_id": "scene119_beat5",
+   "trait_it_relates_to": "Denies knowledge or wrongdoing to protect himself under threat",
+   "likely_category": "boundary_revealed",
+   "what_changes": "After flatly denying any knowledge ('I know nothing... I love America'), he now answers 'Yes' and begins to admit involvement once John intensifies the threat -- his denial cracks under greater pressure than it had faced before, revealing the limit of that self-protective lie.",
+   "finding17": false
+  },
+  {
+   "character": "SARGE",
+   "beat_id": "scene14_beat13",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "continuation",
+   "comparison_beat_id": "scene14_beat12",
+   "trait_it_relates_to": "Directs John with firm, calm command authority",
+   "likely_category": "throughline_evolution",
+   "what_changes": "Sarge's 'Got that?' is the unbroken continuation of the ultimatum just delivered in beat12 -- he is pressing for confirmation of the same demand, not introducing a new development.",
+   "finding17": false,
+   "review_status": "reviewed 2026-10-03, claim does not hold (Pass 1 goal corrected, log 844) -- see FOG_SARGE_REVIEW.md"
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene193_beat1",
+   "category": "arc_claim_check_no_draft",
+   "correct_via": "none -- entry has no causal_integrity block, nothing for log_correction() to change",
+   "why_no_draft": "per_character entry has no causal_integrity block",
+   "turning_point_type": "escalation",
+   "comparison_beat_id": "scene188_beat1",
+   "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification",
+   "likely_category": "boundary_revealed",
+   "what_changes": "The solitary prayer established as hers alone is revealed to be recited in exact synchrony with Raymond's -- exposing a previously unknown, literal connection between her private devotion and the kidnapper, recontextualizing her piety as entangled with the crime.",
+   "finding17": false,
+   "drafts_that_chain_off_this": [
+    "scene194_beat1",
+    "scene195_beat1 (and via it scene195_beat2, scene195_beat4)"
+   ],
+   "review_status": "reviewed, claim likely does not hold -- see FOG_TRUDY_REVIEW.md"
+  }
+ ]
+}

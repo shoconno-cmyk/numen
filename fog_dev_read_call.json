@@ -1,0 +1,66 @@
+{
+  "model": "claude-sonnet-5",
+  "max_tokens": 16000,
+  "prompt_version": 5,
+  "system_sha256": "93f60624e0433f04a2ac781cad1597b845933d72029d2566b41c25b5431f810e",
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "genre": {
+            "type": "string"
+          },
+          "logline": {
+            "type": "string"
+          },
+          "synopsis": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "genre",
+          "logline",
+          "synopsis"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "timestamp_utc": "2026-10-06T17:42:49.818936+00:00",
+      "request_id": "req_011CfmPxmK94uBUZQnSymzkC",
+      "model_returned": "claude-sonnet-5",
+      "stop_reason": "end_turn",
+      "user_sha256": "b5380ad19f9348949a9ad9e75f6e6e88856d1954cb522d515fb67d1831b7a5dc",
+      "retry_violations": null,
+      "usage": {
+        "input_tokens": 67077,
+        "output_tokens": 1145
+      },
+      "cost_usd": 0.1456,
+      "raw_text": "{\"genre\":\"Crime thriller / small-town mystery\",\"logline\":\"When his estranged police-detective father dies, a burnt-out LAPD detective returns to his rural New Hampshire hometown and is pulled into investigating the disappearance of a young girl, uncovering a web of vigilante violence, addiction, and secrets that implicate the people closest to him.\",\"synopsis\":\"In Dover, New Hampshire, three pre-teen girls ride hobbyhorses into the woods; one of them, Holly, vanishes near an old cemetery, leaving only her screams and her hobbyhorse behind. In Los Angeles, Detective John Kierstead, a hard-drinking cop on probation after an unspecified leave of absence, learns his estranged father Mackie, a revered Dover police veteran, has died. John returns home for the funeral, reconnects awkwardly with his sister Trudy and her boyfriend Doug (also a Dover officer), and learns that Mackie had been informally consulting on Holly's case. John also discovers Holly is the daughter of his old flame Cheyenne, with whom he shares history tied to a boating accident twenty years earlier that killed his best friend Andy, a secret his father covered up to protect John's baseball career.\\n\\nAs John digs into Mackie's incomplete case files, he finds discrepancies and a cryptic lead: a nickname, \\\"El Vaquero,\\\" tied to a text Holly received before vanishing. His investigation takes him to a Maine workshop that makes custom hobbyhorses, where he chases down a worker, Ricardo, who gives him names: Alberto Gomez and Raymond Olsen, a man with Down syndrome who performs music under the name El Vaquero. John is removed from the case by his captain after overstepping jurisdiction, but keeps investigating unofficially, confronting Cheyenne and her boyfriend O'Shea, a drug dealer who reveals that Mackie and family friend Reggie Lund, a Marine veteran, had been violently extorting drugs from him, ostensibly connected to Holly's case.```none Following this thread, John finds Reggie holding the innocent Alberto Gomez captive and tortured at the family cabin, having wrongly identified him as Holly's abductor. Reggie, armed and unstable, confronts John, revealing Mackie had promised to \\\"finish what they started\\\" and invokes John's covered-up role in Andy's death. John shoots Reggie in self-defense after Reggie fires first; Reggie dies in the snow. Moments later, John learns Holly's body has washed ashore.\\n\\nFederal agents arrest Raymond Olsen, who is coerced during interrogation into statements implicating Trudy, John's sister, as having been involved in Holly's disappearance under the guise of religious instruction. John confronts Trudy in a church confessional. She confesses that she arranged for Raymond to take Holly temporarily to punish Cheyenne for neglecting her, intending to use religious instruction to scare her into reform. When Mackie became involved, Trudy took custody of Holly herself to protect Raymond and attempted to baptize her in the bay; Holly drowned during the forced immersion. John gives Trudy his car keys and lets her drive off, choosing not to turn her in, telling her it is between her and God now. In the film's final scene, John drives to the home of Andy's parents and prepares to finally tell them the truth about their son's death twenty years earlier.\"}"
+    },
+    {
+      "attempt": 2,
+      "timestamp_utc": "2026-10-06T17:43:04.025438+00:00",
+      "request_id": "req_011CfmPz1A7Vu7ouJJfgqWXi",
+      "model_returned": "claude-sonnet-5",
+      "stop_reason": "end_turn",
+      "user_sha256": "44242af36e364d5762ef1a45a556dd4e9ba77d81c1c867ed858da380a817d69d",
+      "retry_violations": [
+        "[synopsis] [quote] quoted text 'finish what they started' is not verbatim in fog_full.txt",
+        "[synopsis] [length] 463 words; the limit is 250-450"
+      ],
+      "usage": {
+        "input_tokens": 67178,
+        "output_tokens": 1139
+      },
+      "cost_usd": 0.1457,
+      "raw_text": "{\"genre\":\"Crime Drama / Thriller\",\"logline\":\"A burnt-out, hard-drinking LA detective returns to his New Hampshire hometown for his father's funeral and gets pulled into investigating the disappearance of a young girl, a case his late father secretly worked before his death, forcing him to confront buried secrets from his own past and his family's hidden involvement.\",\"synopsis\":\"Detective John Kierstead, suspended to desk duty in Los Angeles after a leave of absence, returns to Dover, New Hampshire when his father Mackie, a decorated police officer, dies. There he reunites with his sister Trudy and learns that Holly Roberts, the young daughter of his former girlfriend Cheyenne, has been missing for a week after vanishing near a wooded nature preserve, leaving behind only her hobbyhorse. Mackie had been quietly consulting on the case before his death. Pulled in by Cheyenne's plea for help, John begins reviewing his father's incomplete case notes and discovers inconsistencies, including a mysterious texting contact Holly called \\\"El Vaquero.\\\"\\n\\nJohn's investigation leads him to a Maine workshop that makes custom hobbyhorses, where he chases down a worker, Ricardo, who directs him toward another former employee, Raymond Olsen, a man with Down Syndrome who performs music under the name El Vaquero. John also tangles with Cheyenne's boyfriend O'Shea, a drug dealer who reveals that Mackie and family friend Reggie Lund, a Marine veteran, had been shaking him down for drugs and threatening to pin Holly's disappearance on him. Interwoven flashbacks reveal that twenty-two years earlier, a teenage John piloted a boat during a confrontation with jet-skiers that led to his friend Andy's death, and that Mackie covered up John's role, telling him to keep silent.a While investigating further, John discovers Reggie has been holding a disfigured, tortured man, Alberto Gomez, captive in the cabin's cellar, having concluded Gomez was El Vaquero and responsible for Holly's disappearance. Reggie, high and armed, confronts John and is shot and killed after refusing to lower his weapon. In the aftermath, John receives word that Holly's body has washed up in the bay, and he personally tells Cheyenne.\\n\\nGomez is identified as an unrelated registered sex offender and is set to be extradited, leaving Raymond Olsen implicated instead by circumstantial evidence; he is arrested by the FBI. During interrogation, Raymond states he was following instructions from someone named Trudy, claiming he was doing \\\"the Lord's work\\\" and that he \\\"gave Holly back\\\" to her. John, stunned, tracks Trudy down at a church, where in a confessional she admits that she arranged for Raymond to take Holly temporarily to teach Cheyenne a lesson, then took Holly from Raymond herself once their father became involved. In a flashback, Trudy is shown repeatedly submerging Holly in bay water while reciting a baptismal rite, and Holly dies during the ritual. In the present, John takes Trudy's car keys, gives her his rental keys instead, kisses her forehead, and tells her it is now between her and God, allowing her to drive off alone. The film ends with John arriving at the home of Andy's parents, preparing to finally tell them the truth about their son's death.\"}"
+    }
+  ]
+}

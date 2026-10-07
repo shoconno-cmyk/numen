@@ -1,0 +1,4 @@
+* text=auto eol=lf
+history_snapshots/** -text
+*.pdf binary
+*.woff2 binary

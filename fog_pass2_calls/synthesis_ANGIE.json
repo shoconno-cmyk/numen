@@ -1,0 +1,58 @@
+{
+  "synthesis": [
+    {
+      "trait": "Transactional, affectionate-on-the-surface relationship with John -- sex exchanged for cash, framed with casual endearments like 'baby John'",
+      "first_shown_beat_id": "scene23_beat1"
+    },
+    {
+      "trait": "Self-contained, practical bluntness -- declines to stay unless paid, teases John, entertains herself without needing emotional reciprocity",
+      "first_shown_beat_id": "scene24_beat2"
+    },
+    {
+      "trait": "Discomfort with compassion/emotional depth -- reacts to serious news with surface-level, awkward sympathy; narration states outright that compassion isn't her strong suit",
+      "first_shown_beat_id": "scene26_beat6"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene78_beat1",
+      "trait_it_relates_to": "Transactional, affectionate-on-the-surface relationship with John -- sex exchanged for cash, framed with casual endearments like 'baby John'",
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene23_beat1",
+      "what_changes": "She offers sex 'on the house' -- explicitly free -- directly reversing the cash-for-sex exchange established at their very first meeting, where money physically changed hands before anything happened.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene79_beat1",
+      "trait_it_relates_to": "Discomfort with compassion/emotional depth -- reacts to serious news with surface-level, awkward sympathy; narration states outright that compassion isn't her strong suit",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene26_beat6",
+      "what_changes": "Where she previously met John's genuine grief with visible discomfort and a throwaway 'that sucks,' here she stays with his existential question and offers real, if halting, personal reflection ('I guess ya just feel something?') instead of deflecting.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene80_beat1",
+      "trait_it_relates_to": "Discomfort with compassion/emotional depth -- reacts to surface-level, awkward sympathy; narration states outright that compassion isn't her strong suit",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene79_beat1",
+      "what_changes": "The same unbroken conversation continues, now with Angie volunteering unprompted vulnerability about her own moral failures ('I haven't always done the right thing') as the basis for guiding John.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene80_beat2",
+      "trait_it_relates_to": "Discomfort with compassion/emotional depth -- reacts to surface-level, awkward sympathy; narration states outright that compassion isn't her strong suit",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene80_beat1",
+      "what_changes": "She completes her thought from the immediately preceding beat, delivering the fullest, most considered articulation of her worldview ('it'll always tell ya what NOT to do') to John.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene81_beat1",
+      "trait_it_relates_to": "Discomfort with compassion/emotional depth -- reacts to surface-level, awkward sympathy; narration states outright that compassion isn't her strong suit",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene80_beat2",
+      "what_changes": "She closes out the same unbroken exchange with the final line of her counsel ('I guess ya gotta listen for that'), completing the arc of engaged emotional guidance begun two beats earlier.",
+      "likely_category": "throughline_evolution"
+    }
+  ]
+}

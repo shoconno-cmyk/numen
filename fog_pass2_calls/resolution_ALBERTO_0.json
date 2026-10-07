@@ -1,0 +1,10 @@
+{
+  "character": "ALBERTO",
+  "chunk": 0,
+  "expected_ids": [
+    "scene170_beat6",
+    "scene170_beat7",
+    "scene172_beat7"
+  ],
+  "raw_text": "{\n  \"beat_resolutions\": [\n    {\n      \"beat_id\": \"scene170_beat6\",\n      \"checked_against\": \"Established pattern: Alberto as a brutalized torture victim unable to do more than react to his captivity (scene170_beat2-3)\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"consistent\",\n      \"rationale\": \"The gag's removal by John is what newly permits speech -- this is Principle 2's 'first opportunity, not new capacity': Alberto's whispered naming of his tormentor is still purely a terrified reaction to captivity, the same underlying state simply given voice for the first time, not a change in his trait.\"\n    },\n    {\n      \"beat_id\": \"scene170_beat7\",\n      \"checked_against\": \"scene170_beat6 (immediately preceding whisper of 'Diablo')\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"consistent\",\n      \"rationale\": \"This is the same unbroken terror event continuing from the whisper into a scream with no gap -- a genuine continuation, not an independent escalation, and the intensity matches the extreme, life-threatening trauma already established.\"\n    },\n    {\n      \"beat_id\": \"scene172_beat7\",\n      \"checked_against\": \"scene170_beat7 (Alberto's scream reaction) and established pattern of helpless reactive victim\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"consistent\",\n      \"rationale\": \"Candidate escalation rejected on independent review: the stray-bullet danger is a change in external plot circumstance, not in Alberto's own behavior -- he is still doing exactly what he has always done, screaming as a helpless reactive body, so per Principle 9 this is the same trait extending under new stakes rather than throughline_evolution or boundary_revealed.\"\n    }\n  ]\n}"
+}

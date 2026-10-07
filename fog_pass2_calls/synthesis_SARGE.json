@@ -1,0 +1,34 @@
+{
+  "synthesis": [
+    {
+      "trait": "Directs John with firm, calm command authority -- assigning tasks, denying him entry to the crime scene despite pushback, and enforcing departmental protocol -- while briefly acknowledging John's personal circumstances with some warmth",
+      "first_shown_beat_id": "scene14_beat6"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene14_beat12",
+      "trait_it_relates_to": "Directs John with firm, calm command authority",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene14_beat6",
+      "what_changes": "In beat6 Sarge's authority is exercised quietly, one-on-one with John (a calm directive plus reassurance). Here he publicly commands and ejects another detective mid-dispute ('McAvoy! Outta here! Now!') and then delivers an explicit, higher-stakes ultimatum to John ('That was the deal... you're door-to-door') -- a more forceful, public exercise of command than the earlier private redirect.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene14_beat13",
+      "trait_it_relates_to": "Directs John with firm, calm command authority",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene14_beat12",
+      "what_changes": "Sarge's 'Got that?' is the unbroken continuation of the ultimatum just delivered in beat12 -- he is pressing for confirmation of the same demand, not introducing a new development.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene14_beat14",
+      "trait_it_relates_to": "Directs John with firm, calm command authority",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene14_beat12",
+      "what_changes": "In beat12 Sarge's composed authority holds against a professional shouting match between officers. Here he stays 'unfazed' and remains entirely focused on securing John's compliance ('Do you understand me, John?') even as a mother collapses in inconsolable grief feet away -- a far more overwhelming disruption than an argument between colleagues, yet his composure and focus on the task hold unchanged.",
+      "likely_category": "throughline_evolution"
+    }
+  ]
+}

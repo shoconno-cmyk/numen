@@ -1,0 +1,27 @@
+{
+ "files": {
+  "7a6e69e/fog_tagged.json": {
+   "sha256": "1c9ff83576e9dec3b8beb6308a1d2b5caee2f0666521a5d3b7a4f0d95d246527",
+   "bytes": 1629758
+  },
+  "8079f93/fog_tagged.json": {
+   "sha256": "eeb496bc71e128e14cf0e623631ca0e1fe37b92a4bb37fdf7683f35670dfb3d3",
+   "bytes": 2079162
+  },
+  "d294e1c/fog_tagged.json": {
+   "sha256": "9fee4e5ec94da4782477a4fd6c416bc946f133c9c108f38fd6a0cd8e2f00946d",
+   "bytes": 1754817
+  },
+  "e26724d/fog_tagged.json": {
+   "sha256": "92e9c909c3bb4a7b0da73fcc287e9d4804258eb0ca9e29ba75dad002fa55560b",
+   "bytes": 1980674
+  },
+  "7a6e69e/BIG_SEVEN_DEFINITIONS.json": {
+   "sha256": "9ba9c8878c428818ac59920588d1984c113079bacb41646e656de7cef6c9465d",
+   "bytes": 20233
+  }
+ },
+ "first_commit_touching": {
+  "7a6e69e..d294e1c:fog_tagged.json": "1fe11c8"
+ }
+}

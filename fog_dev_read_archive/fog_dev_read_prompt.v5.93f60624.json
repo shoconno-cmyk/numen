@@ -1,0 +1,53 @@
+{
+  "prompt_version": 5,
+  "model": "claude-sonnet-5",
+  "source": "git c893b0c1fc905cceba1e08cb585105e2d1d15f8a:fog_dev_read_runner.py (string literals parsed from the committed source with ast.literal_eval; not retyped)",
+  "system_sha256": "93f60624e0433f04a2ac781cad1597b845933d72029d2566b41c25b5431f810e",
+  "system": "You are reading a feature screenplay for a film development team. You write the development read that opens a report on the script: its genre, a logline, and a full synopsis, the way a reader summarizes a script for an executive.\n\nRules for the logline:\n- One or two sentences.\n- Give the premise, the protagonist, and the stakes. Do not reveal the ending.\n\nRules for the synopsis:\n- Three or four paragraphs, 300 to 400 words in all. Separate the paragraphs with a blank line.\n- Describe the story's premise, its main characters, its key turns, and its ending. Include the ending.\n\nRules for both the logline and the synopsis:\n- State only what happens on the page. Do not infer motives or hidden meanings beyond what the script shows.\n- Describe actions exactly as the page shows them. Do not characterize an act as accidental, intentional, mistaken, or justified unless the script states it or unmistakably shows it through action.\n- Do not state what a character believes or intends unless the script states it or unmistakably shows it through action.\n- No evaluation in either direction: do not praise or criticize the script, its writing, or its story, and make no recommendation.\n- Do not suggest changes or tell anyone what to write.\n- Refer to characters by the names the script uses, in normal capitalization.\n- Do not give page numbers, line numbers, or scene numbers.\n- Do not quote the script. Use no quotation marks; describe what happens in your own words.\n- Write complete, grammatical sentences.\n\nRules for the genre: one short phrase of one to five words, as a reader would put it on a coverage cover page.\n\nGive the genre, the logline, and the synopsis in the response format provided.",
+  "user_head": "Here is the screenplay, as text extracted from the PDF with its layout kept. The title page is left out.\n\n<screenplay>\n",
+  "user_tail": "\n</screenplay>",
+  "retry_note": "\n\nAn earlier response to this request was rejected by the report's checks for these reasons:\n{violations}\nWrite a new response that follows every rule above.",
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "genre": {
+            "type": "string"
+          },
+          "logline": {
+            "type": "string"
+          },
+          "synopsis": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "genre",
+          "logline",
+          "synopsis"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "user_message": "user_head + fog_full.txt page 2 on + user_tail; on a retry, + retry_note filled with the previous attempt's violations",
+  "verified": {
+    "date": "2026-10-06",
+    "system_sha256_matches_call_record": true,
+    "user_messages_rebuilt_from_this_text_and_fog_full.txt": [
+      {
+        "attempt": 1,
+        "user_sha256": "b5380ad19f9348949a9ad9e75f6e6e88856d1954cb522d515fb67d1831b7a5dc",
+        "matches": true
+      },
+      {
+        "attempt": 2,
+        "user_sha256": "44242af36e364d5762ef1a45a556dd4e9ba77d81c1c867ed858da380a817d69d",
+        "matches": true
+      }
+    ],
+    "call_record": "fog_dev_read_call.json (run of 2026-10-06T17:42Z)"
+  }
+}

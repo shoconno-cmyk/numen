@@ -1,0 +1,13 @@
+{
+  "title": "Full of Grace",
+  "title_printed": "FULL OF GRACE",
+  "title_source": "code: fog_full.txt title page",
+  "genre": "Crime drama / mystery thriller",
+  "synopsis": null,
+  "model": "claude-sonnet-5",
+  "call_file": "fog_dev_read_call.json",
+  "attempts": 2,
+  "total_cost_usd": 0.2742,
+  "inputs": "fog_full.txt page 2 on only; no plot facts, tags or review data",
+  "source": "fallback_title_genre"
+}

@@ -1,0 +1,22 @@
+{
+  "synthesis": [
+    {
+      "trait": "Hardens up and claims responsibility/ownership under confrontation, projecting toughness rather than backing down",
+      "first_shown_beat_id": "scene18_beat4"
+    },
+    {
+      "trait": "Cocky, showoff bravado when succeeding -- taunting, chest-puffing, declaring himself untouchable",
+      "first_shown_beat_id": "scene19_beat1"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene19_beat2",
+      "trait_it_relates_to": "Cocky, showoff bravado when succeeding -- taunting, chest-puffing, declaring himself untouchable",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene19_beat1",
+      "what_changes": "In scene19_beat1 his bravado is untested -- he taunts after a real success (hitting the ball out). Here he faces genuine failure (struck out three times) for the first time, and his tough facade doesn't hold: he stares down the pitcher, throws his bat, and storms off frustrated. This exposes a previously unknown limit -- his confidence is contingent on winning and cracks under actual failure.",
+      "likely_category": "boundary_revealed"
+    }
+  ]
+}

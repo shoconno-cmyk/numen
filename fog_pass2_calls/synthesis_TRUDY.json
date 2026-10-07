@@ -1,0 +1,202 @@
+{
+  "synthesis": [
+    {
+      "trait": "Reaches out emotionally to family in crisis, pleading for connection and presence",
+      "first_shown_beat_id": "scene26_beat3"
+    },
+    {
+      "trait": "Devout, ritual-based Catholic faith expressed sincerely and warmly toward others (blessings, ministry to strangers)",
+      "first_shown_beat_id": "scene30_beat1"
+    },
+    {
+      "trait": "Nurturing caretaker of family -- feeds, hosts, tends wounds, manages logistics",
+      "first_shown_beat_id": "scene32_beat2"
+    },
+    {
+      "trait": "Deflects/avoids hard emotional conversations by changing the subject or smoothing over conflict",
+      "first_shown_beat_id": "scene34_beat4"
+    },
+    {
+      "trait": "Frames personal pain (especially infertility) through calm faith-based acceptance",
+      "first_shown_beat_id": "scene34_beat2"
+    },
+    {
+      "trait": "Hidden resentment/jealousy toward Cheyenne and Holly, masked behind piety, surfaces first as silent evasion",
+      "first_shown_beat_id": "scene57_beat2"
+    },
+    {
+      "trait": "Capacity for premeditated, controlling, extreme action carried out under religious justification",
+      "first_shown_beat_id": "scene213_beat7"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene40_beat3",
+      "trait_it_relates_to": "Nurturing caretaker of family",
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene32_beat2",
+      "what_changes": "The same sibling embrace first shown as Trudy joyfully holding/being held by John at the airport reunion now reverses -- she breaks down crying and John holds her, exposing a limit to her composure as the family's steady caretaker.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene57_beat1",
+      "trait_it_relates_to": "Deflects/avoids hard emotional conversations",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene34_beat4",
+      "what_changes": "Where she previously smoothed over tension by abruptly changing the subject ('let's do Angelo's'), here she directly initiates confrontation with John over skipping the funeral, invoking their mother -- a shift from deflection to active accountability-seeking.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene57_beat3",
+      "trait_it_relates_to": "Hidden resentment/jealousy toward Cheyenne and Holly",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene57_beat2",
+      "what_changes": "The silent evasion about Cheyenne's daughter continues unbroken -- she tries to go after John to explain/intervene and is physically stopped by Doug, extending the same unresolved evasion.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene128_beat1",
+      "trait_it_relates_to": "Devout, ritual-based Catholic faith",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene30_beat1",
+      "what_changes": "Faith expression escalates from calm, measured verbal blessings given to strangers to visible public fervor, singing 'almost a fervor' in the choir.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene131_beat1",
+      "trait_it_relates_to": "Devout, ritual-based Catholic faith",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene128_beat1",
+      "what_changes": "Devotion escalates further from public fervor into an intensely physical, unsettlingly seductive communion ritual -- a new, disturbing register of the same trait.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene143_beat6",
+      "trait_it_relates_to": "Hidden resentment/jealousy toward Cheyenne and Holly",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene57_beat2",
+      "what_changes": "The earlier silent, answerless evasion about Cheyenne escalates into active verbal denial and partial admission ('I never liked the way dad treated her'), surfacing buried feelings for the first time in words.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene143_beat7",
+      "trait_it_relates_to": "Hidden resentment/jealousy toward Cheyenne and Holly",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene143_beat6",
+      "what_changes": "The partial admission escalates into an explicit, detailed inventory of resentment (Cheyenne's arrests, drug use, 'never had to grow up') that John names as jealousy outright -- exposing a depth of buried prejudice never previously indicated.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene188_beat1",
+      "trait_it_relates_to": "Devout, ritual-based Catholic faith",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene131_beat1",
+      "what_changes": "Devotion moves from performative public fervor (choir, communion) to solitary, obsessively repeated private ritual (kneeling, rosary), a new intensified register.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene193_beat1",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene188_beat1",
+      "what_changes": "The solitary prayer established as hers alone is revealed to be recited in exact synchrony with Raymond's -- exposing a previously unknown, literal connection between her private devotion and the kidnapper, recontextualizing her piety as entangled with the crime.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene213_beat2",
+      "trait_it_relates_to": "Frames personal pain through calm faith-based acceptance",
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene34_beat2",
+      "what_changes": "The earlier serene framing of infertility ('maybe it's just not in God's plan') is directly answered and reversed: she now confesses this same fact caused her first real doubts in God, revealing the composure was a mask over crisis.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene213_beat7",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene30_beat1",
+      "what_changes": "The sincere, benevolent faith-driven care first shown toward strangers is revealed to have curdled into hiring a man to kidnap a child to 'teach a lesson' -- exposing a capacity for premeditated control/violence never previously indicated by the caretaking, pious surface.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene214_beat1",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene213_beat7",
+      "what_changes": "The confession continues unbroken into the flashback, narrating her panic once her father got involved in the search.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene214_beat3",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene214_beat1",
+      "what_changes": "The same sequence continues: she retrieves Holly from Raymond and reveals she had been grooming Holly religiously (Sunday school, Communion) as Godmother, setting up the ritual to come.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene214_beat4",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene214_beat3",
+      "what_changes": "The same unbroken sequence continues as she declares 'all that was left was the baptism' and forces Holly's head underwater -- the plan turning physically violent.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene216_beat1",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene214_beat4",
+      "what_changes": "The drowning continues directly from the prior beat as she recites baptismal liturgy while holding Holly under.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene216_beat2",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene216_beat1",
+      "what_changes": "Same unbroken act continues: she dunks Holly again, continuing the liturgy over the child's struggling.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene216_beat4",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene216_beat2",
+      "what_changes": "The same act continues as she recites baptismal vows ('I do') while Holly fights for her life underwater.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene216_beat5",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene216_beat4",
+      "what_changes": "The unbroken sequence continues and turns directly physically violent as Holly overpowers her and Trudy strikes her repeatedly, forcing her deeper underwater.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene216_beat6",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene216_beat5",
+      "what_changes": "Same continuing act: she finishes the vows ('I do') as Holly stops struggling, the ritual completing at the moment of death.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene216_beat7",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene216_beat6",
+      "what_changes": "Immediately following the death, Trudy's own horrified reaction exposes a limit previously unknown -- her control/premeditation breaks down into genuine horror at what she has done, rather than composed intent.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene217_beat1",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene216_beat7",
+      "what_changes": "The confession scene resumes and closes with her admitting she doesn't fully remember or understand her own actions ('I -- I don't know'), continuing and completing the unbroken confession begun at scene213_beat7 with a final admission of losing control.",
+      "likely_category": "boundary_revealed"
+    }
+  ]
+}

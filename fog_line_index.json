@@ -1,0 +1,5240 @@
+{
+ "source": "fog_full.txt",
+ "page_rule": "PDF page = 1 + form feeds before the line; printed page = the 'N.' header on that PDF page (pdf 2 = printed 1)",
+ "beats": {
+  "scene0_beat1": {
+   "first_line": 7,
+   "last_line": 12,
+   "placement": "matched",
+   "pdf_pages": [
+    2
+   ],
+   "printed_pages": [
+    1
+   ]
+  },
+  "scene2_beat1": {
+   "first_line": 18,
+   "last_line": 32,
+   "placement": "matched",
+   "pdf_pages": [
+    2
+   ],
+   "printed_pages": [
+    1
+   ]
+  },
+  "scene3_beat1": {
+   "first_line": 36,
+   "last_line": 61,
+   "placement": "matched",
+   "pdf_pages": [
+    2,
+    3
+   ],
+   "printed_pages": [
+    1,
+    2
+   ]
+  },
+  "scene3_beat2": {
+   "first_line": 65,
+   "last_line": 93,
+   "placement": "matched",
+   "pdf_pages": [
+    3
+   ],
+   "printed_pages": [
+    2
+   ]
+  },
+  "scene4_beat1": {
+   "first_line": 97,
+   "last_line": 105,
+   "placement": "matched",
+   "pdf_pages": [
+    3
+   ],
+   "printed_pages": [
+    2
+   ]
+  },
+  "scene5_beat1": {
+   "first_line": 109,
+   "last_line": 109,
+   "placement": "matched",
+   "pdf_pages": [
+    3
+   ],
+   "printed_pages": [
+    2
+   ]
+  },
+  "scene6_beat1": {
+   "first_line": 114,
+   "last_line": 128,
+   "placement": "matched",
+   "pdf_pages": [
+    4
+   ],
+   "printed_pages": [
+    3
+   ]
+  },
+  "scene6_beat2": {
+   "first_line": 130,
+   "last_line": 131,
+   "placement": "matched",
+   "pdf_pages": [
+    4
+   ],
+   "printed_pages": [
+    3
+   ]
+  },
+  "scene6_beat3": {
+   "first_line": 133,
+   "last_line": 138,
+   "placement": "matched",
+   "pdf_pages": [
+    4
+   ],
+   "printed_pages": [
+    3
+   ]
+  },
+  "scene6_beat4": {
+   "first_line": 142,
+   "last_line": 165,
+   "placement": "matched",
+   "pdf_pages": [
+    4
+   ],
+   "printed_pages": [
+    3
+   ]
+  },
+  "scene7_beat1": {
+   "first_line": 170,
+   "last_line": 186,
+   "placement": "matched",
+   "pdf_pages": [
+    5
+   ],
+   "printed_pages": [
+    4
+   ]
+  },
+  "scene7_beat2": {
+   "first_line": 188,
+   "last_line": 196,
+   "placement": "matched",
+   "pdf_pages": [
+    5
+   ],
+   "printed_pages": [
+    4
+   ]
+  },
+  "scene7_beat3": {
+   "first_line": 198,
+   "last_line": 202,
+   "placement": "matched",
+   "pdf_pages": [
+    5
+   ],
+   "printed_pages": [
+    4
+   ]
+  },
+  "scene8_beat1": {
+   "first_line": 206,
+   "last_line": 214,
+   "placement": "matched",
+   "pdf_pages": [
+    5
+   ],
+   "printed_pages": [
+    4
+   ]
+  },
+  "scene9_beat1": {
+   "first_line": 218,
+   "last_line": 223,
+   "placement": "matched",
+   "pdf_pages": [
+    5,
+    6
+   ],
+   "printed_pages": [
+    4,
+    5
+   ]
+  },
+  "scene9_beat2": {
+   "first_line": 225,
+   "last_line": 234,
+   "placement": "matched",
+   "pdf_pages": [
+    6
+   ],
+   "printed_pages": [
+    5
+   ]
+  },
+  "scene10_beat1": {
+   "first_line": 238,
+   "last_line": 244,
+   "placement": "matched",
+   "pdf_pages": [
+    6
+   ],
+   "printed_pages": [
+    5
+   ]
+  },
+  "scene11_beat1": {
+   "first_line": 248,
+   "last_line": 251,
+   "placement": "matched",
+   "pdf_pages": [
+    6
+   ],
+   "printed_pages": [
+    5
+   ]
+  },
+  "scene11_beat2": {
+   "first_line": 253,
+   "last_line": 269,
+   "placement": "matched",
+   "pdf_pages": [
+    6
+   ],
+   "printed_pages": [
+    5
+   ]
+  },
+  "scene11_beat3": {
+   "first_line": 271,
+   "last_line": 274,
+   "placement": "matched",
+   "pdf_pages": [
+    6
+   ],
+   "printed_pages": [
+    5
+   ]
+  },
+  "scene11_beat4": {
+   "first_line": 277,
+   "last_line": 282,
+   "placement": "matched",
+   "pdf_pages": [
+    7
+   ],
+   "printed_pages": [
+    6
+   ]
+  },
+  "scene12_beat1": {
+   "first_line": 288,
+   "last_line": 289,
+   "placement": "matched",
+   "pdf_pages": [
+    7
+   ],
+   "printed_pages": [
+    6
+   ]
+  },
+  "scene13_beat1": {
+   "first_line": 293,
+   "last_line": 310,
+   "placement": "matched",
+   "pdf_pages": [
+    7
+   ],
+   "printed_pages": [
+    6
+   ]
+  },
+  "scene13_beat2": {
+   "first_line": 312,
+   "last_line": 323,
+   "placement": "matched",
+   "pdf_pages": [
+    7
+   ],
+   "printed_pages": [
+    6
+   ]
+  },
+  "scene13_beat3": {
+   "first_line": 325,
+   "last_line": 333,
+   "placement": "matched",
+   "pdf_pages": [
+    7,
+    8
+   ],
+   "printed_pages": [
+    6,
+    7
+   ]
+  },
+  "scene13_beat4": {
+   "first_line": 335,
+   "last_line": 336,
+   "placement": "matched",
+   "pdf_pages": [
+    8
+   ],
+   "printed_pages": [
+    7
+   ]
+  },
+  "scene13_beat5": {
+   "first_line": 338,
+   "last_line": 340,
+   "placement": "matched",
+   "pdf_pages": [
+    8
+   ],
+   "printed_pages": [
+    7
+   ]
+  },
+  "scene14_beat1": {
+   "first_line": 344,
+   "last_line": 352,
+   "placement": "matched",
+   "pdf_pages": [
+    8
+   ],
+   "printed_pages": [
+    7
+   ]
+  },
+  "scene14_beat2": {
+   "first_line": 354,
+   "last_line": 364,
+   "placement": "matched",
+   "pdf_pages": [
+    8
+   ],
+   "printed_pages": [
+    7
+   ]
+  },
+  "scene14_beat3": {
+   "first_line": 366,
+   "last_line": 370,
+   "placement": "matched",
+   "pdf_pages": [
+    8
+   ],
+   "printed_pages": [
+    7
+   ]
+  },
+  "scene14_beat4": {
+   "first_line": 372,
+   "last_line": 393,
+   "placement": "matched",
+   "pdf_pages": [
+    8,
+    9
+   ],
+   "printed_pages": [
+    7,
+    8
+   ]
+  },
+  "scene14_beat5": {
+   "first_line": 395,
+   "last_line": 397,
+   "placement": "matched",
+   "pdf_pages": [
+    9
+   ],
+   "printed_pages": [
+    8
+   ]
+  },
+  "scene14_beat6": {
+   "first_line": 399,
+   "last_line": 434,
+   "placement": "matched",
+   "pdf_pages": [
+    9
+   ],
+   "printed_pages": [
+    8
+   ]
+  },
+  "scene14_beat7": {
+   "first_line": 436,
+   "last_line": 454,
+   "placement": "matched",
+   "pdf_pages": [
+    9,
+    10
+   ],
+   "printed_pages": [
+    8,
+    9
+   ]
+  },
+  "scene14_beat8": {
+   "first_line": 456,
+   "last_line": 460,
+   "placement": "matched",
+   "pdf_pages": [
+    10
+   ],
+   "printed_pages": [
+    9
+   ]
+  },
+  "scene14_beat9": {
+   "first_line": 462,
+   "last_line": 466,
+   "placement": "matched",
+   "pdf_pages": [
+    10
+   ],
+   "printed_pages": [
+    9
+   ]
+  },
+  "scene14_beat10": {
+   "first_line": 468,
+   "last_line": 469,
+   "placement": "matched",
+   "pdf_pages": [
+    10
+   ],
+   "printed_pages": [
+    9
+   ]
+  },
+  "scene14_beat11": {
+   "first_line": 471,
+   "last_line": 479,
+   "placement": "matched",
+   "pdf_pages": [
+    10
+   ],
+   "printed_pages": [
+    9
+   ]
+  },
+  "scene14_beat12": {
+   "first_line": 481,
+   "last_line": 513,
+   "placement": "matched",
+   "pdf_pages": [
+    10,
+    11
+   ],
+   "printed_pages": [
+    9,
+    10
+   ]
+  },
+  "scene14_beat13": {
+   "first_line": 515,
+   "last_line": 520,
+   "placement": "matched",
+   "pdf_pages": [
+    11
+   ],
+   "printed_pages": [
+    10
+   ]
+  },
+  "scene14_beat14": {
+   "first_line": 522,
+   "last_line": 525,
+   "placement": "matched",
+   "pdf_pages": [
+    11
+   ],
+   "printed_pages": [
+    10
+   ]
+  },
+  "scene15_beat1": {
+   "first_line": 529,
+   "last_line": 534,
+   "placement": "matched",
+   "pdf_pages": [
+    11
+   ],
+   "printed_pages": [
+    10
+   ]
+  },
+  "scene16_beat1": {
+   "first_line": 538,
+   "last_line": 540,
+   "placement": "matched",
+   "pdf_pages": [
+    11
+   ],
+   "printed_pages": [
+    10
+   ]
+  },
+  "scene16_beat2": {
+   "first_line": 542,
+   "last_line": 542,
+   "placement": "matched",
+   "pdf_pages": [
+    11
+   ],
+   "printed_pages": [
+    10
+   ]
+  },
+  "scene16_beat3": {
+   "first_line": 544,
+   "last_line": 547,
+   "placement": "matched",
+   "pdf_pages": [
+    11
+   ],
+   "printed_pages": [
+    10
+   ]
+  },
+  "scene17_beat1": {
+   "first_line": 552,
+   "last_line": 560,
+   "placement": "matched",
+   "pdf_pages": [
+    12
+   ],
+   "printed_pages": [
+    11
+   ]
+  },
+  "scene18_beat1": {
+   "first_line": 564,
+   "last_line": 572,
+   "placement": "matched",
+   "pdf_pages": [
+    12
+   ],
+   "printed_pages": [
+    11
+   ]
+  },
+  "scene18_beat2": {
+   "first_line": 574,
+   "last_line": 578,
+   "placement": "matched",
+   "pdf_pages": [
+    12
+   ],
+   "printed_pages": [
+    11
+   ]
+  },
+  "scene18_beat3": {
+   "first_line": 580,
+   "last_line": 581,
+   "placement": "matched",
+   "pdf_pages": [
+    12
+   ],
+   "printed_pages": [
+    11
+   ]
+  },
+  "scene18_beat4": {
+   "first_line": 583,
+   "last_line": 639,
+   "placement": "matched",
+   "pdf_pages": [
+    12,
+    13
+   ],
+   "printed_pages": [
+    11,
+    12
+   ]
+  },
+  "scene19_beat1": {
+   "first_line": 643,
+   "last_line": 728,
+   "placement": "matched",
+   "pdf_pages": [
+    13,
+    15
+   ],
+   "printed_pages": [
+    12,
+    14
+   ]
+  },
+  "scene19_beat2": {
+   "first_line": 730,
+   "last_line": 783,
+   "placement": "matched",
+   "pdf_pages": [
+    15,
+    16
+   ],
+   "printed_pages": [
+    14,
+    15
+   ]
+  },
+  "scene19_beat3": {
+   "first_line": 787,
+   "last_line": 802,
+   "placement": "matched",
+   "pdf_pages": [
+    16
+   ],
+   "printed_pages": [
+    15
+   ]
+  },
+  "scene20_beat1": {
+   "first_line": 805,
+   "last_line": 805,
+   "placement": "matched",
+   "pdf_pages": [
+    16
+   ],
+   "printed_pages": [
+    15
+   ]
+  },
+  "scene21_beat1": {
+   "first_line": 808,
+   "last_line": 808,
+   "placement": "matched",
+   "pdf_pages": [
+    16
+   ],
+   "printed_pages": [
+    15
+   ]
+  },
+  "scene22_beat1": {
+   "first_line": 811,
+   "last_line": 812,
+   "placement": "matched",
+   "pdf_pages": [
+    16
+   ],
+   "printed_pages": [
+    15
+   ]
+  },
+  "scene23_beat1": {
+   "first_line": 815,
+   "last_line": 829,
+   "placement": "matched",
+   "pdf_pages": [
+    16,
+    17
+   ],
+   "printed_pages": [
+    15,
+    16
+   ]
+  },
+  "scene24_beat1": {
+   "first_line": 833,
+   "last_line": 837,
+   "placement": "matched",
+   "pdf_pages": [
+    17
+   ],
+   "printed_pages": [
+    16
+   ]
+  },
+  "scene24_beat2": {
+   "first_line": 839,
+   "last_line": 865,
+   "placement": "matched",
+   "pdf_pages": [
+    17
+   ],
+   "printed_pages": [
+    16
+   ]
+  },
+  "scene24_beat3": {
+   "first_line": 867,
+   "last_line": 879,
+   "placement": "matched",
+   "pdf_pages": [
+    17,
+    18
+   ],
+   "printed_pages": [
+    16,
+    17
+   ]
+  },
+  "scene25_beat1": {
+   "first_line": 883,
+   "last_line": 892,
+   "placement": "matched",
+   "pdf_pages": [
+    18
+   ],
+   "printed_pages": [
+    17
+   ]
+  },
+  "scene26_beat1": {
+   "first_line": 896,
+   "last_line": 901,
+   "placement": "matched",
+   "pdf_pages": [
+    18
+   ],
+   "printed_pages": [
+    17
+   ]
+  },
+  "scene26_beat2": {
+   "first_line": 903,
+   "last_line": 903,
+   "placement": "matched",
+   "pdf_pages": [
+    18
+   ],
+   "printed_pages": [
+    17
+   ]
+  },
+  "scene26_beat3": {
+   "first_line": 905,
+   "last_line": 906,
+   "placement": "matched",
+   "pdf_pages": [
+    18
+   ],
+   "printed_pages": [
+    17
+   ]
+  },
+  "scene26_beat4": {
+   "first_line": 908,
+   "last_line": 913,
+   "placement": "matched",
+   "pdf_pages": [
+    18
+   ],
+   "printed_pages": [
+    17
+   ]
+  },
+  "scene26_beat5": {
+   "first_line": 915,
+   "last_line": 939,
+   "placement": "matched",
+   "pdf_pages": [
+    18,
+    19
+   ],
+   "printed_pages": [
+    17,
+    18
+   ]
+  },
+  "scene26_beat6": {
+   "first_line": 941,
+   "last_line": 945,
+   "placement": "matched",
+   "pdf_pages": [
+    19
+   ],
+   "printed_pages": [
+    18
+   ]
+  },
+  "scene26_beat7": {
+   "first_line": 947,
+   "last_line": 952,
+   "placement": "matched",
+   "pdf_pages": [
+    19
+   ],
+   "printed_pages": [
+    18
+   ]
+  },
+  "scene27_beat1": {
+   "first_line": 956,
+   "last_line": 964,
+   "placement": "matched",
+   "pdf_pages": [
+    19
+   ],
+   "printed_pages": [
+    18
+   ]
+  },
+  "scene28_beat1": {
+   "first_line": 968,
+   "last_line": 969,
+   "placement": "matched",
+   "pdf_pages": [
+    19
+   ],
+   "printed_pages": [
+    18
+   ]
+  },
+  "scene29_beat1": {
+   "first_line": 973,
+   "last_line": 974,
+   "placement": "matched",
+   "pdf_pages": [
+    19
+   ],
+   "printed_pages": [
+    18
+   ]
+  },
+  "scene30_beat1": {
+   "first_line": 978,
+   "last_line": 992,
+   "placement": "matched",
+   "pdf_pages": [
+    19,
+    20
+   ],
+   "printed_pages": [
+    18,
+    19
+   ]
+  },
+  "scene30_beat2": {
+   "first_line": 994,
+   "last_line": 997,
+   "placement": "matched",
+   "pdf_pages": [
+    20
+   ],
+   "printed_pages": [
+    19
+   ]
+  },
+  "scene31_beat1": {
+   "first_line": 1001,
+   "last_line": 1005,
+   "placement": "matched",
+   "pdf_pages": [
+    20
+   ],
+   "printed_pages": [
+    19
+   ]
+  },
+  "scene32_beat1": {
+   "first_line": 1009,
+   "last_line": 1018,
+   "placement": "matched",
+   "pdf_pages": [
+    20
+   ],
+   "printed_pages": [
+    19
+   ]
+  },
+  "scene32_beat2": {
+   "first_line": 1020,
+   "last_line": 1030,
+   "placement": "matched",
+   "pdf_pages": [
+    20
+   ],
+   "printed_pages": [
+    19
+   ]
+  },
+  "scene33_beat1": {
+   "first_line": 1035,
+   "last_line": 1037,
+   "placement": "matched",
+   "pdf_pages": [
+    21
+   ],
+   "printed_pages": [
+    20
+   ]
+  },
+  "scene34_beat1": {
+   "first_line": 1041,
+   "last_line": 1060,
+   "placement": "matched",
+   "pdf_pages": [
+    21
+   ],
+   "printed_pages": [
+    20
+   ]
+  },
+  "scene34_beat2": {
+   "first_line": 1062,
+   "last_line": 1080,
+   "placement": "matched",
+   "pdf_pages": [
+    21
+   ],
+   "printed_pages": [
+    20
+   ]
+  },
+  "scene34_beat3": {
+   "first_line": 1082,
+   "last_line": 1084,
+   "placement": "matched",
+   "pdf_pages": [
+    21
+   ],
+   "printed_pages": [
+    20
+   ]
+  },
+  "scene34_beat4": {
+   "first_line": 1086,
+   "last_line": 1108,
+   "placement": "matched",
+   "pdf_pages": [
+    21,
+    22
+   ],
+   "printed_pages": [
+    20,
+    21
+   ]
+  },
+  "scene34_beat5": {
+   "first_line": 1110,
+   "last_line": 1112,
+   "placement": "matched",
+   "pdf_pages": [
+    22
+   ],
+   "printed_pages": [
+    21
+   ]
+  },
+  "scene35_beat1": {
+   "first_line": 1116,
+   "last_line": 1120,
+   "placement": "matched",
+   "pdf_pages": [
+    22
+   ],
+   "printed_pages": [
+    21
+   ]
+  },
+  "scene36_beat1": {
+   "first_line": 1124,
+   "last_line": 1146,
+   "placement": "matched",
+   "pdf_pages": [
+    22,
+    23
+   ],
+   "printed_pages": [
+    21,
+    22
+   ]
+  },
+  "scene37_beat1": {
+   "first_line": 1150,
+   "last_line": 1160,
+   "placement": "matched",
+   "pdf_pages": [
+    23
+   ],
+   "printed_pages": [
+    22
+   ]
+  },
+  "scene37_beat2": {
+   "first_line": 1162,
+   "last_line": 1166,
+   "placement": "matched",
+   "pdf_pages": [
+    23
+   ],
+   "printed_pages": [
+    22
+   ]
+  },
+  "scene37_beat3": {
+   "first_line": 1168,
+   "last_line": 1173,
+   "placement": "matched",
+   "pdf_pages": [
+    23
+   ],
+   "printed_pages": [
+    22
+   ]
+  },
+  "scene37_beat4": {
+   "first_line": 1175,
+   "last_line": 1176,
+   "placement": "matched",
+   "pdf_pages": [
+    23
+   ],
+   "printed_pages": [
+    22
+   ]
+  },
+  "scene37_beat5": {
+   "first_line": 1178,
+   "last_line": 1194,
+   "placement": "matched",
+   "pdf_pages": [
+    23
+   ],
+   "printed_pages": [
+    22
+   ]
+  },
+  "scene38_beat1": {
+   "first_line": 1199,
+   "last_line": 1204,
+   "placement": "matched",
+   "pdf_pages": [
+    24
+   ],
+   "printed_pages": [
+    23
+   ]
+  },
+  "scene38_beat2": {
+   "first_line": 1206,
+   "last_line": 1217,
+   "placement": "matched",
+   "pdf_pages": [
+    24
+   ],
+   "printed_pages": [
+    23
+   ]
+  },
+  "scene39_beat1": {
+   "first_line": 1221,
+   "last_line": 1223,
+   "placement": "matched",
+   "pdf_pages": [
+    24
+   ],
+   "printed_pages": [
+    23
+   ]
+  },
+  "scene40_beat1": {
+   "first_line": 1227,
+   "last_line": 1293,
+   "placement": "matched",
+   "pdf_pages": [
+    24,
+    25
+   ],
+   "printed_pages": [
+    23,
+    24
+   ]
+  },
+  "scene40_beat2": {
+   "first_line": 1295,
+   "last_line": 1297,
+   "placement": "matched",
+   "pdf_pages": [
+    25
+   ],
+   "printed_pages": [
+    24
+   ]
+  },
+  "scene40_beat3": {
+   "first_line": 1299,
+   "last_line": 1303,
+   "placement": "matched",
+   "pdf_pages": [
+    25
+   ],
+   "printed_pages": [
+    24
+   ]
+  },
+  "scene41_beat1": {
+   "first_line": 1307,
+   "last_line": 1312,
+   "placement": "matched",
+   "pdf_pages": [
+    26
+   ],
+   "printed_pages": [
+    25
+   ]
+  },
+  "scene42_beat1": {
+   "first_line": 1315,
+   "last_line": 1315,
+   "placement": "matched",
+   "pdf_pages": [
+    26
+   ],
+   "printed_pages": [
+    25
+   ]
+  },
+  "scene43_beat1": {
+   "first_line": 1318,
+   "last_line": 1319,
+   "placement": "matched",
+   "pdf_pages": [
+    26
+   ],
+   "printed_pages": [
+    25
+   ]
+  },
+  "scene44_beat1": {
+   "first_line": 1322,
+   "last_line": 1330,
+   "placement": "matched",
+   "pdf_pages": [
+    26
+   ],
+   "printed_pages": [
+    25
+   ]
+  },
+  "scene45_beat1": {
+   "first_line": 1333,
+   "last_line": 1333,
+   "placement": "matched",
+   "pdf_pages": [
+    26
+   ],
+   "printed_pages": [
+    25
+   ]
+  },
+  "scene46_beat1": {
+   "first_line": 1336,
+   "last_line": 1344,
+   "placement": "matched",
+   "pdf_pages": [
+    26
+   ],
+   "printed_pages": [
+    25
+   ]
+  },
+  "scene46_beat2": {
+   "first_line": 1347,
+   "last_line": 1347,
+   "placement": "matched",
+   "pdf_pages": [
+    27
+   ],
+   "printed_pages": [
+    26
+   ]
+  },
+  "scene47_beat1": {
+   "first_line": 1351,
+   "last_line": 1356,
+   "placement": "matched",
+   "pdf_pages": [
+    27
+   ],
+   "printed_pages": [
+    26
+   ]
+  },
+  "scene48_beat1": {
+   "first_line": 1360,
+   "last_line": 1364,
+   "placement": "matched",
+   "pdf_pages": [
+    27
+   ],
+   "printed_pages": [
+    26
+   ]
+  },
+  "scene48_beat2": {
+   "first_line": 1366,
+   "last_line": 1370,
+   "placement": "matched",
+   "pdf_pages": [
+    27
+   ],
+   "printed_pages": [
+    26
+   ]
+  },
+  "scene48_beat3": {
+   "first_line": 1372,
+   "last_line": 1385,
+   "placement": "matched",
+   "pdf_pages": [
+    27
+   ],
+   "printed_pages": [
+    26
+   ]
+  },
+  "scene48_beat4": {
+   "first_line": 1387,
+   "last_line": 1403,
+   "placement": "matched",
+   "pdf_pages": [
+    27,
+    28
+   ],
+   "printed_pages": [
+    26,
+    27
+   ]
+  },
+  "scene48_beat5": {
+   "first_line": 1405,
+   "last_line": 1410,
+   "placement": "matched",
+   "pdf_pages": [
+    28
+   ],
+   "printed_pages": [
+    27
+   ]
+  },
+  "scene48_beat6": {
+   "first_line": 1412,
+   "last_line": 1413,
+   "placement": "matched",
+   "pdf_pages": [
+    28
+   ],
+   "printed_pages": [
+    27
+   ]
+  },
+  "scene49_beat1": {
+   "first_line": 1417,
+   "last_line": 1433,
+   "placement": "matched",
+   "pdf_pages": [
+    28
+   ],
+   "printed_pages": [
+    27
+   ]
+  },
+  "scene49_beat2": {
+   "first_line": 1435,
+   "last_line": 1436,
+   "placement": "matched",
+   "pdf_pages": [
+    28
+   ],
+   "printed_pages": [
+    27
+   ]
+  },
+  "scene50_beat1": {
+   "first_line": 1440,
+   "last_line": 1446,
+   "placement": "matched",
+   "pdf_pages": [
+    28
+   ],
+   "printed_pages": [
+    27
+   ]
+  },
+  "scene51_beat1": {
+   "first_line": 1451,
+   "last_line": 1452,
+   "placement": "matched",
+   "pdf_pages": [
+    29
+   ],
+   "printed_pages": [
+    28
+   ]
+  },
+  "scene52_beat1": {
+   "first_line": 1456,
+   "last_line": 1463,
+   "placement": "matched",
+   "pdf_pages": [
+    29
+   ],
+   "printed_pages": [
+    28
+   ]
+  },
+  "scene53_beat1": {
+   "first_line": 1467,
+   "last_line": 1482,
+   "placement": "matched",
+   "pdf_pages": [
+    29
+   ],
+   "printed_pages": [
+    28
+   ]
+  },
+  "scene53_beat2": {
+   "first_line": 1484,
+   "last_line": 1494,
+   "placement": "matched",
+   "pdf_pages": [
+    29
+   ],
+   "printed_pages": [
+    28
+   ]
+  },
+  "scene54_beat1": {
+   "first_line": 1498,
+   "last_line": 1517,
+   "placement": "matched",
+   "pdf_pages": [
+    29,
+    30
+   ],
+   "printed_pages": [
+    28,
+    29
+   ]
+  },
+  "scene54_beat2": {
+   "first_line": 1519,
+   "last_line": 1534,
+   "placement": "matched",
+   "pdf_pages": [
+    30
+   ],
+   "printed_pages": [
+    29
+   ]
+  },
+  "scene54_beat3": {
+   "first_line": 1536,
+   "last_line": 1537,
+   "placement": "matched",
+   "pdf_pages": [
+    30
+   ],
+   "printed_pages": [
+    29
+   ]
+  },
+  "scene54_beat4": {
+   "first_line": 1539,
+   "last_line": 1617,
+   "placement": "matched",
+   "pdf_pages": [
+    30,
+    31
+   ],
+   "printed_pages": [
+    29,
+    30
+   ]
+  },
+  "scene54_beat5": {
+   "first_line": 1619,
+   "last_line": 1631,
+   "placement": "matched",
+   "pdf_pages": [
+    31,
+    32
+   ],
+   "printed_pages": [
+    30,
+    31
+   ]
+  },
+  "scene55_beat1": {
+   "first_line": 1635,
+   "last_line": 1642,
+   "placement": "matched",
+   "pdf_pages": [
+    32
+   ],
+   "printed_pages": [
+    31
+   ]
+  },
+  "scene55_beat2": {
+   "first_line": 1644,
+   "last_line": 1651,
+   "placement": "matched",
+   "pdf_pages": [
+    32
+   ],
+   "printed_pages": [
+    31
+   ]
+  },
+  "scene56_beat1": {
+   "first_line": 1655,
+   "last_line": 1685,
+   "placement": "matched",
+   "pdf_pages": [
+    32,
+    33
+   ],
+   "printed_pages": [
+    31,
+    32
+   ]
+  },
+  "scene56_beat2": {
+   "first_line": 1687,
+   "last_line": 1723,
+   "placement": "matched",
+   "pdf_pages": [
+    33
+   ],
+   "printed_pages": [
+    32
+   ]
+  },
+  "scene56_beat3": {
+   "first_line": 1725,
+   "last_line": 1749,
+   "placement": "matched",
+   "pdf_pages": [
+    33,
+    34
+   ],
+   "printed_pages": [
+    32,
+    33
+   ]
+  },
+  "scene56_beat4": {
+   "first_line": 1751,
+   "last_line": 1752,
+   "placement": "matched",
+   "pdf_pages": [
+    34
+   ],
+   "printed_pages": [
+    33
+   ]
+  },
+  "scene56_beat5": {
+   "first_line": 1754,
+   "last_line": 1758,
+   "placement": "matched",
+   "pdf_pages": [
+    34
+   ],
+   "printed_pages": [
+    33
+   ]
+  },
+  "scene56_beat6": {
+   "first_line": 1760,
+   "last_line": 1780,
+   "placement": "matched",
+   "pdf_pages": [
+    34
+   ],
+   "printed_pages": [
+    33
+   ]
+  },
+  "scene56_beat7": {
+   "first_line": 1782,
+   "last_line": 1782,
+   "placement": "matched",
+   "pdf_pages": [
+    34
+   ],
+   "printed_pages": [
+    33
+   ]
+  },
+  "scene57_beat1": {
+   "first_line": 1787,
+   "last_line": 1821,
+   "placement": "matched",
+   "pdf_pages": [
+    35
+   ],
+   "printed_pages": [
+    34
+   ]
+  },
+  "scene57_beat2": {
+   "first_line": 1823,
+   "last_line": 1849,
+   "placement": "matched",
+   "pdf_pages": [
+    35,
+    36
+   ],
+   "printed_pages": [
+    34,
+    35
+   ]
+  },
+  "scene57_beat3": {
+   "first_line": 1851,
+   "last_line": 1873,
+   "placement": "matched",
+   "pdf_pages": [
+    36
+   ],
+   "printed_pages": [
+    35
+   ]
+  },
+  "scene58_beat1": {
+   "first_line": 1877,
+   "last_line": 1878,
+   "placement": "matched",
+   "pdf_pages": [
+    36
+   ],
+   "printed_pages": [
+    35
+   ]
+  },
+  "scene59_beat1": {
+   "first_line": 1882,
+   "last_line": 1886,
+   "placement": "matched",
+   "pdf_pages": [
+    36
+   ],
+   "printed_pages": [
+    35
+   ]
+  },
+  "scene60_beat1": {
+   "first_line": 1890,
+   "last_line": 1913,
+   "placement": "matched",
+   "pdf_pages": [
+    36,
+    37
+   ],
+   "printed_pages": [
+    35,
+    36
+   ]
+  },
+  "scene60_beat2": {
+   "first_line": 1915,
+   "last_line": 1961,
+   "placement": "matched",
+   "pdf_pages": [
+    37,
+    38
+   ],
+   "printed_pages": [
+    36,
+    37
+   ]
+  },
+  "scene60_beat3": {
+   "first_line": 1963,
+   "last_line": 1978,
+   "placement": "matched",
+   "pdf_pages": [
+    38
+   ],
+   "printed_pages": [
+    37
+   ]
+  },
+  "scene60_beat4": {
+   "first_line": 1980,
+   "last_line": 1999,
+   "placement": "matched",
+   "pdf_pages": [
+    38
+   ],
+   "printed_pages": [
+    37
+   ]
+  },
+  "scene60_beat5": {
+   "first_line": 2001,
+   "last_line": 2001,
+   "placement": "matched",
+   "pdf_pages": [
+    38
+   ],
+   "printed_pages": [
+    37
+   ]
+  },
+  "scene61_beat1": {
+   "first_line": 2006,
+   "last_line": 2007,
+   "placement": "matched",
+   "pdf_pages": [
+    39
+   ],
+   "printed_pages": [
+    38
+   ]
+  },
+  "scene62_beat1": {
+   "first_line": 2011,
+   "last_line": 2018,
+   "placement": "matched",
+   "pdf_pages": [
+    39
+   ],
+   "printed_pages": [
+    38
+   ]
+  },
+  "scene63_beat1": {
+   "first_line": 2022,
+   "last_line": 2027,
+   "placement": "matched",
+   "pdf_pages": [
+    39
+   ],
+   "printed_pages": [
+    38
+   ]
+  },
+  "scene63_beat2": {
+   "first_line": 2027,
+   "last_line": 2035,
+   "placement": "matched",
+   "pdf_pages": [
+    39
+   ],
+   "printed_pages": [
+    38
+   ]
+  },
+  "scene64_beat1": {
+   "first_line": 2039,
+   "last_line": 2061,
+   "placement": "matched",
+   "pdf_pages": [
+    39,
+    40
+   ],
+   "printed_pages": [
+    38,
+    39
+   ]
+  },
+  "scene64_beat2": {
+   "first_line": 2063,
+   "last_line": 2065,
+   "placement": "matched",
+   "pdf_pages": [
+    40
+   ],
+   "printed_pages": [
+    39
+   ]
+  },
+  "scene64_beat3": {
+   "first_line": 2067,
+   "last_line": 2096,
+   "placement": "matched",
+   "pdf_pages": [
+    40
+   ],
+   "printed_pages": [
+    39
+   ]
+  },
+  "scene64_beat4": {
+   "first_line": 2098,
+   "last_line": 2111,
+   "placement": "matched",
+   "pdf_pages": [
+    40
+   ],
+   "printed_pages": [
+    39
+   ]
+  },
+  "scene64_beat5": {
+   "first_line": 2118,
+   "last_line": 2119,
+   "placement": "matched",
+   "pdf_pages": [
+    41
+   ],
+   "printed_pages": [
+    40
+   ]
+  },
+  "scene64_beat6": {
+   "first_line": 2121,
+   "last_line": 2121,
+   "placement": "matched",
+   "pdf_pages": [
+    41
+   ],
+   "printed_pages": [
+    40
+   ]
+  },
+  "scene64_beat7": {
+   "first_line": 2123,
+   "last_line": 2126,
+   "placement": "matched",
+   "pdf_pages": [
+    41
+   ],
+   "printed_pages": [
+    40
+   ]
+  },
+  "scene64_beat8": {
+   "first_line": 2128,
+   "last_line": 2153,
+   "placement": "matched",
+   "pdf_pages": [
+    41
+   ],
+   "printed_pages": [
+    40
+   ]
+  },
+  "scene65_beat1": {
+   "first_line": 2156,
+   "last_line": 2156,
+   "placement": "matched",
+   "pdf_pages": [
+    41
+   ],
+   "printed_pages": [
+    40
+   ]
+  },
+  "scene66_beat1": {
+   "first_line": 2160,
+   "last_line": 2164,
+   "placement": "matched",
+   "pdf_pages": [
+    41
+   ],
+   "printed_pages": [
+    40
+   ]
+  },
+  "scene67_beat1": {
+   "first_line": 2169,
+   "last_line": 2179,
+   "placement": "matched",
+   "pdf_pages": [
+    42
+   ],
+   "printed_pages": [
+    41
+   ]
+  },
+  "scene68_beat1": {
+   "first_line": 2183,
+   "last_line": 2189,
+   "placement": "matched",
+   "pdf_pages": [
+    42
+   ],
+   "printed_pages": [
+    41
+   ]
+  },
+  "scene69_beat1": {
+   "first_line": 2193,
+   "last_line": 2194,
+   "placement": "matched",
+   "pdf_pages": [
+    42
+   ],
+   "printed_pages": [
+    41
+   ]
+  },
+  "scene70_beat1": {
+   "first_line": 2198,
+   "last_line": 2204,
+   "placement": "matched",
+   "pdf_pages": [
+    42
+   ],
+   "printed_pages": [
+    41
+   ]
+  },
+  "scene71_beat1": {
+   "first_line": 2208,
+   "last_line": 2235,
+   "placement": "matched",
+   "pdf_pages": [
+    42,
+    43
+   ],
+   "printed_pages": [
+    41,
+    42
+   ]
+  },
+  "scene72_beat1": {
+   "first_line": 2239,
+   "last_line": 2241,
+   "placement": "matched",
+   "pdf_pages": [
+    43
+   ],
+   "printed_pages": [
+    42
+   ]
+  },
+  "scene73_beat1": {
+   "first_line": 2245,
+   "last_line": 2245,
+   "placement": "matched",
+   "pdf_pages": [
+    43
+   ],
+   "printed_pages": [
+    42
+   ]
+  },
+  "scene74_beat1": {
+   "first_line": 2249,
+   "last_line": 2257,
+   "placement": "matched",
+   "pdf_pages": [
+    43
+   ],
+   "printed_pages": [
+    42
+   ]
+  },
+  "scene75_beat1": {
+   "first_line": 2261,
+   "last_line": 2308,
+   "placement": "matched",
+   "pdf_pages": [
+    43,
+    44
+   ],
+   "printed_pages": [
+    42,
+    43
+   ]
+  },
+  "scene75_beat2": {
+   "first_line": 2310,
+   "last_line": 2338,
+   "placement": "matched",
+   "pdf_pages": [
+    44,
+    45
+   ],
+   "printed_pages": [
+    43,
+    44
+   ]
+  },
+  "scene75_beat3": {
+   "first_line": 2340,
+   "last_line": 2355,
+   "placement": "matched",
+   "pdf_pages": [
+    45
+   ],
+   "printed_pages": [
+    44
+   ]
+  },
+  "scene75_beat4": {
+   "first_line": 2357,
+   "last_line": 2364,
+   "placement": "matched",
+   "pdf_pages": [
+    45
+   ],
+   "printed_pages": [
+    44
+   ]
+  },
+  "scene75_beat5": {
+   "first_line": 2366,
+   "last_line": 2401,
+   "placement": "matched",
+   "pdf_pages": [
+    45,
+    46
+   ],
+   "printed_pages": [
+    44,
+    45
+   ]
+  },
+  "scene76_beat1": {
+   "first_line": 2405,
+   "last_line": 2411,
+   "placement": "matched",
+   "pdf_pages": [
+    46
+   ],
+   "printed_pages": [
+    45
+   ]
+  },
+  "scene77_beat1": {
+   "first_line": 2415,
+   "last_line": 2423,
+   "placement": "matched",
+   "pdf_pages": [
+    46
+   ],
+   "printed_pages": [
+    45
+   ]
+  },
+  "scene78_beat1": {
+   "first_line": 2427,
+   "last_line": 2436,
+   "placement": "matched",
+   "pdf_pages": [
+    46
+   ],
+   "printed_pages": [
+    45
+   ]
+  },
+  "scene78_beat2": {
+   "first_line": 2438,
+   "last_line": 2442,
+   "placement": "matched",
+   "pdf_pages": [
+    46,
+    47
+   ],
+   "printed_pages": [
+    45,
+    46
+   ]
+  },
+  "scene79_beat1": {
+   "first_line": 2446,
+   "last_line": 2453,
+   "placement": "matched",
+   "pdf_pages": [
+    47
+   ],
+   "printed_pages": [
+    46
+   ]
+  },
+  "scene80_beat1": {
+   "first_line": 2457,
+   "last_line": 2464,
+   "placement": "matched",
+   "pdf_pages": [
+    47
+   ],
+   "printed_pages": [
+    46
+   ]
+  },
+  "scene80_beat2": {
+   "first_line": 2466,
+   "last_line": 2471,
+   "placement": "matched",
+   "pdf_pages": [
+    47
+   ],
+   "printed_pages": [
+    46
+   ]
+  },
+  "scene81_beat1": {
+   "first_line": 2475,
+   "last_line": 2485,
+   "placement": "matched",
+   "pdf_pages": [
+    47
+   ],
+   "printed_pages": [
+    46
+   ]
+  },
+  "scene82_beat1": {
+   "first_line": 2489,
+   "last_line": 2593,
+   "placement": "matched",
+   "pdf_pages": [
+    47,
+    49
+   ],
+   "printed_pages": [
+    46,
+    48
+   ]
+  },
+  "scene83_beat1": {
+   "first_line": 2598,
+   "last_line": 2626,
+   "placement": "matched",
+   "pdf_pages": [
+    50
+   ],
+   "printed_pages": [
+    49
+   ]
+  },
+  "scene84_beat1": {
+   "first_line": 2630,
+   "last_line": 2635,
+   "placement": "matched",
+   "pdf_pages": [
+    50
+   ],
+   "printed_pages": [
+    49
+   ]
+  },
+  "scene85_beat1": {
+   "first_line": 2639,
+   "last_line": 2646,
+   "placement": "matched",
+   "pdf_pages": [
+    50
+   ],
+   "printed_pages": [
+    49
+   ]
+  },
+  "scene85_beat2": {
+   "first_line": 2649,
+   "last_line": 2735,
+   "placement": "matched",
+   "pdf_pages": [
+    51,
+    52
+   ],
+   "printed_pages": [
+    50,
+    51
+   ]
+  },
+  "scene85_beat3": {
+   "first_line": 2737,
+   "last_line": 2737,
+   "placement": "matched",
+   "pdf_pages": [
+    52
+   ],
+   "printed_pages": [
+    51
+   ]
+  },
+  "scene86_beat1": {
+   "first_line": 2741,
+   "last_line": 2798,
+   "placement": "matched",
+   "pdf_pages": [
+    52,
+    53
+   ],
+   "printed_pages": [
+    51,
+    52
+   ]
+  },
+  "scene86_beat2": {
+   "first_line": 2800,
+   "last_line": 2806,
+   "placement": "matched",
+   "pdf_pages": [
+    53
+   ],
+   "printed_pages": [
+    52
+   ]
+  },
+  "scene86_beat3": {
+   "first_line": 2808,
+   "last_line": 2822,
+   "placement": "matched",
+   "pdf_pages": [
+    53,
+    54
+   ],
+   "printed_pages": [
+    52,
+    53
+   ]
+  },
+  "scene86_beat4": {
+   "first_line": 2824,
+   "last_line": 2835,
+   "placement": "matched",
+   "pdf_pages": [
+    54
+   ],
+   "printed_pages": [
+    53
+   ]
+  },
+  "scene87_beat1": {
+   "first_line": 2839,
+   "last_line": 2852,
+   "placement": "matched",
+   "pdf_pages": [
+    54
+   ],
+   "printed_pages": [
+    53
+   ]
+  },
+  "scene88_beat1": {
+   "first_line": 2856,
+   "last_line": 2857,
+   "placement": "matched",
+   "pdf_pages": [
+    54
+   ],
+   "printed_pages": [
+    53
+   ]
+  },
+  "scene89_beat1": {
+   "first_line": 2861,
+   "last_line": 2872,
+   "placement": "matched",
+   "pdf_pages": [
+    54,
+    55
+   ],
+   "printed_pages": [
+    53,
+    54
+   ]
+  },
+  "scene90_beat1": {
+   "first_line": 2876,
+   "last_line": 2880,
+   "placement": "matched",
+   "pdf_pages": [
+    55
+   ],
+   "printed_pages": [
+    54
+   ]
+  },
+  "scene91_beat1": {
+   "first_line": 2884,
+   "last_line": 2889,
+   "placement": "matched",
+   "pdf_pages": [
+    55
+   ],
+   "printed_pages": [
+    54
+   ]
+  },
+  "scene92_beat1": {
+   "first_line": 2893,
+   "last_line": 2910,
+   "placement": "matched",
+   "pdf_pages": [
+    55
+   ],
+   "printed_pages": [
+    54
+   ]
+  },
+  "scene93_beat1": {
+   "first_line": 2914,
+   "last_line": 2953,
+   "placement": "matched",
+   "pdf_pages": [
+    55,
+    56
+   ],
+   "printed_pages": [
+    54,
+    55
+   ]
+  },
+  "scene94_beat1": {
+   "first_line": 2957,
+   "last_line": 3001,
+   "placement": "matched",
+   "pdf_pages": [
+    56,
+    57
+   ],
+   "printed_pages": [
+    55,
+    56
+   ]
+  },
+  "scene94_beat2": {
+   "first_line": 3003,
+   "last_line": 3022,
+   "placement": "matched",
+   "pdf_pages": [
+    57
+   ],
+   "printed_pages": [
+    56
+   ]
+  },
+  "scene94_beat3": {
+   "first_line": 3024,
+   "last_line": 3060,
+   "placement": "matched",
+   "pdf_pages": [
+    57,
+    58
+   ],
+   "printed_pages": [
+    56,
+    57
+   ]
+  },
+  "scene95_beat1": {
+   "first_line": 3064,
+   "last_line": 3113,
+   "placement": "matched",
+   "pdf_pages": [
+    58,
+    59
+   ],
+   "printed_pages": [
+    57,
+    58
+   ]
+  },
+  "scene96_beat1": {
+   "first_line": 3117,
+   "last_line": 3118,
+   "placement": "matched",
+   "pdf_pages": [
+    59
+   ],
+   "printed_pages": [
+    58
+   ]
+  },
+  "scene97_beat1": {
+   "first_line": 3122,
+   "last_line": 3126,
+   "placement": "matched",
+   "pdf_pages": [
+    59
+   ],
+   "printed_pages": [
+    58
+   ]
+  },
+  "scene98_beat1": {
+   "first_line": 3130,
+   "last_line": 3132,
+   "placement": "matched",
+   "pdf_pages": [
+    59
+   ],
+   "printed_pages": [
+    58
+   ]
+  },
+  "scene99_beat1": {
+   "first_line": 3137,
+   "last_line": 3161,
+   "placement": "matched",
+   "pdf_pages": [
+    60
+   ],
+   "printed_pages": [
+    59
+   ]
+  },
+  "scene100_beat1": {
+   "first_line": 3165,
+   "last_line": 3186,
+   "placement": "matched",
+   "pdf_pages": [
+    60
+   ],
+   "printed_pages": [
+    59
+   ]
+  },
+  "scene101_beat1": {
+   "first_line": 3191,
+   "last_line": 3277,
+   "placement": "matched",
+   "pdf_pages": [
+    61,
+    62
+   ],
+   "printed_pages": [
+    60,
+    61
+   ]
+  },
+  "scene102_beat1": {
+   "first_line": 3281,
+   "last_line": 3283,
+   "placement": "matched",
+   "pdf_pages": [
+    62
+   ],
+   "printed_pages": [
+    61
+   ]
+  },
+  "scene103_beat1": {
+   "first_line": 3287,
+   "last_line": 3302,
+   "placement": "matched",
+   "pdf_pages": [
+    62,
+    63
+   ],
+   "printed_pages": [
+    61,
+    62
+   ]
+  },
+  "scene103_beat2": {
+   "first_line": 3304,
+   "last_line": 3310,
+   "placement": "matched",
+   "pdf_pages": [
+    63
+   ],
+   "printed_pages": [
+    62
+   ]
+  },
+  "scene104_beat1": {
+   "first_line": 3314,
+   "last_line": 3346,
+   "placement": "matched",
+   "pdf_pages": [
+    63
+   ],
+   "printed_pages": [
+    62
+   ]
+  },
+  "scene104_beat2": {
+   "first_line": 3348,
+   "last_line": 3377,
+   "placement": "matched",
+   "pdf_pages": [
+    63,
+    64
+   ],
+   "printed_pages": [
+    62,
+    63
+   ]
+  },
+  "scene105_beat1": {
+   "first_line": 3381,
+   "last_line": 3425,
+   "placement": "matched",
+   "pdf_pages": [
+    64,
+    65
+   ],
+   "printed_pages": [
+    63,
+    64
+   ]
+  },
+  "scene106_beat1": {
+   "first_line": 3429,
+   "last_line": 3436,
+   "placement": "matched",
+   "pdf_pages": [
+    65
+   ],
+   "printed_pages": [
+    64
+   ]
+  },
+  "scene106_beat2": {
+   "first_line": 3438,
+   "last_line": 3439,
+   "placement": "matched",
+   "pdf_pages": [
+    65
+   ],
+   "printed_pages": [
+    64
+   ]
+  },
+  "scene107_beat1": {
+   "first_line": 3443,
+   "last_line": 3451,
+   "placement": "matched",
+   "pdf_pages": [
+    65
+   ],
+   "printed_pages": [
+    64
+   ]
+  },
+  "scene107_beat2": {
+   "first_line": 3453,
+   "last_line": 3460,
+   "placement": "matched",
+   "pdf_pages": [
+    65
+   ],
+   "printed_pages": [
+    64
+   ]
+  },
+  "scene108_beat1": {
+   "first_line": 3465,
+   "last_line": 3471,
+   "placement": "matched",
+   "pdf_pages": [
+    66
+   ],
+   "printed_pages": [
+    65
+   ]
+  },
+  "scene109_beat1": {
+   "first_line": 3475,
+   "last_line": 3477,
+   "placement": "matched",
+   "pdf_pages": [
+    66
+   ],
+   "printed_pages": [
+    65
+   ]
+  },
+  "scene110_beat1": {
+   "first_line": 3481,
+   "last_line": 3492,
+   "placement": "matched",
+   "pdf_pages": [
+    66
+   ],
+   "printed_pages": [
+    65
+   ]
+  },
+  "scene111_beat1": {
+   "first_line": 3496,
+   "last_line": 3497,
+   "placement": "matched",
+   "pdf_pages": [
+    66
+   ],
+   "printed_pages": [
+    65
+   ]
+  },
+  "scene112_beat1": {
+   "first_line": 3501,
+   "last_line": 3510,
+   "placement": "matched",
+   "pdf_pages": [
+    66
+   ],
+   "printed_pages": [
+    65
+   ]
+  },
+  "scene113_beat1": {
+   "first_line": 3515,
+   "last_line": 3542,
+   "placement": "matched",
+   "pdf_pages": [
+    67
+   ],
+   "printed_pages": [
+    66
+   ]
+  },
+  "scene114_beat1": {
+   "first_line": 3546,
+   "last_line": 3550,
+   "placement": "matched",
+   "pdf_pages": [
+    67
+   ],
+   "printed_pages": [
+    66
+   ]
+  },
+  "scene115_beat1": {
+   "first_line": 3554,
+   "last_line": 3563,
+   "placement": "matched",
+   "pdf_pages": [
+    67
+   ],
+   "printed_pages": [
+    66
+   ]
+  },
+  "scene115_beat2": {
+   "first_line": 3566,
+   "last_line": 3566,
+   "placement": "matched",
+   "pdf_pages": [
+    68
+   ],
+   "printed_pages": [
+    67
+   ]
+  },
+  "scene115_beat3": {
+   "first_line": 3568,
+   "last_line": 3574,
+   "placement": "matched",
+   "pdf_pages": [
+    68
+   ],
+   "printed_pages": [
+    67
+   ]
+  },
+  "scene116_beat1": {
+   "first_line": 3578,
+   "last_line": 3580,
+   "placement": "matched",
+   "pdf_pages": [
+    68
+   ],
+   "printed_pages": [
+    67
+   ]
+  },
+  "scene117_beat1": {
+   "first_line": 3584,
+   "last_line": 3586,
+   "placement": "matched",
+   "pdf_pages": [
+    68
+   ],
+   "printed_pages": [
+    67
+   ]
+  },
+  "scene118_beat1": {
+   "first_line": 3590,
+   "last_line": 3628,
+   "placement": "matched",
+   "pdf_pages": [
+    68,
+    69
+   ],
+   "printed_pages": [
+    67,
+    68
+   ]
+  },
+  "scene119_beat1": {
+   "first_line": 3632,
+   "last_line": 3648,
+   "placement": "matched",
+   "pdf_pages": [
+    69
+   ],
+   "printed_pages": [
+    68
+   ]
+  },
+  "scene119_beat2": {
+   "first_line": 3650,
+   "last_line": 3655,
+   "placement": "matched",
+   "pdf_pages": [
+    69
+   ],
+   "printed_pages": [
+    68
+   ]
+  },
+  "scene119_beat3": {
+   "first_line": 3657,
+   "last_line": 3662,
+   "placement": "matched",
+   "pdf_pages": [
+    69
+   ],
+   "printed_pages": [
+    68
+   ]
+  },
+  "scene119_beat4": {
+   "first_line": 3664,
+   "last_line": 3664,
+   "placement": "matched",
+   "pdf_pages": [
+    69
+   ],
+   "printed_pages": [
+    68
+   ]
+  },
+  "scene119_beat5": {
+   "first_line": 3666,
+   "last_line": 3668,
+   "placement": "matched",
+   "pdf_pages": [
+    69
+   ],
+   "printed_pages": [
+    68
+   ]
+  },
+  "scene119_beat6": {
+   "first_line": 3670,
+   "last_line": 3671,
+   "placement": "matched",
+   "pdf_pages": [
+    69
+   ],
+   "printed_pages": [
+    68
+   ]
+  },
+  "scene119_beat7": {
+   "first_line": 3673,
+   "last_line": 3689,
+   "placement": "matched",
+   "pdf_pages": [
+    69,
+    70
+   ],
+   "printed_pages": [
+    68,
+    69
+   ]
+  },
+  "scene119_beat8": {
+   "first_line": 3691,
+   "last_line": 3691,
+   "placement": "matched",
+   "pdf_pages": [
+    70
+   ],
+   "printed_pages": [
+    69
+   ]
+  },
+  "scene119_beat9": {
+   "first_line": 3693,
+   "last_line": 3699,
+   "placement": "matched",
+   "pdf_pages": [
+    70
+   ],
+   "printed_pages": [
+    69
+   ]
+  },
+  "scene119_beat10": {
+   "first_line": 3701,
+   "last_line": 3703,
+   "placement": "matched",
+   "pdf_pages": [
+    70
+   ],
+   "printed_pages": [
+    69
+   ]
+  },
+  "scene119_beat11": {
+   "first_line": 3705,
+   "last_line": 3736,
+   "placement": "matched",
+   "pdf_pages": [
+    70,
+    71
+   ],
+   "printed_pages": [
+    69,
+    70
+   ]
+  },
+  "scene119_beat12": {
+   "first_line": 3738,
+   "last_line": 3751,
+   "placement": "matched",
+   "pdf_pages": [
+    71
+   ],
+   "printed_pages": [
+    70
+   ]
+  },
+  "scene119_beat13": {
+   "first_line": 3753,
+   "last_line": 3764,
+   "placement": "matched",
+   "pdf_pages": [
+    71
+   ],
+   "printed_pages": [
+    70
+   ]
+  },
+  "scene119_beat14": {
+   "first_line": 3766,
+   "last_line": 3766,
+   "placement": "matched",
+   "pdf_pages": [
+    71
+   ],
+   "printed_pages": [
+    70
+   ]
+  },
+  "scene120_beat1": {
+   "first_line": 3770,
+   "last_line": 3800,
+   "placement": "matched",
+   "pdf_pages": [
+    71,
+    72
+   ],
+   "printed_pages": [
+    70,
+    71
+   ]
+  },
+  "scene120_beat2": {
+   "first_line": 3802,
+   "last_line": 3821,
+   "placement": "matched",
+   "pdf_pages": [
+    72
+   ],
+   "printed_pages": [
+    71
+   ]
+  },
+  "scene120_beat3": {
+   "first_line": 3823,
+   "last_line": 3830,
+   "placement": "matched",
+   "pdf_pages": [
+    72
+   ],
+   "printed_pages": [
+    71
+   ]
+  },
+  "scene120_beat4": {
+   "first_line": 3832,
+   "last_line": 3834,
+   "placement": "matched",
+   "pdf_pages": [
+    72
+   ],
+   "printed_pages": [
+    71
+   ]
+  },
+  "scene120_beat5": {
+   "first_line": 3836,
+   "last_line": 3859,
+   "placement": "matched",
+   "pdf_pages": [
+    72,
+    73
+   ],
+   "printed_pages": [
+    71,
+    72
+   ]
+  },
+  "scene120_beat6": {
+   "first_line": 3861,
+   "last_line": 3897,
+   "placement": "matched",
+   "pdf_pages": [
+    73
+   ],
+   "printed_pages": [
+    72
+   ]
+  },
+  "scene120_beat8": {
+   "first_line": 3908,
+   "last_line": 3914,
+   "placement": "matched",
+   "pdf_pages": [
+    74
+   ],
+   "printed_pages": [
+    73
+   ]
+  },
+  "scene121_beat1": {
+   "first_line": 3918,
+   "last_line": 3925,
+   "placement": "matched",
+   "pdf_pages": [
+    74
+   ],
+   "printed_pages": [
+    73
+   ]
+  },
+  "scene121_beat2": {
+   "first_line": 3927,
+   "last_line": 3937,
+   "placement": "matched",
+   "pdf_pages": [
+    74
+   ],
+   "printed_pages": [
+    73
+   ]
+  },
+  "scene121_beat3": {
+   "first_line": 3939,
+   "last_line": 3948,
+   "placement": "matched",
+   "pdf_pages": [
+    74
+   ],
+   "printed_pages": [
+    73
+   ]
+  },
+  "scene122_beat1": {
+   "first_line": 3953,
+   "last_line": 3980,
+   "placement": "matched",
+   "pdf_pages": [
+    75
+   ],
+   "printed_pages": [
+    74
+   ]
+  },
+  "scene122_beat2": {
+   "first_line": 3982,
+   "last_line": 3987,
+   "placement": "matched",
+   "pdf_pages": [
+    75
+   ],
+   "printed_pages": [
+    74
+   ]
+  },
+  "scene122_beat3": {
+   "first_line": 3989,
+   "last_line": 3990,
+   "placement": "matched",
+   "pdf_pages": [
+    75
+   ],
+   "printed_pages": [
+    74
+   ]
+  },
+  "scene122_beat4": {
+   "first_line": 3992,
+   "last_line": 4046,
+   "placement": "matched",
+   "pdf_pages": [
+    75,
+    76
+   ],
+   "printed_pages": [
+    74,
+    75
+   ]
+  },
+  "scene122_beat5": {
+   "first_line": 4048,
+   "last_line": 4071,
+   "placement": "matched",
+   "pdf_pages": [
+    76,
+    77
+   ],
+   "printed_pages": [
+    75,
+    76
+   ]
+  },
+  "scene122_beat6": {
+   "first_line": 4073,
+   "last_line": 4088,
+   "placement": "matched",
+   "pdf_pages": [
+    77
+   ],
+   "printed_pages": [
+    76
+   ]
+  },
+  "scene123_beat1": {
+   "first_line": 4092,
+   "last_line": 4105,
+   "placement": "matched",
+   "pdf_pages": [
+    77
+   ],
+   "printed_pages": [
+    76
+   ]
+  },
+  "scene123_beat2": {
+   "first_line": 4107,
+   "last_line": 4108,
+   "placement": "matched",
+   "pdf_pages": [
+    77
+   ],
+   "printed_pages": [
+    76
+   ]
+  },
+  "scene123_beat3": {
+   "first_line": 4110,
+   "last_line": 4128,
+   "placement": "matched",
+   "pdf_pages": [
+    77,
+    78
+   ],
+   "printed_pages": [
+    76,
+    77
+   ]
+  },
+  "scene123_beat4": {
+   "first_line": 4130,
+   "last_line": 4137,
+   "placement": "matched",
+   "pdf_pages": [
+    78
+   ],
+   "printed_pages": [
+    77
+   ]
+  },
+  "scene123_beat5": {
+   "first_line": 4144,
+   "last_line": 4150,
+   "placement": "matched",
+   "pdf_pages": [
+    78
+   ],
+   "printed_pages": [
+    77
+   ]
+  },
+  "scene123_beat6": {
+   "first_line": 4152,
+   "last_line": 4152,
+   "placement": "matched",
+   "pdf_pages": [
+    78
+   ],
+   "printed_pages": [
+    77
+   ]
+  },
+  "scene123_beat7": {
+   "first_line": 4154,
+   "last_line": 4158,
+   "placement": "matched",
+   "pdf_pages": [
+    78
+   ],
+   "printed_pages": [
+    77
+   ]
+  },
+  "scene123_beat8": {
+   "first_line": 4160,
+   "last_line": 4161,
+   "placement": "matched",
+   "pdf_pages": [
+    78
+   ],
+   "printed_pages": [
+    77
+   ]
+  },
+  "scene123_beat9": {
+   "first_line": 4163,
+   "last_line": 4167,
+   "placement": "matched",
+   "pdf_pages": [
+    78
+   ],
+   "printed_pages": [
+    77
+   ]
+  },
+  "scene123_beat10": {
+   "first_line": 4169,
+   "last_line": 4172,
+   "placement": "matched",
+   "pdf_pages": [
+    78
+   ],
+   "printed_pages": [
+    77
+   ]
+  },
+  "scene123_beat11": {
+   "first_line": 4174,
+   "last_line": 4175,
+   "placement": "matched",
+   "pdf_pages": [
+    78
+   ],
+   "printed_pages": [
+    77
+   ]
+  },
+  "scene123_beat12": {
+   "first_line": 4178,
+   "last_line": 4185,
+   "placement": "matched",
+   "pdf_pages": [
+    79
+   ],
+   "printed_pages": [
+    78
+   ]
+  },
+  "scene123_beat13": {
+   "first_line": 4187,
+   "last_line": 4205,
+   "placement": "matched",
+   "pdf_pages": [
+    79
+   ],
+   "printed_pages": [
+    78
+   ]
+  },
+  "scene123_beat14": {
+   "first_line": 4207,
+   "last_line": 4207,
+   "placement": "matched",
+   "pdf_pages": [
+    79
+   ],
+   "printed_pages": [
+    78
+   ]
+  },
+  "scene123_beat15": {
+   "first_line": 4209,
+   "last_line": 4214,
+   "placement": "matched",
+   "pdf_pages": [
+    79
+   ],
+   "printed_pages": [
+    78
+   ]
+  },
+  "scene123_beat16": {
+   "first_line": 4216,
+   "last_line": 4219,
+   "placement": "matched",
+   "pdf_pages": [
+    79
+   ],
+   "printed_pages": [
+    78
+   ]
+  },
+  "scene124_beat1": {
+   "first_line": 4223,
+   "last_line": 4226,
+   "placement": "matched",
+   "pdf_pages": [
+    79
+   ],
+   "printed_pages": [
+    78
+   ]
+  },
+  "scene125_beat1": {
+   "first_line": 4230,
+   "last_line": 4230,
+   "placement": "matched",
+   "pdf_pages": [
+    80
+   ],
+   "printed_pages": [
+    79
+   ]
+  },
+  "scene126_beat1": {
+   "first_line": 4233,
+   "last_line": 4237,
+   "placement": "matched",
+   "pdf_pages": [
+    80
+   ],
+   "printed_pages": [
+    79
+   ]
+  },
+  "scene127_beat1": {
+   "first_line": 4240,
+   "last_line": 4242,
+   "placement": "matched",
+   "pdf_pages": [
+    80
+   ],
+   "printed_pages": [
+    79
+   ]
+  },
+  "scene128_beat1": {
+   "first_line": 4245,
+   "last_line": 4247,
+   "placement": "matched",
+   "pdf_pages": [
+    80
+   ],
+   "printed_pages": [
+    79
+   ]
+  },
+  "scene129_beat1": {
+   "first_line": 4250,
+   "last_line": 4252,
+   "placement": "matched",
+   "pdf_pages": [
+    80
+   ],
+   "printed_pages": [
+    79
+   ]
+  },
+  "scene130_beat1": {
+   "first_line": 4255,
+   "last_line": 4259,
+   "placement": "matched",
+   "pdf_pages": [
+    80
+   ],
+   "printed_pages": [
+    79
+   ]
+  },
+  "scene131_beat1": {
+   "first_line": 4262,
+   "last_line": 4268,
+   "placement": "matched",
+   "pdf_pages": [
+    80,
+    81
+   ],
+   "printed_pages": [
+    79,
+    80
+   ]
+  },
+  "scene132_beat1": {
+   "first_line": 4272,
+   "last_line": 4274,
+   "placement": "matched",
+   "pdf_pages": [
+    81
+   ],
+   "printed_pages": [
+    80
+   ]
+  },
+  "scene133_beat1": {
+   "first_line": 4278,
+   "last_line": 4282,
+   "placement": "matched",
+   "pdf_pages": [
+    81
+   ],
+   "printed_pages": [
+    80
+   ]
+  },
+  "scene134_beat1": {
+   "first_line": 4286,
+   "last_line": 4289,
+   "placement": "matched",
+   "pdf_pages": [
+    81
+   ],
+   "printed_pages": [
+    80
+   ]
+  },
+  "scene134_beat2": {
+   "first_line": 4291,
+   "last_line": 4303,
+   "placement": "matched",
+   "pdf_pages": [
+    81
+   ],
+   "printed_pages": [
+    80
+   ]
+  },
+  "scene135_beat1": {
+   "first_line": 4307,
+   "last_line": 4311,
+   "placement": "matched",
+   "pdf_pages": [
+    81
+   ],
+   "printed_pages": [
+    80
+   ]
+  },
+  "scene136_beat1": {
+   "first_line": 4316,
+   "last_line": 4328,
+   "placement": "matched",
+   "pdf_pages": [
+    82
+   ],
+   "printed_pages": [
+    81
+   ]
+  },
+  "scene137_beat1": {
+   "first_line": 4332,
+   "last_line": 4332,
+   "placement": "matched",
+   "pdf_pages": [
+    82
+   ],
+   "printed_pages": [
+    81
+   ]
+  },
+  "scene138_beat1": {
+   "first_line": 4336,
+   "last_line": 4363,
+   "placement": "matched",
+   "pdf_pages": [
+    82
+   ],
+   "printed_pages": [
+    81
+   ]
+  },
+  "scene138_beat2": {
+   "first_line": 4366,
+   "last_line": 4380,
+   "placement": "matched",
+   "pdf_pages": [
+    83
+   ],
+   "printed_pages": [
+    82
+   ]
+  },
+  "scene139_beat1": {
+   "first_line": 4384,
+   "last_line": 4391,
+   "placement": "matched",
+   "pdf_pages": [
+    83
+   ],
+   "printed_pages": [
+    82
+   ]
+  },
+  "scene139_beat2": {
+   "first_line": 4393,
+   "last_line": 4399,
+   "placement": "matched",
+   "pdf_pages": [
+    83
+   ],
+   "printed_pages": [
+    82
+   ]
+  },
+  "scene140_beat1": {
+   "first_line": 4403,
+   "last_line": 4428,
+   "placement": "matched",
+   "pdf_pages": [
+    83,
+    84
+   ],
+   "printed_pages": [
+    82,
+    83
+   ]
+  },
+  "scene140_beat2": {
+   "first_line": 4430,
+   "last_line": 4437,
+   "placement": "matched",
+   "pdf_pages": [
+    84
+   ],
+   "printed_pages": [
+    83
+   ]
+  },
+  "scene140_beat3": {
+   "first_line": 4437,
+   "last_line": 4442,
+   "placement": "matched",
+   "pdf_pages": [
+    84
+   ],
+   "printed_pages": [
+    83
+   ]
+  },
+  "scene140_beat4": {
+   "first_line": 4444,
+   "last_line": 4450,
+   "placement": "matched",
+   "pdf_pages": [
+    84
+   ],
+   "printed_pages": [
+    83
+   ]
+  },
+  "scene140_beat5": {
+   "first_line": 4452,
+   "last_line": 4471,
+   "placement": "matched",
+   "pdf_pages": [
+    84
+   ],
+   "printed_pages": [
+    83
+   ]
+  },
+  "scene140_beat6": {
+   "first_line": 4473,
+   "last_line": 4485,
+   "placement": "matched",
+   "pdf_pages": [
+    84,
+    85
+   ],
+   "printed_pages": [
+    83,
+    84
+   ]
+  },
+  "scene140_beat7": {
+   "first_line": 4487,
+   "last_line": 4488,
+   "placement": "matched",
+   "pdf_pages": [
+    85
+   ],
+   "printed_pages": [
+    84
+   ]
+  },
+  "scene140_beat8": {
+   "first_line": 4490,
+   "last_line": 4490,
+   "placement": "matched",
+   "pdf_pages": [
+    85
+   ],
+   "printed_pages": [
+    84
+   ]
+  },
+  "scene140_beat9": {
+   "first_line": 4492,
+   "last_line": 4495,
+   "placement": "matched",
+   "pdf_pages": [
+    85
+   ],
+   "printed_pages": [
+    84
+   ]
+  },
+  "scene140_beat10": {
+   "first_line": 4497,
+   "last_line": 4498,
+   "placement": "matched",
+   "pdf_pages": [
+    85
+   ],
+   "printed_pages": [
+    84
+   ]
+  },
+  "scene140_beat11": {
+   "first_line": 4500,
+   "last_line": 4522,
+   "placement": "matched",
+   "pdf_pages": [
+    85
+   ],
+   "printed_pages": [
+    84
+   ]
+  },
+  "scene141_beat1": {
+   "first_line": 4526,
+   "last_line": 4559,
+   "placement": "matched",
+   "pdf_pages": [
+    85,
+    86
+   ],
+   "printed_pages": [
+    84,
+    85
+   ]
+  },
+  "scene141_beat2": {
+   "first_line": 4561,
+   "last_line": 4567,
+   "placement": "matched",
+   "pdf_pages": [
+    86
+   ],
+   "printed_pages": [
+    85
+   ]
+  },
+  "scene141_beat3": {
+   "first_line": 4569,
+   "last_line": 4569,
+   "placement": "matched",
+   "pdf_pages": [
+    86
+   ],
+   "printed_pages": [
+    85
+   ]
+  },
+  "scene141_beat4": {
+   "first_line": 4571,
+   "last_line": 4572,
+   "placement": "matched",
+   "pdf_pages": [
+    86
+   ],
+   "printed_pages": [
+    85
+   ]
+  },
+  "scene142_beat1": {
+   "first_line": 4576,
+   "last_line": 4579,
+   "placement": "matched",
+   "pdf_pages": [
+    86
+   ],
+   "printed_pages": [
+    85
+   ]
+  },
+  "scene142_beat2": {
+   "first_line": 4581,
+   "last_line": 4581,
+   "placement": "matched",
+   "pdf_pages": [
+    86
+   ],
+   "printed_pages": [
+    85
+   ]
+  },
+  "scene143_beat1": {
+   "first_line": 4586,
+   "last_line": 4590,
+   "placement": "matched",
+   "pdf_pages": [
+    87
+   ],
+   "printed_pages": [
+    86
+   ]
+  },
+  "scene143_beat2": {
+   "first_line": 4592,
+   "last_line": 4611,
+   "placement": "matched",
+   "pdf_pages": [
+    87
+   ],
+   "printed_pages": [
+    86
+   ]
+  },
+  "scene143_beat3": {
+   "first_line": 4613,
+   "last_line": 4615,
+   "placement": "matched",
+   "pdf_pages": [
+    87
+   ],
+   "printed_pages": [
+    86
+   ]
+  },
+  "scene143_beat4": {
+   "first_line": 4617,
+   "last_line": 4617,
+   "placement": "matched",
+   "pdf_pages": [
+    87
+   ],
+   "printed_pages": [
+    86
+   ]
+  },
+  "scene143_beat5": {
+   "first_line": 4619,
+   "last_line": 4626,
+   "placement": "matched",
+   "pdf_pages": [
+    87
+   ],
+   "printed_pages": [
+    86
+   ]
+  },
+  "scene143_beat6": {
+   "first_line": 4628,
+   "last_line": 4646,
+   "placement": "matched",
+   "pdf_pages": [
+    87,
+    88
+   ],
+   "printed_pages": [
+    86,
+    87
+   ]
+  },
+  "scene143_beat7": {
+   "first_line": 4648,
+   "last_line": 4700,
+   "placement": "matched",
+   "unmatched_turns": [
+    4,
+    5
+   ],
+   "pdf_pages": [
+    88,
+    89
+   ],
+   "printed_pages": [
+    87,
+    88
+   ]
+  },
+  "scene144_beat1": {
+   "first_line": 4703,
+   "last_line": 4703,
+   "placement": "matched",
+   "pdf_pages": [
+    89
+   ],
+   "printed_pages": [
+    88
+   ]
+  },
+  "scene145_beat1": {
+   "first_line": 4706,
+   "last_line": 4707,
+   "placement": "matched",
+   "pdf_pages": [
+    89
+   ],
+   "printed_pages": [
+    88
+   ]
+  },
+  "scene146_beat1": {
+   "first_line": 4710,
+   "last_line": 4711,
+   "placement": "matched",
+   "pdf_pages": [
+    89
+   ],
+   "printed_pages": [
+    88
+   ]
+  },
+  "scene147_beat1": {
+   "first_line": 4714,
+   "last_line": 4734,
+   "placement": "matched",
+   "pdf_pages": [
+    89
+   ],
+   "printed_pages": [
+    88
+   ]
+  },
+  "scene148_beat1": {
+   "first_line": 4737,
+   "last_line": 4740,
+   "placement": "matched",
+   "pdf_pages": [
+    89,
+    90
+   ],
+   "printed_pages": [
+    88,
+    89
+   ]
+  },
+  "scene149_beat1": {
+   "first_line": 4744,
+   "last_line": 4779,
+   "placement": "matched",
+   "pdf_pages": [
+    90
+   ],
+   "printed_pages": [
+    89
+   ]
+  },
+  "scene149_beat2": {
+   "first_line": 4781,
+   "last_line": 4825,
+   "placement": "matched",
+   "pdf_pages": [
+    90,
+    91
+   ],
+   "printed_pages": [
+    89,
+    90
+   ]
+  },
+  "scene150_beat1": {
+   "first_line": 4829,
+   "last_line": 4833,
+   "placement": "matched",
+   "pdf_pages": [
+    91
+   ],
+   "printed_pages": [
+    90
+   ]
+  },
+  "scene150_beat2": {
+   "first_line": 4835,
+   "last_line": 4835,
+   "placement": "matched",
+   "pdf_pages": [
+    91
+   ],
+   "printed_pages": [
+    90
+   ]
+  },
+  "scene151_beat1": {
+   "first_line": 4838,
+   "last_line": 4838,
+   "placement": "matched",
+   "pdf_pages": [
+    91
+   ],
+   "printed_pages": [
+    90
+   ]
+  },
+  "scene152_beat1": {
+   "first_line": 4842,
+   "last_line": 4866,
+   "placement": "matched",
+   "pdf_pages": [
+    91,
+    92
+   ],
+   "printed_pages": [
+    90,
+    91
+   ]
+  },
+  "scene152_beat2": {
+   "first_line": 4868,
+   "last_line": 4873,
+   "placement": "matched",
+   "pdf_pages": [
+    92
+   ],
+   "printed_pages": [
+    91
+   ]
+  },
+  "scene153_beat1": {
+   "first_line": 4877,
+   "last_line": 4879,
+   "placement": "matched",
+   "pdf_pages": [
+    92
+   ],
+   "printed_pages": [
+    91
+   ]
+  },
+  "scene154_beat1": {
+   "first_line": 4883,
+   "last_line": 4893,
+   "placement": "matched",
+   "pdf_pages": [
+    92
+   ],
+   "printed_pages": [
+    91
+   ]
+  },
+  "scene154_beat2": {
+   "first_line": 4895,
+   "last_line": 4944,
+   "placement": "matched",
+   "pdf_pages": [
+    92,
+    93
+   ],
+   "printed_pages": [
+    91,
+    92
+   ]
+  },
+  "scene154_beat3": {
+   "first_line": 4946,
+   "last_line": 4947,
+   "placement": "matched",
+   "pdf_pages": [
+    93
+   ],
+   "printed_pages": [
+    92
+   ]
+  },
+  "scene155_beat1": {
+   "first_line": 4952,
+   "last_line": 4971,
+   "placement": "matched",
+   "pdf_pages": [
+    94
+   ],
+   "printed_pages": [
+    93
+   ]
+  },
+  "scene155_beat2": {
+   "first_line": 4973,
+   "last_line": 4979,
+   "placement": "matched",
+   "pdf_pages": [
+    94
+   ],
+   "printed_pages": [
+    93
+   ]
+  },
+  "scene155_beat3": {
+   "first_line": 4981,
+   "last_line": 4989,
+   "placement": "matched",
+   "pdf_pages": [
+    94
+   ],
+   "printed_pages": [
+    93
+   ]
+  },
+  "scene155_beat4": {
+   "first_line": 4991,
+   "last_line": 4992,
+   "placement": "matched",
+   "pdf_pages": [
+    94
+   ],
+   "printed_pages": [
+    93
+   ]
+  },
+  "scene155_beat5": {
+   "first_line": 4994,
+   "last_line": 5013,
+   "placement": "matched",
+   "pdf_pages": [
+    94,
+    95
+   ],
+   "printed_pages": [
+    93,
+    94
+   ]
+  },
+  "scene155_beat6": {
+   "first_line": 5015,
+   "last_line": 5026,
+   "placement": "matched",
+   "pdf_pages": [
+    95
+   ],
+   "printed_pages": [
+    94
+   ]
+  },
+  "scene155_beat7": {
+   "first_line": 5028,
+   "last_line": 5035,
+   "placement": "matched",
+   "pdf_pages": [
+    95
+   ],
+   "printed_pages": [
+    94
+   ]
+  },
+  "scene155_beat8": {
+   "first_line": 5037,
+   "last_line": 5037,
+   "placement": "matched",
+   "pdf_pages": [
+    95
+   ],
+   "printed_pages": [
+    94
+   ]
+  },
+  "scene155_beat9": {
+   "first_line": 5039,
+   "last_line": 5076,
+   "placement": "matched",
+   "pdf_pages": [
+    95,
+    96
+   ],
+   "printed_pages": [
+    94,
+    95
+   ]
+  },
+  "scene155_beat10": {
+   "first_line": 5078,
+   "last_line": 5090,
+   "placement": "matched",
+   "pdf_pages": [
+    96
+   ],
+   "printed_pages": [
+    95
+   ]
+  },
+  "scene155_beat11": {
+   "first_line": 5092,
+   "last_line": 5130,
+   "placement": "matched",
+   "pdf_pages": [
+    96,
+    97
+   ],
+   "printed_pages": [
+    95,
+    96
+   ]
+  },
+  "scene155_beat12": {
+   "first_line": 5132,
+   "last_line": 5146,
+   "placement": "matched",
+   "pdf_pages": [
+    97
+   ],
+   "printed_pages": [
+    96
+   ]
+  },
+  "scene156_beat1": {
+   "first_line": 5150,
+   "last_line": 5170,
+   "placement": "matched",
+   "pdf_pages": [
+    97
+   ],
+   "printed_pages": [
+    96
+   ]
+  },
+  "scene157_beat1": {
+   "first_line": 5174,
+   "last_line": 5175,
+   "placement": "matched",
+   "pdf_pages": [
+    97
+   ],
+   "printed_pages": [
+    96
+   ]
+  },
+  "scene158_beat1": {
+   "first_line": 5179,
+   "last_line": 5182,
+   "placement": "matched",
+   "pdf_pages": [
+    98
+   ],
+   "printed_pages": [
+    97
+   ]
+  },
+  "scene159_beat1": {
+   "first_line": 5185,
+   "last_line": 5188,
+   "placement": "matched",
+   "pdf_pages": [
+    98
+   ],
+   "printed_pages": [
+    97
+   ]
+  },
+  "scene160_beat1": {
+   "first_line": 5191,
+   "last_line": 5194,
+   "placement": "matched",
+   "pdf_pages": [
+    98
+   ],
+   "printed_pages": [
+    97
+   ]
+  },
+  "scene161_beat1": {
+   "first_line": 5197,
+   "last_line": 5198,
+   "placement": "matched",
+   "pdf_pages": [
+    98
+   ],
+   "printed_pages": [
+    97
+   ]
+  },
+  "scene162_beat1": {
+   "first_line": 5201,
+   "last_line": 5202,
+   "placement": "matched",
+   "pdf_pages": [
+    98
+   ],
+   "printed_pages": [
+    97
+   ]
+  },
+  "scene163_beat1": {
+   "first_line": 5205,
+   "last_line": 5210,
+   "placement": "matched",
+   "pdf_pages": [
+    98
+   ],
+   "printed_pages": [
+    97
+   ]
+  },
+  "scene164_beat1": {
+   "first_line": 5215,
+   "last_line": 5216,
+   "placement": "matched",
+   "pdf_pages": [
+    99
+   ],
+   "printed_pages": [
+    98
+   ]
+  },
+  "scene165_beat1": {
+   "first_line": 5220,
+   "last_line": 5252,
+   "placement": "matched",
+   "pdf_pages": [
+    99
+   ],
+   "printed_pages": [
+    98
+   ]
+  },
+  "scene165_beat2": {
+   "first_line": 5254,
+   "last_line": 5260,
+   "placement": "matched",
+   "pdf_pages": [
+    99
+   ],
+   "printed_pages": [
+    98
+   ]
+  },
+  "scene166_beat1": {
+   "first_line": 5264,
+   "last_line": 5270,
+   "placement": "matched",
+   "pdf_pages": [
+    99,
+    100
+   ],
+   "printed_pages": [
+    98,
+    99
+   ]
+  },
+  "scene166_beat2": {
+   "first_line": 5272,
+   "last_line": 5278,
+   "placement": "matched",
+   "pdf_pages": [
+    100
+   ],
+   "printed_pages": [
+    99
+   ]
+  },
+  "scene167_beat1": {
+   "first_line": 5282,
+   "last_line": 5289,
+   "placement": "matched",
+   "pdf_pages": [
+    100
+   ],
+   "printed_pages": [
+    99
+   ]
+  },
+  "scene168_beat1": {
+   "first_line": 5293,
+   "last_line": 5297,
+   "placement": "matched",
+   "pdf_pages": [
+    100
+   ],
+   "printed_pages": [
+    99
+   ]
+  },
+  "scene169_beat1": {
+   "first_line": 5301,
+   "last_line": 5303,
+   "placement": "matched",
+   "pdf_pages": [
+    100
+   ],
+   "printed_pages": [
+    99
+   ]
+  },
+  "scene169_beat2": {
+   "first_line": 5305,
+   "last_line": 5305,
+   "placement": "matched",
+   "pdf_pages": [
+    100
+   ],
+   "printed_pages": [
+    99
+   ]
+  },
+  "scene170_beat1": {
+   "first_line": 5309,
+   "last_line": 5347,
+   "placement": "matched",
+   "pdf_pages": [
+    100,
+    101
+   ],
+   "printed_pages": [
+    99,
+    100
+   ]
+  },
+  "scene170_beat2": {
+   "first_line": 5349,
+   "last_line": 5351,
+   "placement": "matched",
+   "pdf_pages": [
+    101
+   ],
+   "printed_pages": [
+    100
+   ]
+  },
+  "scene170_beat3": {
+   "first_line": 5353,
+   "last_line": 5354,
+   "placement": "matched",
+   "pdf_pages": [
+    101
+   ],
+   "printed_pages": [
+    100
+   ]
+  },
+  "scene170_beat4": {
+   "first_line": 5356,
+   "last_line": 5356,
+   "placement": "matched",
+   "pdf_pages": [
+    101
+   ],
+   "printed_pages": [
+    100
+   ]
+  },
+  "scene170_beat5": {
+   "first_line": 5358,
+   "last_line": 5362,
+   "placement": "matched",
+   "pdf_pages": [
+    101
+   ],
+   "printed_pages": [
+    100
+   ]
+  },
+  "scene170_beat6": {
+   "first_line": 5364,
+   "last_line": 5365,
+   "placement": "matched",
+   "pdf_pages": [
+    101
+   ],
+   "printed_pages": [
+    100
+   ]
+  },
+  "scene170_beat7": {
+   "first_line": 5367,
+   "last_line": 5367,
+   "placement": "matched",
+   "pdf_pages": [
+    101
+   ],
+   "printed_pages": [
+    100
+   ]
+  },
+  "scene171_beat1": {
+   "first_line": 5371,
+   "last_line": 5371,
+   "placement": "matched",
+   "pdf_pages": [
+    101
+   ],
+   "printed_pages": [
+    100
+   ]
+  },
+  "scene172_beat1": {
+   "first_line": 5376,
+   "last_line": 5410,
+   "placement": "matched",
+   "pdf_pages": [
+    102
+   ],
+   "printed_pages": [
+    101
+   ]
+  },
+  "scene172_beat2": {
+   "first_line": 5412,
+   "last_line": 5433,
+   "placement": "matched",
+   "pdf_pages": [
+    102,
+    103
+   ],
+   "printed_pages": [
+    101,
+    102
+   ]
+  },
+  "scene172_beat3": {
+   "first_line": 5435,
+   "last_line": 5439,
+   "placement": "matched",
+   "pdf_pages": [
+    103
+   ],
+   "printed_pages": [
+    102
+   ]
+  },
+  "scene172_beat4": {
+   "first_line": 5441,
+   "last_line": 5448,
+   "placement": "matched",
+   "pdf_pages": [
+    103
+   ],
+   "printed_pages": [
+    102
+   ]
+  },
+  "scene172_beat5": {
+   "first_line": 5450,
+   "last_line": 5474,
+   "placement": "matched",
+   "pdf_pages": [
+    103
+   ],
+   "printed_pages": [
+    102
+   ]
+  },
+  "scene172_beat6": {
+   "first_line": 5476,
+   "last_line": 5494,
+   "placement": "matched",
+   "pdf_pages": [
+    103,
+    104
+   ],
+   "printed_pages": [
+    102,
+    103
+   ]
+  },
+  "scene172_beat7": {
+   "first_line": 5496,
+   "last_line": 5500,
+   "placement": "matched",
+   "pdf_pages": [
+    104
+   ],
+   "printed_pages": [
+    103
+   ]
+  },
+  "scene172_beat8": {
+   "first_line": 5502,
+   "last_line": 5505,
+   "placement": "matched",
+   "pdf_pages": [
+    104
+   ],
+   "printed_pages": [
+    103
+   ]
+  },
+  "scene173_beat1": {
+   "first_line": 5509,
+   "last_line": 5510,
+   "placement": "matched",
+   "pdf_pages": [
+    104
+   ],
+   "printed_pages": [
+    103
+   ]
+  },
+  "scene174_beat1": {
+   "first_line": 5514,
+   "last_line": 5518,
+   "placement": "matched",
+   "pdf_pages": [
+    104
+   ],
+   "printed_pages": [
+    103
+   ]
+  },
+  "scene175_beat1": {
+   "first_line": 5522,
+   "last_line": 5572,
+   "placement": "matched",
+   "pdf_pages": [
+    104,
+    105
+   ],
+   "printed_pages": [
+    103,
+    104
+   ]
+  },
+  "scene175_beat2": {
+   "first_line": 5574,
+   "last_line": 5615,
+   "placement": "matched",
+   "pdf_pages": [
+    105,
+    106
+   ],
+   "printed_pages": [
+    104,
+    105
+   ]
+  },
+  "scene175_beat3": {
+   "first_line": 5617,
+   "last_line": 5621,
+   "placement": "matched",
+   "pdf_pages": [
+    106
+   ],
+   "printed_pages": [
+    105
+   ]
+  },
+  "scene176_beat1": {
+   "first_line": 5625,
+   "last_line": 5638,
+   "placement": "matched",
+   "pdf_pages": [
+    106
+   ],
+   "printed_pages": [
+    105
+   ]
+  },
+  "scene177_beat1": {
+   "first_line": 5642,
+   "last_line": 5646,
+   "placement": "matched",
+   "pdf_pages": [
+    106
+   ],
+   "printed_pages": [
+    105
+   ]
+  },
+  "scene178_beat1": {
+   "first_line": 5649,
+   "last_line": 5649,
+   "placement": "matched",
+   "pdf_pages": [
+    106
+   ],
+   "printed_pages": [
+    105
+   ]
+  },
+  "scene179_beat1": {
+   "first_line": 5653,
+   "last_line": 5659,
+   "placement": "matched",
+   "pdf_pages": [
+    107
+   ],
+   "printed_pages": [
+    106
+   ]
+  },
+  "scene180_beat1": {
+   "first_line": 5662,
+   "last_line": 5664,
+   "placement": "matched",
+   "pdf_pages": [
+    107
+   ],
+   "printed_pages": [
+    106
+   ]
+  },
+  "scene181_beat1": {
+   "first_line": 5667,
+   "last_line": 5672,
+   "placement": "matched",
+   "pdf_pages": [
+    107
+   ],
+   "printed_pages": [
+    106
+   ]
+  },
+  "scene182_beat1": {
+   "first_line": 5675,
+   "last_line": 5676,
+   "placement": "matched",
+   "pdf_pages": [
+    107
+   ],
+   "printed_pages": [
+    106
+   ]
+  },
+  "scene183_beat1": {
+   "first_line": 5679,
+   "last_line": 5682,
+   "placement": "matched",
+   "pdf_pages": [
+    107
+   ],
+   "printed_pages": [
+    106
+   ]
+  },
+  "scene184_beat1": {
+   "first_line": 5685,
+   "last_line": 5715,
+   "placement": "matched",
+   "pdf_pages": [
+    107,
+    108
+   ],
+   "printed_pages": [
+    106,
+    107
+   ]
+  },
+  "scene185_beat1": {
+   "first_line": 5719,
+   "last_line": 5735,
+   "placement": "matched",
+   "pdf_pages": [
+    108
+   ],
+   "printed_pages": [
+    107
+   ]
+  },
+  "scene185_beat2": {
+   "first_line": 5737,
+   "last_line": 5790,
+   "placement": "matched",
+   "pdf_pages": [
+    108,
+    109
+   ],
+   "printed_pages": [
+    107,
+    108
+   ]
+  },
+  "scene186_beat1": {
+   "first_line": 5794,
+   "last_line": 5798,
+   "placement": "matched",
+   "pdf_pages": [
+    109
+   ],
+   "printed_pages": [
+    108
+   ]
+  },
+  "scene187_beat1": {
+   "first_line": 5803,
+   "last_line": 5808,
+   "placement": "matched",
+   "pdf_pages": [
+    110
+   ],
+   "printed_pages": [
+    109
+   ]
+  },
+  "scene187_beat2": {
+   "first_line": 5810,
+   "last_line": 5815,
+   "placement": "matched",
+   "pdf_pages": [
+    110
+   ],
+   "printed_pages": [
+    109
+   ]
+  },
+  "scene188_beat1": {
+   "first_line": 5819,
+   "last_line": 5824,
+   "placement": "matched",
+   "pdf_pages": [
+    110
+   ],
+   "printed_pages": [
+    109
+   ]
+  },
+  "scene189_beat1": {
+   "first_line": 5828,
+   "last_line": 5838,
+   "placement": "matched",
+   "pdf_pages": [
+    110
+   ],
+   "printed_pages": [
+    109
+   ]
+  },
+  "scene190_beat1": {
+   "first_line": 5842,
+   "last_line": 5848,
+   "placement": "matched",
+   "pdf_pages": [
+    110
+   ],
+   "printed_pages": [
+    109
+   ]
+  },
+  "scene191_beat1": {
+   "first_line": 5853,
+   "last_line": 5869,
+   "placement": "matched",
+   "pdf_pages": [
+    111
+   ],
+   "printed_pages": [
+    110
+   ]
+  },
+  "scene192_beat1": {
+   "first_line": 5873,
+   "last_line": 5878,
+   "placement": "matched",
+   "pdf_pages": [
+    111
+   ],
+   "printed_pages": [
+    110
+   ]
+  },
+  "scene193_beat1": {
+   "first_line": 5882,
+   "last_line": 5893,
+   "placement": "matched",
+   "pdf_pages": [
+    111
+   ],
+   "printed_pages": [
+    110
+   ]
+  },
+  "scene194_beat1": {
+   "first_line": 5897,
+   "last_line": 5905,
+   "placement": "matched",
+   "pdf_pages": [
+    111,
+    112
+   ],
+   "printed_pages": [
+    110,
+    111
+   ]
+  },
+  "scene195_beat1": {
+   "first_line": 5909,
+   "last_line": 5914,
+   "placement": "matched",
+   "pdf_pages": [
+    112
+   ],
+   "printed_pages": [
+    111
+   ]
+  },
+  "scene195_beat2": {
+   "first_line": 5916,
+   "last_line": 5921,
+   "placement": "matched",
+   "pdf_pages": [
+    112
+   ],
+   "printed_pages": [
+    111
+   ]
+  },
+  "scene195_beat3": {
+   "first_line": 5923,
+   "last_line": 5923,
+   "placement": "matched",
+   "pdf_pages": [
+    112
+   ],
+   "printed_pages": [
+    111
+   ]
+  },
+  "scene195_beat4": {
+   "first_line": 5925,
+   "last_line": 5929,
+   "placement": "matched",
+   "pdf_pages": [
+    112
+   ],
+   "printed_pages": [
+    111
+   ]
+  },
+  "scene196_beat1": {
+   "first_line": 5933,
+   "last_line": 5938,
+   "placement": "matched",
+   "pdf_pages": [
+    112
+   ],
+   "printed_pages": [
+    111
+   ]
+  },
+  "scene196_beat2": {
+   "first_line": 5940,
+   "last_line": 5941,
+   "placement": "matched",
+   "pdf_pages": [
+    112
+   ],
+   "printed_pages": [
+    111
+   ]
+  },
+  "scene197_beat1": {
+   "first_line": 5945,
+   "last_line": 5972,
+   "placement": "matched",
+   "pdf_pages": [
+    112,
+    113
+   ],
+   "printed_pages": [
+    111,
+    112
+   ]
+  },
+  "scene197_beat2": {
+   "first_line": 5974,
+   "last_line": 5987,
+   "placement": "matched",
+   "pdf_pages": [
+    113
+   ],
+   "printed_pages": [
+    112
+   ]
+  },
+  "scene198_beat1": {
+   "first_line": 5991,
+   "last_line": 5998,
+   "placement": "matched",
+   "pdf_pages": [
+    113
+   ],
+   "printed_pages": [
+    112
+   ]
+  },
+  "scene199_beat1": {
+   "first_line": 6003,
+   "last_line": 6023,
+   "placement": "matched",
+   "pdf_pages": [
+    114
+   ],
+   "printed_pages": [
+    113
+   ]
+  },
+  "scene199_beat2": {
+   "first_line": 6025,
+   "last_line": 6029,
+   "placement": "matched",
+   "pdf_pages": [
+    114
+   ],
+   "printed_pages": [
+    113
+   ]
+  },
+  "scene200_beat1": {
+   "first_line": 6033,
+   "last_line": 6039,
+   "placement": "matched",
+   "pdf_pages": [
+    114
+   ],
+   "printed_pages": [
+    113
+   ]
+  },
+  "scene200_beat2": {
+   "first_line": 6041,
+   "last_line": 6041,
+   "placement": "matched",
+   "pdf_pages": [
+    114
+   ],
+   "printed_pages": [
+    113
+   ]
+  },
+  "scene201_beat1": {
+   "first_line": 6045,
+   "last_line": 6079,
+   "placement": "matched",
+   "pdf_pages": [
+    114,
+    115
+   ],
+   "printed_pages": [
+    113,
+    114
+   ]
+  },
+  "scene201_beat2": {
+   "first_line": 6081,
+   "last_line": 6105,
+   "placement": "matched",
+   "pdf_pages": [
+    115
+   ],
+   "printed_pages": [
+    114
+   ]
+  },
+  "scene201_beat3": {
+   "first_line": 6107,
+   "last_line": 6126,
+   "placement": "matched",
+   "pdf_pages": [
+    115,
+    116
+   ],
+   "printed_pages": [
+    114,
+    115
+   ]
+  },
+  "scene201_beat4": {
+   "first_line": 6128,
+   "last_line": 6134,
+   "placement": "matched",
+   "pdf_pages": [
+    116
+   ],
+   "printed_pages": [
+    115
+   ]
+  },
+  "scene201_beat5": {
+   "first_line": 6136,
+   "last_line": 6148,
+   "placement": "matched",
+   "pdf_pages": [
+    116
+   ],
+   "printed_pages": [
+    115
+   ]
+  },
+  "scene202_beat1": {
+   "first_line": 6152,
+   "last_line": 6175,
+   "placement": "matched",
+   "pdf_pages": [
+    116,
+    117
+   ],
+   "printed_pages": [
+    115,
+    116
+   ]
+  },
+  "scene203_beat1": {
+   "first_line": 6179,
+   "last_line": 6186,
+   "placement": "matched",
+   "pdf_pages": [
+    117
+   ],
+   "printed_pages": [
+    116
+   ]
+  },
+  "scene204_beat1": {
+   "first_line": 6190,
+   "last_line": 6194,
+   "placement": "matched",
+   "pdf_pages": [
+    117
+   ],
+   "printed_pages": [
+    116
+   ]
+  },
+  "scene205_beat1": {
+   "first_line": 6198,
+   "last_line": 6222,
+   "placement": "matched",
+   "pdf_pages": [
+    117,
+    118
+   ],
+   "printed_pages": [
+    116,
+    117
+   ]
+  },
+  "scene206_beat1": {
+   "first_line": 6226,
+   "last_line": 6237,
+   "placement": "matched",
+   "pdf_pages": [
+    118
+   ],
+   "printed_pages": [
+    117
+   ]
+  },
+  "scene206_beat2": {
+   "first_line": 6239,
+   "last_line": 6243,
+   "placement": "matched",
+   "pdf_pages": [
+    118
+   ],
+   "printed_pages": [
+    117
+   ]
+  },
+  "scene207_beat1": {
+   "first_line": 6247,
+   "last_line": 6256,
+   "placement": "matched",
+   "pdf_pages": [
+    118
+   ],
+   "printed_pages": [
+    117
+   ]
+  },
+  "scene208_beat1": {
+   "first_line": 6260,
+   "last_line": 6267,
+   "placement": "matched",
+   "pdf_pages": [
+    118,
+    119
+   ],
+   "printed_pages": [
+    117,
+    118
+   ]
+  },
+  "scene209_beat1": {
+   "first_line": 6270,
+   "last_line": 6272,
+   "placement": "matched",
+   "pdf_pages": [
+    119
+   ],
+   "printed_pages": [
+    118
+   ]
+  },
+  "scene210_beat1": {
+   "first_line": 6275,
+   "last_line": 6280,
+   "placement": "matched",
+   "pdf_pages": [
+    119
+   ],
+   "printed_pages": [
+    118
+   ]
+  },
+  "scene211_beat1": {
+   "first_line": 6283,
+   "last_line": 6289,
+   "placement": "matched",
+   "pdf_pages": [
+    119
+   ],
+   "printed_pages": [
+    118
+   ]
+  },
+  "scene212_beat1": {
+   "first_line": 6292,
+   "last_line": 6292,
+   "placement": "matched",
+   "pdf_pages": [
+    119
+   ],
+   "printed_pages": [
+    118
+   ]
+  },
+  "scene213_beat1": {
+   "first_line": 6295,
+   "last_line": 6320,
+   "placement": "matched",
+   "pdf_pages": [
+    119,
+    120
+   ],
+   "printed_pages": [
+    118,
+    119
+   ]
+  },
+  "scene213_beat2": {
+   "first_line": 6322,
+   "last_line": 6335,
+   "placement": "matched",
+   "pdf_pages": [
+    120
+   ],
+   "printed_pages": [
+    119
+   ]
+  },
+  "scene213_beat3": {
+   "first_line": 6337,
+   "last_line": 6360,
+   "placement": "matched",
+   "pdf_pages": [
+    120
+   ],
+   "printed_pages": [
+    119
+   ]
+  },
+  "scene213_beat4": {
+   "first_line": 6363,
+   "last_line": 6384,
+   "placement": "matched",
+   "pdf_pages": [
+    121
+   ],
+   "printed_pages": [
+    120
+   ]
+  },
+  "scene213_beat5": {
+   "first_line": 6386,
+   "last_line": 6387,
+   "placement": "matched",
+   "pdf_pages": [
+    121
+   ],
+   "printed_pages": [
+    120
+   ]
+  },
+  "scene213_beat6": {
+   "first_line": 6389,
+   "last_line": 6404,
+   "placement": "matched",
+   "pdf_pages": [
+    121
+   ],
+   "printed_pages": [
+    120
+   ]
+  },
+  "scene213_beat7": {
+   "first_line": 6406,
+   "last_line": 6431,
+   "placement": "matched",
+   "pdf_pages": [
+    121,
+    122
+   ],
+   "printed_pages": [
+    120,
+    121
+   ]
+  },
+  "scene214_beat1": {
+   "first_line": 6435,
+   "last_line": 6442,
+   "placement": "matched",
+   "pdf_pages": [
+    122
+   ],
+   "printed_pages": [
+    121
+   ]
+  },
+  "scene214_beat2": {
+   "first_line": 6444,
+   "last_line": 6445,
+   "placement": "matched",
+   "pdf_pages": [
+    122
+   ],
+   "printed_pages": [
+    121
+   ]
+  },
+  "scene214_beat3": {
+   "first_line": 6447,
+   "last_line": 6463,
+   "placement": "matched",
+   "pdf_pages": [
+    122
+   ],
+   "printed_pages": [
+    121
+   ]
+  },
+  "scene214_beat4": {
+   "first_line": 6465,
+   "last_line": 6468,
+   "placement": "matched",
+   "pdf_pages": [
+    122
+   ],
+   "printed_pages": [
+    121
+   ]
+  },
+  "scene215_beat1": {
+   "first_line": 6472,
+   "last_line": 6473,
+   "placement": "matched",
+   "pdf_pages": [
+    122
+   ],
+   "printed_pages": [
+    121
+   ]
+  },
+  "scene216_beat1": {
+   "first_line": 6478,
+   "last_line": 6483,
+   "placement": "matched",
+   "pdf_pages": [
+    123
+   ],
+   "printed_pages": [
+    122
+   ]
+  },
+  "scene216_beat2": {
+   "first_line": 6485,
+   "last_line": 6490,
+   "placement": "matched",
+   "pdf_pages": [
+    123
+   ],
+   "printed_pages": [
+    122
+   ]
+  },
+  "scene216_beat3": {
+   "first_line": 6492,
+   "last_line": 6492,
+   "placement": "matched",
+   "pdf_pages": [
+    123
+   ],
+   "printed_pages": [
+    122
+   ]
+  },
+  "scene216_beat4": {
+   "first_line": 6494,
+   "last_line": 6522,
+   "placement": "matched",
+   "pdf_pages": [
+    123
+   ],
+   "printed_pages": [
+    122
+   ]
+  },
+  "scene216_beat5": {
+   "first_line": 6524,
+   "last_line": 6525,
+   "placement": "matched",
+   "pdf_pages": [
+    123
+   ],
+   "printed_pages": [
+    122
+   ]
+  },
+  "scene216_beat6": {
+   "first_line": 6528,
+   "last_line": 6538,
+   "placement": "extended",
+   "unmatched_turns": [
+    0
+   ],
+   "matched_first_line": 6535,
+   "pdf_pages": [
+    124
+   ],
+   "printed_pages": [
+    123
+   ]
+  },
+  "scene216_beat7": {
+   "first_line": 6540,
+   "last_line": 6543,
+   "placement": "matched",
+   "pdf_pages": [
+    124
+   ],
+   "printed_pages": [
+    123
+   ]
+  },
+  "scene216_beat8": {
+   "first_line": 6545,
+   "last_line": 6545,
+   "placement": "matched",
+   "pdf_pages": [
+    124
+   ],
+   "printed_pages": [
+    123
+   ]
+  },
+  "scene217_beat1": {
+   "first_line": 6549,
+   "last_line": 6597,
+   "placement": "matched",
+   "pdf_pages": [
+    124,
+    125
+   ],
+   "printed_pages": [
+    123,
+    124
+   ]
+  },
+  "scene217_beat2": {
+   "first_line": 6599,
+   "last_line": 6600,
+   "placement": "matched",
+   "pdf_pages": [
+    125
+   ],
+   "printed_pages": [
+    124
+   ]
+  },
+  "scene218_beat1": {
+   "first_line": 6604,
+   "last_line": 6605,
+   "placement": "matched",
+   "pdf_pages": [
+    125
+   ],
+   "printed_pages": [
+    124
+   ]
+  },
+  "scene219_beat1": {
+   "first_line": 6609,
+   "last_line": 6614,
+   "placement": "matched",
+   "pdf_pages": [
+    125
+   ],
+   "printed_pages": [
+    124
+   ]
+  },
+  "scene220_beat1": {
+   "first_line": 6618,
+   "last_line": 6623,
+   "placement": "matched",
+   "pdf_pages": [
+    125
+   ],
+   "printed_pages": [
+    124
+   ]
+  },
+  "scene221_beat1": {
+   "first_line": 6627,
+   "last_line": 6627,
+   "placement": "matched",
+   "pdf_pages": [
+    125
+   ],
+   "printed_pages": [
+    124
+   ]
+  },
+  "scene222_beat1": {
+   "first_line": 6632,
+   "last_line": 6633,
+   "placement": "matched",
+   "pdf_pages": [
+    126
+   ],
+   "printed_pages": [
+    125
+   ]
+  },
+  "scene223_beat1": {
+   "first_line": 6637,
+   "last_line": 6664,
+   "placement": "matched",
+   "pdf_pages": [
+    126
+   ],
+   "printed_pages": [
+    125
+   ]
+  },
+  "scene120_beat7": {
+   "first_line": 3898,
+   "last_line": 3907,
+   "placement": "bracketed",
+   "pdf_pages": [
+    74
+   ],
+   "printed_pages": [
+    73
+   ]
+  }
+ }
+}

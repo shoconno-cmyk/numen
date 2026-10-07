@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+
+# Local-only review builds (python report.py --review, walkthrough.py --review,
+# demo_prototype/build_archetype_cards.py --review): never committed
+fog_story_report_review.html
+numen_walkthrough_review.html
+demo_prototype/*_review.html

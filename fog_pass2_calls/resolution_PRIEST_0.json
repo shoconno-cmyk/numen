@@ -1,0 +1,9 @@
+{
+  "character": "PRIEST",
+  "chunk": 0,
+  "expected_ids": [
+    "scene48_beat3",
+    "scene48_beat4"
+  ],
+  "raw_text": "{\n  \"beat_resolutions\": [\n    {\n      \"beat_id\": \"scene48_beat3\",\n      \"checked_against\": \"Established pattern: delivers formal religious eulogy/liturgy invoking scripture and honorific language (scene48_beat2)\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"consistent\",\n      \"rationale\": \"Continuation of the same eulogy begun in scene48_beat2 -- same formal, honorific register invoking a quoted axiom and honoring the deceased's service, fully matching the established pattern with no shift in tone or intensity.\"\n    },\n    {\n      \"beat_id\": \"scene48_beat4\",\n      \"checked_against\": \"Established pattern: delivers formal religious eulogy/liturgy invoking scripture and honorific language (scene48_beat2, scene48_beat3)\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"consistent\",\n      \"rationale\": \"Still the same funeral liturgy, now explicitly citing scripture ('Blessed are they that mourn') to comfort mourners -- a direct continuation of the established eulogy pattern, proportionate to the solemn funeral context.\"\n    }\n  ]\n}"
+}

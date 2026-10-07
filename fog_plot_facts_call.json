@@ -1,0 +1,22 @@
+{
+  "run_date": "2026-10-03",
+  "timestamp_utc": "2026-10-04T05:28:51.125714+00:00",
+  "module": "plot_facts_extraction.py (recovered from Google Drive, file dated 2026-08-15)",
+  "input": "fog_parsed_scenes.json",
+  "prompt_sha256": "e625ccb1c79217418c0894fa7c70c6bbc28a1a7744a2285167e3472128f8abf0",
+  "request": {
+    "model": "claude-sonnet-5",
+    "max_tokens": 20000
+  },
+  "model_returned": "claude-sonnet-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 57084,
+    "output_tokens": 16641,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "cost_usd": 0.2806,
+  "pricing": "$2.0/M in, $10.0/M out (pass2_orchestration.py constants)",
+  "raw_text": "```json\n[\n  {\n    \"fact\": \"Holly Roberts's disappearance in the forest (her sudden vanishing, the distant cut-off scream, and the discovery of her hobbyhorse) was not a random crime but a kidnapping orchestrated by Trudy Kierstead, who hired Raymond Olsen to take Holly for a few days as a way to 'teach Cheyenne a lesson.' Beth and Krista, Holly's friends, and the family/police who respond are entirely genuine and unwitting — they have no knowledge of Trudy's involvement.\",\n    \"category\": \"staged_vs_genuine\",\n    \"scope_scenes\": [6, 7, 8, 9, 10, 11],\n    \"confidence\": \"high\",\n    \"notes\": \"Confirmed directly by Trudy's confession in Scene 213 ('I hired Raymond to take her... I wanted to teach Cheyenne a lesson') and corroborated by Raymond's own statements in Scene 201 ('I gave her back... Everything was OK'). Beth, Krista, Cheyenne, Pete, and the responding police are all genuine, non-complicit participants in these earlier scenes.\"\n  },\n  {\n    \"fact\": \"Alberto Gomez, whom Reggie kidnapped, tortured, and accused of being 'El Vaquero' (Holly's abductor/killer), had no actual connection to the Holly Roberts case. He was a separate, unrelated fugitive — a registered sex offender wanted in Mexico City who had fled north — meaning his torture-extracted 'confession' was meaningless to the real investigation.\",\n    \"category\": \"confirmed_reveal\",\n    \"scope_scenes\": [169, 170, 171, 172],\n    \"confidence\": \"high\",\n    \"notes\": \"Confirmed later by Captain Marchand in Scene 185: 'Gomez was a registered sex offender... escaped custody six months ago... So Reggie got his El Vaquero. Just not the right vaquero.' A reader encountering only the torture scenes (169-172) would reasonably believe Alberto might be genuinely tied to Holly's disappearance.\"\n  },\n  {\n    \"fact\": \"The FBI's public case-closure (news broadcast naming Raymond Olsen as responsible for Holly's kidnapping and murder, and his subsequent interrogation) is factually incomplete: Raymond did kidnap Holly at Trudy's hiring, but he returned her to Trudy afterward and did not kill her; Trudy herself drowned Holly during a forced baptism ritual. This is never disclosed to the FBI, the police, or the public within the story.\",\n    \"category\": \"confirmed_reveal\",\n    \"scope_scenes\": [197, 201, 206],\n    \"confidence\": \"high\",\n    \"notes\": \"Confirmed only afterward via Trudy's private confession to John in Scenes 213-217 ('So I got her back from Raymond'... the baptism/drowning sequence). The official narrative in Scenes 197, 201, and 206 treats Raymond as Holly's sole killer, which the script itself later contradicts.\"\n  }\n]\n```"
+}

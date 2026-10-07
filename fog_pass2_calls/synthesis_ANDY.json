@@ -1,0 +1,30 @@
+{
+  "synthesis": [
+    {
+      "trait": "Confident, boastful control -- takes charge and delegates authority with joking swagger (piloting the boat, bragging about how he got it, handing off the helm)",
+      "first_shown_beat_id": "scene60_beat1"
+    },
+    {
+      "trait": "Crude, aggressive provocation directed at outsiders perceived as a nuisance or threat",
+      "first_shown_beat_id": "scene60_beat2"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene60_beat2",
+      "trait_it_relates_to": "Confident, boastful control -- takes charge and delegates authority with joking swagger",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene60_beat1",
+      "what_changes": "Andy's swagger moves from lighthearted boasting and playful command over friends (winking about conning his dad for the boat) to hostile cursing directed at actual strangers on jet-skis, a clear rise in aggression/risk beyond anything shown in beat1.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene60_beat3",
+      "trait_it_relates_to": "Crude, aggressive provocation directed at outsiders perceived as a nuisance or threat",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene60_beat2",
+      "what_changes": "The same confrontation with the jet-skiers continues without a gap: as they circle back, Andy doesn't back down but orders John to gun the throttle and 'show 'em what she's got,' escalating the provocation from shouting into an active confrontational maneuver.",
+      "likely_category": "throughline_evolution"
+    }
+  ]
+}

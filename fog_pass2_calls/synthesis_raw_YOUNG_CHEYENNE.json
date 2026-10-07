@@ -1,0 +1,4 @@
+{
+  "character": "YOUNG CHEYENNE",
+  "raw_text": "{\n  \"established_pattern_synthesis\": [\n    {\n      \"trait\": \"Notices approaching danger and vocalizes it to the group\",\n      \"first_shown_beat_id\": \"scene60_beat3\"\n    }\n  ],\n  \"turning_points\": [\n    {\n      \"beat_id\": \"scene60_beat4\",\n      \"trait_it_relates_to\": \"Notices approaching danger and vocalizes it to the group\",\n      \"turning_point_type\": \"escalation\",\n      \"comparison_beat_id\": \"scene60_beat3\",\n      \"what_changes\": \"In scene60_beat3 she merely reports an observation ('They're coming back') as ambient information to the group; here she escalates to a direct, personal warning aimed at the one person controlling the risk ('John? I think you should slow down'), moments before the collision -- a higher-stakes, more urgent instance of the same vigilance.\",\n      \"likely_category\": \"throughline_evolution\"\n    }\n  ]\n}"
+}

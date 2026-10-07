@@ -1,0 +1,62 @@
+{
+  "synthesis": [
+    {
+      "trait": "Enforces institutional authority and procedural boundaries over John's outside-consultant role, issuing direct orders and reprimands when John oversteps",
+      "first_shown_beat_id": "scene119_beat13"
+    },
+    {
+      "trait": "Shows personal warmth and respect for John beneath the professional friction between them",
+      "first_shown_beat_id": "scene184_beat1"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene120_beat6",
+      "trait_it_relates_to": "Enforces institutional authority and procedural boundaries over John's outside-consultant role, issuing direct orders and reprimands when John oversteps",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene120_beat1",
+      "what_changes": "Moves from a verbal statement of John's role limits to a concrete institutional action -- denying John's lead-role request and calling in the Bureau -- a materially higher-cost enforcement of authority than simply laying out rules.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene120_beat7",
+      "trait_it_relates_to": "Enforces institutional authority and procedural boundaries over John's outside-consultant role, issuing direct orders and reprimands when John oversteps",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene120_beat6",
+      "what_changes": "Directly continues the same unbroken exchange, doubling down on the Bureau decision with justification rather than a new, separate escalation.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene120_beat8",
+      "trait_it_relates_to": "Enforces institutional authority and procedural boundaries over John's outside-consultant role, issuing direct orders and reprimands when John oversteps",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene120_beat7",
+      "what_changes": "Closes out the same conversation with the definitive dismissal 'Your job is done here' -- the terminal beat of the same sequence begun at scene120_beat6.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene185_beat2",
+      "trait_it_relates_to": "Shows personal warmth and respect for John beneath the professional friction between them",
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene120_beat6",
+      "what_changes": "Explicitly names 'our obvious differences in methodology,' concretely recalling the earlier institutional conflict (Bureau call-in), then reverses it into gratitude and an invocation of John's father's pride -- releasing the antagonism into resolution rather than requiring either side to 'win.'",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene204_beat1",
+      "trait_it_relates_to": "Enforces institutional authority and procedural boundaries over John's outside-consultant role, issuing direct orders and reprimands when John oversteps",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene202_beat1",
+      "what_changes": "Contrasts his confident, controlled questioning of Raymond in scene202_beat1 with a sudden 'sinking feeling' and defeated 'Shit' when outside legal/psychiatric counsel abruptly halts the interrogation, exposing a previously unseen limit to his institutional authority.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene206_beat1",
+      "trait_it_relates_to": "Enforces institutional authority and procedural boundaries over John's outside-consultant role, issuing direct orders and reprimands when John oversteps",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene204_beat1",
+      "what_changes": "Immediately following his loss of control in scene204_beat1, he recovers command in the same sequence by issuing an APB and firmly telling John 'you had your shot at this... let us handle Trudy.'",
+      "likely_category": "throughline_evolution"
+    }
+  ]
+}

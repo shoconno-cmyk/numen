@@ -1,0 +1,9 @@
+{
+  "character": "MANAGEMENT",
+  "chunk": 0,
+  "expected_ids": [
+    "scene105_beat1",
+    "scene106_beat1"
+  ],
+  "raw_text": "{\n  \"beat_resolutions\": [\n    {\n      \"beat_id\": \"scene105_beat1\",\n      \"checked_against\": \"Professional, courteous host who conducts business with calm procedural composure (scene103_beat1)\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"consistent\",\n      \"rationale\": \"Management continues the calm, procedural sales pitch -- handing brochures, describing product lines, offering to summon a worker -- fully in line with the courteous host trait established at first meeting; nothing here tests or exceeds that pattern.\"\n    },\n    {\n      \"beat_id\": \"scene106_beat1\",\n      \"checked_against\": \"Professional, courteous host who conducts business with calm procedural composure (scene103_beat1)\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"consistent\",\n      \"rationale\": \"Calling Ricardo over the PA in Spanish is simply Management performing the routine procedural task of summoning a worker as promised in the prior beat; his own demeanor remains businesslike and unshaken, so this is still the established host trait, not yet the composure break that occurs later in scene107_beat2.\"\n    }\n  ]\n}"
+}

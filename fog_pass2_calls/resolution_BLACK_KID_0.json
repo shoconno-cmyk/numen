@@ -1,0 +1,9 @@
+{
+  "character": "BLACK KID",
+  "chunk": 0,
+  "expected_ids": [
+    "scene18_beat4",
+    "scene19_beat2"
+  ],
+  "raw_text": "{\n  \"beat_resolutions\": [\n    {\n      \"beat_id\": \"scene18_beat4\",\n      \"checked_against\": \"Hardens up and claims responsibility/ownership under confrontation, projecting toughness rather than backing down (first shown here)\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"consistent\",\n      \"rationale\": \"Facing a cop with badge and gun, he hardens up and owns the hit ('I did... Can't bust a kid for goin' yard') rather than deflecting -- this beat establishes the trait itself, so it is definitionally consistent, and his level of defiance is proportionate to a kid asserting himself against an authority figure over a minor infraction.\"\n    },\n    {\n      \"beat_id\": \"scene19_beat2\",\n      \"checked_against\": \"Candidate boundary_revealed vs. scene19_beat1 (cocky, showoff bravado when succeeding)\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"boundary_revealed\",\n      \"rationale\": \"Independent review confirms the escalation-to-boundary claim: scene19_beat1 shows his bravado only ever tested by success (taunting after a home run), while here he faces genuine failure (struck out three times) for the first time and his tough facade breaks -- staring down the pitcher, throwing his bat, storming off frustrated instead of hardening up as he did in scene18_beat4. This reveals a previously unknown limit (his confidence is contingent on winning) rather than an escalation of the same trait, and the intensity of his frustrated reaction is proportionate to a boastful kid's ego being punctured in front of peers.\"\n    }\n  ]\n}"
+}

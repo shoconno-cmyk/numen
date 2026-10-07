@@ -1,0 +1,13 @@
+{
+  "synthesis": [
+    {
+      "trait": "Quietly, without meeting anyone's gaze, accepts an act of charity (a bowl of soup) and withdraws",
+      "first_shown_beat_id": "scene30_beat2"
+    },
+    {
+      "trait": "Forcefully interrupts an ongoing interrogation and asserts his professional authority to halt it",
+      "first_shown_beat_id": "scene202_beat1"
+    }
+  ],
+  "turning_points": []
+}

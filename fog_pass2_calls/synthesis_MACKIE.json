@@ -1,0 +1,86 @@
+{
+  "synthesis": [
+    {
+      "trait": "Controls the narrative and shifts blame away from his son to protect him from consequences during a crisis",
+      "first_shown_beat_id": "scene75_beat1"
+    },
+    {
+      "trait": "Maintains composed, authoritative control to push his son toward normalcy, minimizing or denying the emotional and moral weight of the crisis",
+      "first_shown_beat_id": "scene75_beat5"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene75_beat3",
+      "trait_it_relates_to": "Controls the narrative and shifts blame away from his son to protect him from consequences during a crisis",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene75_beat1",
+      "what_changes": "Shifts from calm, procedural blame-redirection ('provoked', 'shouldn't have been drinking') to explicit, forceful confrontation that openly acknowledges the cover-up ('You fucked up. You can't undo this. You want to ruin two lives now?'), a marked jump in directness and emotional force.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene75_beat4",
+      "trait_it_relates_to": "Controls the narrative and shifts blame away from his son to protect him from consequences during a crisis",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene75_beat3",
+      "what_changes": "Same unbroken confrontation continues: Mackie coldly confirms Andy's death and reasserts control ('Andy's dead. Got that? Now, listen to me--'), extending the prior beat's escalation without a gap.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene75_beat5",
+      "trait_it_relates_to": "Maintains composed, authoritative control to push his son toward normalcy, minimizing or denying the emotional and moral weight of the crisis",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene75_beat4",
+      "what_changes": "The same conversation culminates in explicit legal coaching (crossing state lines, withholding cooperation from police), a threat to withdraw protection, and a chillingly casual pivot to 'you got baseball coming up' -- the fullest, coldest expression of the control/normalization impulse in this unbroken sequence.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene140_beat5",
+      "trait_it_relates_to": "Maintains composed, authoritative control to push his son toward normalcy, minimizing or denying the emotional and moral weight of the crisis",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene75_beat5",
+      "what_changes": "The same reassurance/normalization tactic that previously secured compliance (John left 'stunned' but obedient) is now met with open rejection -- 'Get out,' 'Fuck you!' -- the first time this control method visibly fails, exposing a limit never previously tested.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene140_beat6",
+      "trait_it_relates_to": "Maintains composed, authoritative control to push his son toward normalcy, minimizing or denying the emotional and moral weight of the crisis",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene140_beat5",
+      "what_changes": "Within the same unbroken confrontation, the failure of verbal control immediately snaps into physical violence -- Mackie grabs his son's throat -- a capacity for violence never before shown or hinted at.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene140_beat7",
+      "trait_it_relates_to": "Maintains composed, authoritative control to push his son toward normalcy, minimizing or denying the emotional and moral weight of the crisis",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene140_beat6",
+      "what_changes": "The same assault continues without a break, adding verbal degradation ('You fucking ungrateful shit!') while the chokehold is maintained.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene140_beat8",
+      "trait_it_relates_to": "Maintains composed, authoritative control to push his son toward normalcy, minimizing or denying the emotional and moral weight of the crisis",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene140_beat7",
+      "what_changes": "The grip physically hardens, escalating the same unbroken assault further with no gap in the action.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene140_beat9",
+      "trait_it_relates_to": "Controls the narrative and shifts blame away from his son to protect him from consequences during a crisis",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene140_beat8",
+      "what_changes": "While still choking his son, Mackie layers in guilt-tripping about family sacrifice and his dead wife, fusing his manipulative-control trait with ongoing physical violence -- the most extreme convergence of both established traits in the same unbroken moment.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene140_beat11",
+      "trait_it_relates_to": "Maintains composed, authoritative control to push his son toward normalcy, minimizing or denying the emotional and moral weight of the crisis",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene140_beat9",
+      "what_changes": "Interrupted by his daughter, Mackie instantly releases his son, composes himself, and reverts to calm controlling instructions (sending Trudy to the car, tossing cab money, walking out) with no acknowledgment of the violence -- revealing he can suppress and compartmentalize the assault as completely and instantly as it erupted.",
+      "likely_category": "boundary_revealed"
+    }
+  ]
+}

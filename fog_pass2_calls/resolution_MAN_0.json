@@ -1,0 +1,8 @@
+{
+  "character": "MAN",
+  "chunk": 0,
+  "expected_ids": [
+    "scene202_beat1"
+  ],
+  "raw_text": "{\n  \"beat_resolutions\": [\n    {\n      \"beat_id\": \"scene202_beat1\",\n      \"checked_against\": \"established trait: 'Forcefully interrupts an ongoing interrogation and asserts his professional authority to halt it' (first shown: scene202_beat1)\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"consistent\",\n      \"rationale\": \"This beat is itself the first-shown instance of this established trait per the synthesis; the forceful interruption matches the stakes of an interrogation being wrongly conducted, so it is the trait's origin point, not a deviation from it.\"\n    }\n  ]\n}"
+}

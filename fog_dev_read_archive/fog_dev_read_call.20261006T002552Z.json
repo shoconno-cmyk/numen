@@ -1,0 +1,40 @@
+{
+  "model": "claude-sonnet-5",
+  "max_tokens": 16000,
+  "system_sha256": "239afe59d2325a0bd34da780cf48e1706e3ea6e737cf0ad5fbef209507e8bd55",
+  "attempts": [
+    {
+      "attempt": 1,
+      "timestamp_utc": "2026-10-05T23:56:30.949729+00:00",
+      "request_id": "req_011CfjzfFKSYmc4mgF3As6ZQ",
+      "model_returned": "claude-sonnet-5",
+      "stop_reason": "end_turn",
+      "user_sha256": "b5380ad19f9348949a9ad9e75f6e6e88856d1954cb522d515fb67d1831b7a5dc",
+      "retry_violations": null,
+      "usage": {
+        "input_tokens": 66665,
+        "output_tokens": 390
+      },
+      "cost_usd": 0.1372,
+      "raw_text": "{\"genre\": \"Crime drama / mystery thriller\", \"synopsis\": \"In Dover, New Hampshire, three girls on hobbyhorses vanish one of their own, Holly, during a trail ride; months later her detective uncle John Kierstead, an alcoholic LAPD cop, returns home for his father Mackie's funeral and is pulled into the stalled missing-persons case. Investigating leads, texts to a mysterious \\\"El Vaquero,\\\" and his father's incomplete files, John uncovers that Mackie and family friend Reggie had been violently extorting drugs and torturing a disabled immigrant, Alberto, wrongly believing him responsible; Reggie is killed confronting John. Holly's body then washes ashore, and intellectually disabled Raymond Olsen is arrested, but his confused confession implicates John's sister Trudy. In a church confessional, Trudy admits she arranged Holly's abduction to \\\"baptize\\\" her and accidentally drowned her. John gives Trudy his car keys to flee rather than turn her in, then drives to tell the parents of his long-dead friend Andy the truth about a boating accident twenty-two years earlier.\"}"
+    },
+    {
+      "attempt": 2,
+      "timestamp_utc": "2026-10-05T23:56:35.360787+00:00",
+      "request_id": "req_011CfjzfgVH12fzTQaSKwYHp",
+      "model_returned": "claude-sonnet-5",
+      "stop_reason": "end_turn",
+      "user_sha256": "19fca7be38b40cc2311cc13e81c0fb1727ff43767a8c544232c80fbc8d613225",
+      "retry_violations": [
+        "[quote] quoted text 'El Vaquero,' is not verbatim in fog_full.txt",
+        "[length] synopsis is 155 words; it must be about 80-120"
+      ],
+      "usage": {
+        "input_tokens": 66761,
+        "output_tokens": 347
+      },
+      "cost_usd": 0.137,
+      "raw_text": "{\"genre\": \"Crime drama/thriller\", \"synopsis\": \"In Dover, New Hampshire, three girls on hobbyhorses enter the woods; Holly vanishes, leaving only her custom hobbyhorse. Detective John Kierstead, an alcoholic LA cop, returns home when his father Mackie, also a detective, dies. Reviewing Mackie's incomplete case files, John uncovers a hidden lead called \"El Vaquero,\" ties to Holly's mother Cheyenne, and a Maine woodshop. His father's friend Reggie has been torturing a suspect, Alberto Gomez, at the family cabin; John kills Reggie in a shootout. Holly's body is found drowned. Raymond Olsen, a disabled man, is arrested but claims he gave Holly back to Trudy, John's sister. Trudy confesses to John she drowned Holly during a forced baptism. John gives her his car keys and lets her flee, then visits his dead friend Andy's parents to confess his own long-hidden guilt.\"}"
+    }
+  ]
+}

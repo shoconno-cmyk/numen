@@ -1,0 +1,78 @@
+{
+  "synthesis": [
+    {
+      "trait": "Bossy, impatient, and dismissive toward friends' fears, hesitations, or objections",
+      "first_shown_beat_id": "scene3_beat1"
+    },
+    {
+      "trait": "Competitive; reacts to being outmaneuvered or losing with anger or insults",
+      "first_shown_beat_id": "scene3_beat2"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene4_beat1",
+      "trait_it_relates_to": "Competitive; reacts to being outmaneuvered or losing with anger or insults",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene3_beat2",
+      "what_changes": "Earlier frustration at being left behind was a mild protest ('Hey! Not fair!'); here it escalates into a crude personal insult ('Holly, you bitch!') shouted at a friend during play, a clear rise in intensity and crudeness of the same competitive reaction.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene7_beat2",
+      "trait_it_relates_to": "Bossy, impatient, and dismissive toward friends' fears, hesitations, or objections",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene6_beat4",
+      "what_changes": "At scene6_beat4 Beth confidently dismissed Holly's absence ('She's weird...probably already at the river'). Here, after failing to reach Holly by call and text, her dismissive bravado cracks mid-sentence into a cut-off curse and visible worry, exposing a limit to her tough front that hasn't been tested before.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene8_beat1",
+      "trait_it_relates_to": "Bossy, impatient, and dismissive toward friends' fears, hesitations, or objections",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene7_beat2",
+      "what_changes": "The crack in her composure from the previous beat continues without a gap into physical panicked action -- running through the woods shouting Holly's name.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene9_beat1",
+      "trait_it_relates_to": "Bossy, impatient, and dismissive toward friends' fears, hesitations, or objections",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene8_beat1",
+      "what_changes": "Beth's panicked search continues directly, arriving breathless at the old foundation where Krista is standing -- the same unbroken fear sequence extending forward.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene9_beat2",
+      "trait_it_relates_to": "Bossy, impatient, and dismissive toward friends' fears, hesitations, or objections",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene9_beat1",
+      "what_changes": "Her fear intensifies further as she confronts concrete evidence -- Holly's abandoned hobbyhorse -- continuing the same unbroken sequence of unraveling composure.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene11_beat1",
+      "trait_it_relates_to": "Bossy, impatient, and dismissive toward friends' fears, hesitations, or objections",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene9_beat2",
+      "what_changes": "The fear from discovering the hobbyhorse culminates, without narrative gap, in open sobbing at the police station -- the same emotional unraveling reaching its next stage.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene11_beat2",
+      "trait_it_relates_to": "Bossy, impatient, and dismissive toward friends' fears, hesitations, or objections",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene11_beat1",
+      "what_changes": "The sobbing continues directly into verbalized vulnerability -- a defensive, tearful outburst at her father ('I don't know where she is!') -- the same crack in her tough exterior now given words, addressed to an adult for the first time.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene85_beat2",
+      "trait_it_relates_to": "Bossy, impatient, and dismissive toward friends' fears, hesitations, or objections",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene3_beat1",
+      "what_changes": "Her established bossy impatience, first shown dismissing a peer's trail hesitation, now targets an adult police detective investigating her missing friend ('Don't you cops share notes?'), a jump in both the stakes and the authority level of who she's willing to snap at.",
+      "likely_category": "throughline_evolution"
+    }
+  ]
+}

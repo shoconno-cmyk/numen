@@ -1,0 +1,9 @@
+{
+  "character": "FRANK",
+  "chunk": 0,
+  "expected_ids": [
+    "scene37_beat3",
+    "scene37_beat5"
+  ],
+  "raw_text": "{\n  \"beat_resolutions\": [\n    {\n      \"beat_id\": \"scene37_beat3\",\n      \"checked_against\": \"Friendly, talkative small-town acquaintance pattern (first shown: scene37_beat5, but this is the introductory handshake moment establishing it)\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"consistent\",\n      \"rationale\": \"Frank's friendly self-introduction and casual reference to shared fishing history matches the established pattern of a talkative small-town acquaintance; the low-key warmth is proportionate to a mundane social greeting.\"\n    },\n    {\n      \"beat_id\": \"scene37_beat5\",\n      \"checked_against\": \"Friendly, talkative small-town acquaintance who offers condolences and reminisces about shared history (baseball, John's late father)\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"consistent\",\n      \"rationale\": \"This beat is the direct textual source of the established pattern itself -- Frank offers condolences about John's father and reminisces about baseball, exactly as characterized; his warmth is proportionate to a condolence/small-talk exchange.\"\n    }\n  ]\n}"
+}

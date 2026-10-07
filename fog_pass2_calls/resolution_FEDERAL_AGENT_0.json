@@ -1,0 +1,9 @@
+{
+  "character": "FEDERAL AGENT",
+  "chunk": 0,
+  "expected_ids": [
+    "scene201_beat2",
+    "scene201_beat4"
+  ],
+  "raw_text": "{\n  \"beat_resolutions\": [\n    {\n      \"beat_id\": \"scene201_beat2\",\n      \"checked_against\": \"Established trait: aggressive, profanity-laced confrontation and psychological pressure to force a confession (scene201_beat1)\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"consistent\",\n      \"rationale\": \"The agent continues the same profanity-laced accusatory pressure ('Fuck you, you gave her back...') established in beat1, applying it to a murder confession -- the intensity matches the gravity of interrogating a suspected killer and shows no deviation from the established tactic.\"\n    },\n    {\n      \"beat_id\": \"scene201_beat4\",\n      \"checked_against\": \"Candidate escalation vs. scene201_beat1 (generic insult vs. theatrical mimicry); re-checked directly against established trait of mockery-based psychological pressure\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"consistent\",\n      \"rationale\": \"Candidate turning point rejected on independent review -- the shift from a stated insult ('who's gonna wanna hire a retard') to acted-out mimicry ('retard cooties. Yuck! Bleh!') is a difference in delivery style within the same continuous interrogation scene, not a concrete increase in scale, cost, or risk to the agent himself; it's the same established mockery tactic escalating naturally as part of one ongoing push for a confession, not a qualitatively new capacity or a tested limit.\"\n    }\n  ]\n}"
+}

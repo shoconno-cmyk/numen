@@ -1,0 +1,8 @@
+{
+  "character": "TRUDY",
+  "chunk": 1,
+  "expected_ids": [
+    "scene217_beat1"
+  ],
+  "raw_text": "{\n  \"beat_resolutions\": [\n    {\n      \"beat_id\": \"scene217_beat1\",\n      \"checked_against\": \"Capacity for premeditated, controlling, extreme action under religious justification (scene213_beat7 through scene216_beat7 sequence)\",\n      \"weight_proportionality\": \"matched\",\n      \"characterization_consistency\": \"boundary_revealed\",\n      \"rationale\": \"This is the unbroken continuation of the confession scene begun at scene213_beat7: Trudy's admission that she 'doesn't know' what happened during the drowning completes the reveal that her composed, premeditated control gave way to something she cannot fully account for -- a genuine limit to the trait, not a new one, exposed by the extreme pressure of the crime itself. Her horrified, disoriented reaction and quiet acceptance of John's help match the severity of what's actually at stake (a dead child, her own unraveling), so the intensity is proportional.\"\n    }\n  ]\n}"
+}

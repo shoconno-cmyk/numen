@@ -1,0 +1,42 @@
+{
+  "synthesis": [
+    {
+      "trait": "Confronts and demands answers from police authority figures about his missing daughter, even when restrained or told to stop",
+      "first_shown_beat_id": "scene121_beat2"
+    },
+    {
+      "trait": "Capacity for sudden physical violence against a police officer when overwhelmed by frustration and mistaken identity",
+      "first_shown_beat_id": "scene122_beat1"
+    },
+    {
+      "trait": "Emotional vulnerability surfaces -- his voice trails off and he nearly breaks -- when recounting the loss of his daughter",
+      "first_shown_beat_id": "scene122_beat5"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene122_beat1",
+      "trait_it_relates_to": "Capacity for sudden physical violence against a police officer when overwhelmed by frustration and mistaken identity",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene121_beat2",
+      "what_changes": "Pete's demand for information escalates from shouting at officers who restrain him (scene121_beat2) to actually decking a cop hard enough to require an ice pack, a genuine breaking point never previously reached, revealing a limit to his composure rather than just a louder version of his demanding behavior.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene122_beat6",
+      "trait_it_relates_to": "Confronts and demands answers from police authority figures about his missing daughter, even when restrained or told to stop",
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene122_beat1",
+      "what_changes": "Pete's earlier complaint that 'Nobody returns my calls... You won't even gimmie an update' is directly answered by his later accusation 'I called you guys. I fucking warned ya's. But you didn't listen' -- the same grievance about being ignored, now confirmed and completed rather than merely repeated.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene122_beat6",
+      "trait_it_relates_to": "Emotional vulnerability surfaces -- his voice trails off and he nearly breaks -- when recounting the loss of his daughter",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene122_beat5",
+      "what_changes": "The restrained, trailing-off near-break of scene122_beat5 ('My little girl... That was the last time I ever saw her.') becomes full visible collapse here -- wiping away tears, crying, and directly begging 'Someone tell me where's my baby girl?' -- a more exposed and complete breakdown than the earlier beat's suppressed pause.",
+      "likely_category": "throughline_evolution"
+    }
+  ]
+}

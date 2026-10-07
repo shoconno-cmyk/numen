@@ -1,0 +1,174 @@
+{
+  "synthesis": [
+    {
+      "trait": "Performs warm, seemingly genuine camaraderie and loyalty toward Mackie's family (John/Trudy), offering gifts, reminiscence, and unconditional help",
+      "first_shown_beat_id": "scene53_beat1"
+    },
+    {
+      "trait": "Tightly wound/guarded beneath a composed exterior",
+      "first_shown_beat_id": "scene48_beat5"
+    },
+    {
+      "trait": "Angles for personal/material advantage under the guise of concern (pressing John about the cabin property, undermining Doug)",
+      "first_shown_beat_id": "scene54_beat4"
+    },
+    {
+      "trait": "Uses alcohol to cope and socialize",
+      "first_shown_beat_id": "scene54_beat1"
+    },
+    {
+      "trait": "Appoints himself protector/enforcer of 'his town,' asserting an authority he doesn't actually hold",
+      "first_shown_beat_id": "scene95_beat1"
+    },
+    {
+      "trait": "Evasive and defensive when questioned about the Holly Roberts case, deflecting suspicion elsewhere",
+      "first_shown_beat_id": "scene94_beat2"
+    },
+    {
+      "trait": "Maintains a hidden, secretive private space/behavior apart from his sociable public persona",
+      "first_shown_beat_id": "scene132_beat1"
+    },
+    {
+      "trait": "Willing to use lethal force to enforce his own sense of justice",
+      "first_shown_beat_id": "scene172_beat1"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene132_beat1",
+      "trait_it_relates_to": "Uses alcohol to cope and socialize",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene54_beat1",
+      "what_changes": "Moves from moderate, social drinking alongside John to solitary heavy drinking late at night, shirtless, alone in a hidden cellar, with the text noting it's 'not his first' of the night.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene134_beat2",
+      "trait_it_relates_to": "Maintains a hidden, secretive private space/behavior apart from his sociable public persona",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene132_beat1",
+      "what_changes": "Escalates from solitary heavy drinking to preparing a needle of drugs and a hunting knife inside a ritual basket, revealing a compulsive, dangerous secret practice never hinted at in his earlier scenes.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene136_beat1",
+      "trait_it_relates_to": "Maintains a hidden, secretive private space/behavior apart from his sociable public persona",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene134_beat2",
+      "what_changes": "Immediately after assembling the ritual items, he dons a demented bunny suit and passes through a hidden steel door marked 'This Is Our Town,' continuing the same unbroken ritual sequence into its concealed destination.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene94_beat3",
+      "trait_it_relates_to": "Evasive and defensive when questioned about the Holly Roberts case, deflecting suspicion elsewhere",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene94_beat2",
+      "what_changes": "His startled offense at being asked about the case immediately continues into actively constructing an alternate suspect narrative (Cheyenne's boyfriend), the same exchange without a break.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene95_beat1",
+      "trait_it_relates_to": "Evasive and defensive when questioned about the Holly Roberts case, deflecting suspicion elsewhere",
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene94_beat3",
+      "what_changes": "After deflecting suspicion elsewhere, he now concretely admits Mackie did speak to him privately about the case ('Matter of fact he did'), cracking his earlier evasion and revealing he had been withholding contact.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene167_beat1",
+      "trait_it_relates_to": "Appoints himself protector/enforcer of 'his town,' asserting an authority he doesn't actually hold",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene54_beat5",
+      "what_changes": "A passing remark about watching a woman's car from a window becomes actively driving while snorting cocaine and tracking down John's car near the cabin, a far greater personal risk and intrusion.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene168_beat1",
+      "trait_it_relates_to": "Appoints himself protector/enforcer of 'his town,' asserting an authority he doesn't actually hold",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene167_beat1",
+      "what_changes": "Immediately after spotting John's ammunition box, he retrieves his own hunting rifle from his truck, continuing the same stalking sequence into armed pursuit.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene172_beat1",
+      "trait_it_relates_to": "Appoints himself protector/enforcer of 'his town,' asserting an authority he doesn't actually hold",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene95_beat1",
+      "what_changes": "His verbal claim of territorial authority ('this is my town') now manifests as physically holding John at gunpoint and confiscating his phone -- the claim enforced with a weapon for the first time.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene172_beat2",
+      "trait_it_relates_to": "Appoints himself protector/enforcer of 'his town,' asserting an authority he doesn't actually hold",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene172_beat1",
+      "what_changes": "The same armed standoff continues, Reggie now justifying the threat by insisting Alberto is guilty and dismissing John's correction outright.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene172_beat3",
+      "trait_it_relates_to": "Appoints himself protector/enforcer of 'his town,' asserting an authority he doesn't actually hold",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene172_beat2",
+      "what_changes": "Same unbroken standoff intensifies as Reggie shouts an escalating direct threat while John raises his own rifle in response.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene172_beat4",
+      "trait_it_relates_to": "Appoints himself protector/enforcer of 'his town,' asserting an authority he doesn't actually hold",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene172_beat3",
+      "what_changes": "Standoff continues unbroken; Reggie declares John is 'forcing his hand,' still the same confrontation without any resolution or gap.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene172_beat5",
+      "trait_it_relates_to": "Appoints himself protector/enforcer of 'his town,' asserting an authority he doesn't actually hold",
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene95_beat1",
+      "what_changes": "Directly answers his earlier vague claim that 'this was Mackie's town' by revealing the concrete deathbed promise made to Mackie in the ambulance, giving specific textual substance to the earlier assertion.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene172_beat6",
+      "trait_it_relates_to": "Willing to use lethal force to enforce his own sense of justice",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene172_beat5",
+      "what_changes": "The armed threat becomes actual gunfire -- Reggie pulls the trigger and fires at John's head, the same confrontation now realized as lethal action rather than mere threat.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene172_beat7",
+      "trait_it_relates_to": "Willing to use lethal force to enforce his own sense of justice",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene172_beat6",
+      "what_changes": "Immediately after the exchange of gunfire, Reggie is hit and howls in pain -- the same unbroken exchange now exposing his own physical vulnerability and the failure of his violent campaign.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene175_beat1",
+      "trait_it_relates_to": "Evasive and defensive when questioned about the Holly Roberts case, deflecting suspicion elsewhere",
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene94_beat2",
+      "what_changes": "Dying, Reggie now fully answers what he evaded with a startled 'Pardon?' earlier, volunteering detailed knowledge of Holly and Mackie's private involvement with her that he had previously withheld.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene175_beat1",
+      "trait_it_relates_to": "Willing to use lethal force to enforce his own sense of justice",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene172_beat7",
+      "what_changes": "The same physical aftermath of the shootout continues as Reggie, mortally wounded, keeps speaking while his lungs collapse -- the direct continuing consequence of the gunfight.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene175_beat2",
+      "trait_it_relates_to": "Willing to use lethal force to enforce his own sense of justice",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene175_beat1",
+      "what_changes": "The same dying sequence concludes with his death, the final and total limit of his violent, self-appointed campaign.",
+      "likely_category": "boundary_revealed"
+    }
+  ]
+}

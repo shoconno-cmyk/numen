@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Numen</title>
+<style>/* numen_theme.css -- the one shared stylesheet for every Numen page: the
+   Story Report (public and review builds), the walkthrough and the four
+   demo cards. Fonts, color tokens (light and dark) and the AI / human
+   review label chips live here and nowhere else. Builders inline it via
+   numen_theme.py, which rewrites the font URLs relative to each page.
+
+   Type: Fraunces for headings and the Numen wordmark; Inter for body
+   text, labels, buttons and captions; Courier Prime for script text only.
+   Bundled weights: Fraunces 400/500, Inter 400/500/600 (600 is bold body
+   text and lead-ins), Courier Prime 400 only (script text is never bold,
+   as in a real screenplay). Weight synthesis is off, so nothing is faked.
+
+   Color (author-approved mapping, 2026-10-06): the AI is teal (--accent,
+   AI chips, AI Output banners); human review is neutral gray (--human-rule,
+   human chips, Human Reviewed banners, review boxes, badges). Amber
+   (--claim) is kept only for "Worth knowing" notes and review-build
+   outlines; --verdict only for review-build outlines. Trickster and Chorus
+   sit in yellow-green, clear of the teal accent. */
+
+@font-face { font-family: "Fraunces"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("fonts/fraunces-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Fraunces"; font-style: normal; font-weight: 500; font-display: swap;
+  src: url("fonts/fraunces-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("fonts/inter-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap;
+  src: url("fonts/inter-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: swap;
+  src: url("fonts/inter-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Courier Prime"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("fonts/courier-prime-latin-400-normal.woff2") format("woff2"); }
+
+:root {
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-script: "Courier Prime", "Courier New", Courier, monospace;
+  --font-code: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --bg: #f4f2ee; --panel: #fbfaf8; --ink: #1f1d1a; --muted: #6d675f; --faint: #9a948b;
+  --rule: #dcd7cf; --lane: #efece6; --claim: #8a5a12; --verdict: #2f6b45;
+  --shadow: 0 1px 2px rgba(0,0,0,.08), 0 4px 18px rgba(0,0,0,.06);
+  --scrim: rgba(20,18,15,.28);
+  /* The Big Seven, in BIG_SEVEN_DEFINITIONS order */
+  --s1: #2a78d6; --s2: #eb6834; --s3: #87a400; --s4: #eda100;
+  --s5: #e87ba4; --s6: #3d7d0f; --s7: #4a3aa7;
+  /* The AI (teal) and human review (neutral gray) */
+  --accent: #0F6E56;
+  --ai-chip-bg: #E1F5EE; --ai-chip-ink: #085041;
+  --human-chip-bg: #ECEAE6; --human-chip-ink: #4A4640;
+  --human-rule: #8C867D;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1a1918; --panel: #232220; --ink: #ece8e2; --muted: #a39d94; --faint: #7c766e;
+    --rule: #3a3734; --lane: #2b2a27; --claim: #e0b268; --verdict: #8fcfa4;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 18px rgba(0,0,0,.3); --scrim: rgba(0,0,0,.5);
+    --s1: #3987e5; --s2: #d95926; --s3: #a6c21a; --s4: #c98500;
+    --s5: #d55181; --s6: #5c9a2a; --s7: #9085e9;
+    --accent: #5DCAA5;
+    --ai-chip-bg: #085041; --ai-chip-ink: #9FE1CB;
+    --human-chip-bg: #3A3835; --human-chip-ink: #D2CDC5;
+    --human-rule: #8F897F;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1a1918; --panel: #232220; --ink: #ece8e2; --muted: #a39d94; --faint: #7c766e;
+  --rule: #3a3734; --lane: #2b2a27; --claim: #e0b268; --verdict: #8fcfa4;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 18px rgba(0,0,0,.3); --scrim: rgba(0,0,0,.5);
+  --s1: #3987e5; --s2: #d95926; --s3: #a6c21a; --s4: #c98500;
+  --s5: #d55181; --s6: #5c9a2a; --s7: #9085e9;
+  --accent: #5DCAA5;
+  --ai-chip-bg: #085041; --ai-chip-ink: #9FE1CB;
+  --human-chip-bg: #3A3835; --human-chip-ink: #D2CDC5;
+  --human-rule: #8F897F;
+}
+
+html { font-synthesis-weight: none; }
+body { font-family: var(--font-body); }
+b, strong { font-weight: 600; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 500; letter-spacing: 0; }
+.wordmark { font-family: var(--font-display); font-weight: 500; color: var(--accent); }
+.script-text { font-family: var(--font-script); }
+code, kbd { font-family: var(--font-code); }
+
+/* Labels: the AI is a teal chip, human review a gray one. */
+.chip-ai, .chip-human { display: inline-block; font-family: var(--font-body); font-size: 12.5px; font-weight: 500;
+  line-height: 1.4; letter-spacing: .01em; text-transform: none; padding: 2px 10px; border-radius: 999px; }
+.chip-ai { background: var(--ai-chip-bg); color: var(--ai-chip-ink); }
+.chip-human { background: var(--human-chip-bg); color: var(--human-chip-ink); }
+
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 var(--font-body); }
+main { max-width: 640px; margin: 0 auto; padding: 40px 16px 64px; }
+h1 { font-size: 30px; margin: 0 0 6px; } h2 { font-size: 19px; margin: 28px 0 8px; }
+p { margin: 0 0 12px; color: var(--muted); } ul { padding-left: 20px; margin: 0; } li { margin: 0 0 8px; }
+a { color: var(--ink); text-underline-offset: 2px; }
+</style></head>
+<body><main>
+<h1><span class="wordmark">Numen</span></h1>
+<p>Archetype and Character-Arc Analysis for Screenplays</p>
+<h2>Full of Grace</h2>
+<ul>
+<li><a href="fog_story_report.html">The Story Report</a></li>
+<li><a href="numen_walkthrough.html">The walkthrough: from PDF to Story Report</a></li>
+</ul>
+<h2>Demo cards</h2>
+<ul>
+<li><a href="demo_prototype/holly_scene3_beat2_card.html">Holly: Trickster Archetype</a></li><li><a href="demo_prototype/mackie_scene140_beat6_card.html">Mackie: Great Mother or Shadow Archetype?</a></li><li><a href="demo_prototype/pete_scene122_beat1_card.html">Pete: Limit Revealed or Character-Consistent?</a></li><li><a href="demo_prototype/protected_protector_card.html">The Protected Becomes the Protector</a></li>
+</ul>
+</main></body></html>

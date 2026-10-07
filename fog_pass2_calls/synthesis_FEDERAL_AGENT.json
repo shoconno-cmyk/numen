@@ -1,0 +1,42 @@
+{
+  "synthesis": [
+    {
+      "trait": "Uses aggressive, profanity-laced confrontation and psychological pressure (insults, mockery of Raymond's disability and prospects) to force a confession",
+      "first_shown_beat_id": "scene201_beat1"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene201_beat4",
+      "trait_it_relates_to": "Uses aggressive, profanity-laced confrontation and psychological pressure (insults, mockery of Raymond's disability and prospects) to force a confession",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene201_beat1",
+      "what_changes": "In beat1 the agent delivers a generic, if cruel, insult ('who's gonna wanna hire a retard'); here he escalates into performative mimicry, acting out the taunting voice of the girl mocking Raymond ('retard cooties. Yuck! Bleh!'), a more personal and theatrical cruelty than a stated insult.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene201_beat5",
+      "trait_it_relates_to": "Uses aggressive, profanity-laced confrontation and psychological pressure (insults, mockery of Raymond's disability and prospects) to force a confession",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene201_beat4",
+      "what_changes": "The pressure moves from verbal mockery to an explicit, concrete threat of legal consequence ('twenty five to life') paired with cruel wordplay ('time to play a different tune'), raising the stakes from taunting to a direct statement of Raymond's ruined future.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene202_beat1",
+      "trait_it_relates_to": "Uses aggressive, profanity-laced confrontation and psychological pressure (insults, mockery of Raymond's disability and prospects) to force a confession",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene201_beat5",
+      "what_changes": "Having escalated his control over Raymond to threats of life imprisonment, the agent's dominance is abruptly interrupted by an unknown outside authority ('This stops now'); his defensive, confused 'Who the hell are you?' exposes that his aggressive control only functions on Raymond, not on someone with actual authority over him -- a previously untested limit.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene205_beat1",
+      "trait_it_relates_to": "Uses aggressive, profanity-laced confrontation and psychological pressure (insults, mockery of Raymond's disability and prospects) to force a confession",
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene201_beat1",
+      "what_changes": "When the lawyer calls the interrogators 'monsters' after Raymond injures himself, the agent's flat deflection 'He volunteered to talk' directly answers his own opening line ('You're not being honest with us... time to man-up') by revealing he still frames the coercive pressure he initiated as Raymond's free choice, refusing any accountability for the harm his own tactic produced.",
+      "likely_category": "boundary_revealed"
+    }
+  ]
+}

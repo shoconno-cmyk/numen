@@ -1,0 +1,1180 @@
+{
+ "description": "The 36 FOG character turns standing after human Pass 2 review, with the reviewed comparison beat and trait taken from the FOG_*_REVIEW.md records. 'cold' is pulled automatically; 'reviewed' fields are Claude's reading of the cited lines. author_checked true = the author checked the entry line by line (2026-10-05, the 7 flagged entries). verification 'transcribed from author-confirmed review records' = not checked line by line, but it passed the automated consistency check (verdict named in the cited passages, comparison beat traceable to the review or the cold draft, quoted script text and cited script lines found in fog_full.txt). Comparison beats are data-layer only; the report's plain-language text never shows them.",
+ "built_by": "build_fog_turning_points_reviewed.py",
+ "counts": {
+  "boundary_revealed": 18,
+  "throughline_evolution": 18
+ },
+ "turns": [
+  {
+   "character": "BETH",
+   "beat_id": "scene85_beat2",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene3_beat1",
+      "trait_it_relates_to": "Bossy, impatient, and dismissive toward friends' fears, hesitations, or objections"
+     }
+    ],
+    "resolver_checked_against": "Bossy, impatient, and dismissive toward friends' fears/hesitations (scene3_beat1)"
+   },
+   "reviewed": {
+    "status": "confirmed, factual correction",
+    "comparison_beat_id": "scene3_beat1",
+    "shape": "escalation",
+    "trait": "trait 1: bossy, impatient, dismissive toward friends' fears or objections",
+    "note": "Confirmed as drafted; a factual detail in the record was corrected.",
+    "sources": [
+     "FOG_BETH_REVIEW.md:125",
+     "FOG_BETH_REVIEW.md:150"
+    ],
+    "comparison_source": "carried from the AI draft, not restated in review",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "CHEYENNE",
+   "beat_id": "scene133_beat1",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene98_beat1",
+      "trait_it_relates_to": "Shows visible signs of strain and substance use beneath a functioning exterior"
+     }
+    ],
+    "resolver_checked_against": "Escalation vs scene98_beat1 (strain/substance-use trait)"
+   },
+   "reviewed": {
+    "status": "confirmed",
+    "comparison_beat_id": "scene98_beat1",
+    "shape": "escalation",
+    "trait": "trait 3: visible strain and substance use beneath a functioning exterior",
+    "note": "Confirmed as drafted.",
+    "sources": [
+     "FOG_CHEYENNE_REVIEW.md:75",
+     "FOG_CHEYENNE_REVIEW.md:80"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "CHEYENNE",
+   "beat_id": "scene155_beat5",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene155_beat3",
+      "trait_it_relates_to": "Presents as an apologetic, hospitable host trying to maintain normal domestic routine despite being a struggling single mother"
+     }
+    ],
+    "resolver_checked_against": "Escalation vs scene64_beat7/scene155_beat3 (seeking help for Holly's case)"
+   },
+   "reviewed": {
+    "status": "re-anchored",
+    "comparison_beat_id": "scene155_beat3",
+    "shape": "escalation",
+    "trait": "advocacy for Holly (untracked by the synthesis; origin scene155_beat3)",
+    "note": "From expressing worry to material commitment (“I'll hire you.”). Was trait 2 vs. scene64_beat7/155_3.",
+    "sources": [
+     "FOG_CHEYENNE_REVIEW.md:149",
+     "FOG_CHEYENNE_REVIEW.md:175",
+     "FOG_CHEYENNE_REVIEW.md:186"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "CHEYENNE",
+   "beat_id": "scene155_beat11",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene152_beat2",
+      "trait_it_relates_to": "When cornered or physically restrained, resorts to manipulation, false threats, or denial to escape confrontation"
+     }
+    ],
+    "resolver_checked_against": "Echo vs scene152_beat2 (direct reversal of earlier denial)"
+   },
+   "reviewed": {
+    "status": "verdict changed, re-anchored",
+    "comparison_beat_id": "scene152_beat1/2",
+    "shape": "first failure of the trait's function",
+    "trait": "trait 4: when cornered, manipulation, false threats or denial to escape",
+    "note": "The avoidance mechanism does not activate; she confesses instead. Was an echo of scene152_beat2's denial (fails 8b on content).",
+    "sources": [
+     "FOG_CHEYENNE_REVIEW.md:151",
+     "FOG_CHEYENNE_REVIEW.md:208",
+     "FOG_CHEYENNE_REVIEW.md:230",
+     "FOG_CHEYENNE_REVIEW.md:231"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": [
+    785
+   ]
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene101_beat1",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene71_beat1",
+      "trait_it_relates_to": "Doug uses his police access and initiative to assist John's investigation"
+     },
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene57_beat3",
+      "trait_it_relates_to": "Doug acts to protectively control situations/people to prevent conflict"
+     }
+    ],
+    "resolver_checked_against": "Doug uses his police access and initiative to assist John's investigation (scene71_beat1); secondarily Doug acts to protectively control situations/people (scene57_beat3)"
+   },
+   "reviewed": {
+    "status": "confirmed, reasoning corrected",
+    "comparison_beat_id": "scene71_beat1",
+    "shape": "escalation",
+    "trait": "trait 5: uses his police access and initiative to assist John's investigation",
+    "note": "Claim (a) confirmed. The model's secondary claim (b), trait 4 vs. scene57_beat3, does not hold.",
+    "sources": [
+     "FOG_DOUG_REVIEW.md:71",
+     "FOG_DOUG_REVIEW.md:74",
+     "FOG_DOUG_REVIEW.md:93"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene118_beat1",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene101_beat1",
+      "trait_it_relates_to": "Doug uses his police access and initiative to assist John's investigation"
+     }
+    ],
+    "resolver_checked_against": "Doug uses his police access and initiative to assist John's investigation (scene101_beat1)"
+   },
+   "reviewed": {
+    "status": "confirmed",
+    "comparison_beat_id": "scene101_beat1",
+    "shape": "escalation",
+    "trait": "trait 5: uses his police access and initiative to assist John's investigation",
+    "note": "Confirmed as drafted.",
+    "sources": [
+     "FOG_DOUG_REVIEW.md:72",
+     "FOG_DOUG_REVIEW.md:127"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene123_beat7",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene56_beat1",
+      "trait_it_relates_to": "Doug offers John gentle companionship and consideration for his emotional state without pressuring him"
+     }
+    ],
+    "resolver_checked_against": "Doug offers John gentle companionship and consideration for his emotional state (scene56_beat1)"
+   },
+   "reviewed": {
+    "status": "confirmed, reasoning corrected",
+    "comparison_beat_id": "scene56_beat1",
+    "shape": "escalation",
+    "trait": "trait 2: gentle companionship and consideration for John's emotional state",
+    "note": "Value confirmed; two factual details corrected (the cigarette; the cut-off line).",
+    "sources": [
+     "FOG_DOUG_REVIEW.md:164",
+     "FOG_DOUG_REVIEW.md:169",
+     "FOG_DOUG_REVIEW.md:455"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene123_beat14",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene86_beat3",
+      "trait_it_relates_to": "Doug maintains a calm, composed demeanor even when personally challenged or insulted"
+     }
+    ],
+    "resolver_checked_against": "Doug maintains a calm, composed demeanor even when personally challenged or insulted (scene86_beat3)"
+   },
+   "reviewed": {
+    "status": "confirmed, reasoning corrected",
+    "comparison_beat_id": "scene86_beat3",
+    "shape": "escalation",
+    "trait": "trait 7: calm, composed demeanor when personally challenged or insulted",
+    "note": "Value confirmed; the escalation is in severity, not in having witnesses.",
+    "sources": [
+     "FOG_DOUG_REVIEW.md:166",
+     "FOG_DOUG_REVIEW.md:194",
+     "FOG_DOUG_REVIEW.md:457"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "DOUG",
+   "beat_id": "scene123_beat15",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene56_beat2",
+      "trait_it_relates_to": "Doug feels professional inferiority to John and seeks his validation/approval as a fellow cop"
+     }
+    ],
+    "resolver_checked_against": "Doug feels professional inferiority to John and seeks his validation/approval (scene56_beat2)"
+   },
+   "reviewed": {
+    "status": "re-anchored",
+    "comparison_beat_id": "scene123_beat9",
+    "shape": "echo",
+    "trait": "trait 2 thread: diagnosis restated as flat pity (“I feel sorry for you, John.”)",
+    "note": "Was a trait-3 echo of scene56_beat2; now an echo of scene123_beat9 inside the trait-2 thread.",
+    "sources": [
+     "FOG_DOUG_REVIEW.md:167",
+     "FOG_DOUG_REVIEW.md:224",
+     "FOG_DOUG_REVIEW.md:477",
+     "FOG_DOUG_REVIEW.md:482"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene119_beat3",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene19_beat1",
+      "trait_it_relates_to": "Uses calibrated, consent-based persuasion tactics with reluctant witnesses to extract information"
+     }
+    ],
+    "resolver_checked_against": "Uses calibrated, consent-based persuasion tactics with reluctant witnesses to extract information (scene19_beat1)"
+   },
+   "reviewed": {
+    "status": "confirmed",
+    "comparison_beat_id": "scene19_beat1",
+    "shape": "escalation",
+    "trait": "persuasion/extraction: the consent-based wager becomes institutional coercion (the ICE threat)",
+    "note": "Confirmed as drafted.",
+    "sources": [
+     "FOG_JOHN_REVIEW.md:285",
+     "FOG_JOHN_REVIEW.md:911"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene138_beat2",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "boundary_revealed",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene13_beat1",
+      "trait_it_relates_to": "Maintains calm, controlled composure under pressure despite visible inner tension"
+     }
+    ],
+    "resolver_checked_against": "Maintains calm, controlled composure under pressure (scene13_beat1)"
+   },
+   "reviewed": {
+    "status": "confirmed, reasoning corrected",
+    "comparison_beat_id": "scene13_beat1",
+    "shape": "boundary: composure gives way",
+    "trait": "composure under cumulative, unprocessed weight (first shown scene13_beat1)",
+    "note": "No trigger and no target; not an escalation of the reactive-anger beats (scene119_beat7, scene123_beat13). The claim that composure had “never before cracked” is struck.",
+    "sources": [
+     "FOG_JOHN_REVIEW.md:801",
+     "FOG_JOHN_REVIEW.md:925",
+     "FOG_JOHN_REVIEW.md:926"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene152_beat1",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene119_beat3",
+      "trait_it_relates_to": "Uses calibrated, consent-based persuasion tactics with reluctant witnesses to extract information"
+     }
+    ],
+    "resolver_checked_against": "Uses calibrated, consent-based persuasion tactics with reluctant witnesses (scene19_beat1) -- escalation"
+   },
+   "reviewed": {
+    "status": "confirmed, citation corrected",
+    "comparison_beat_id": "scene119_beat3",
+    "shape": "escalation",
+    "trait": "persuasion/extraction: institutional coercion becomes physical coercion (pinning Cheyenne)",
+    "note": "Resolver's checked_against corrected from scene19_beat1 to scene119_beat3 (the synthesis already named it).",
+    "sources": [
+     "FOG_JOHN_REVIEW.md:370",
+     "FOG_JOHN_REVIEW.md:393",
+     "FOG_JOHN_REVIEW.md:911"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene154_beat1",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [],
+    "resolver_checked_against": "scene152_beat1 (physical coercion escalation) -- continuation"
+   },
+   "reviewed": {
+    "status": "confirmed, reasoning corrected",
+    "comparison_beat_id": "scene152_beat1",
+    "shape": "escalation",
+    "trait": "persuasion/extraction: psychological pressure layered onto the pin",
+    "note": "The resolver called it a continuation; review recorded it as an escalation vs. scene152_beat1.",
+    "sources": [
+     "FOG_JOHN_REVIEW.md:371",
+     "FOG_JOHN_REVIEW.md:386",
+     "FOG_JOHN_REVIEW.md:911"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene163_beat1",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene115_beat1",
+      "trait_it_relates_to": "Willing to defy direct orders/warnings and escalate physical risk in pursuit of a lead"
+     }
+    ],
+    "resolver_checked_against": "Willing to defy direct orders/warnings and escalate physical risk in pursuit of a lead (scene115_beat1) -- escalation"
+   },
+   "reviewed": {
+    "status": "confirmed, reasoning corrected",
+    "comparison_beat_id": "scene115_beat1",
+    "shape": "escalation",
+    "trait": "armed pursuit: arming for an expected confrontation",
+    "note": "Not breaking-and-entering: the cabin is John's and the locks had been changed on him.",
+    "sources": [
+     "FOG_JOHN_REVIEW.md:496",
+     "FOG_JOHN_REVIEW.md:503",
+     "FOG_JOHN_REVIEW.md:912"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene172_beat6",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene163_beat1",
+      "trait_it_relates_to": "Willing to defy direct orders/warnings and escalate physical risk in pursuit of a lead"
+     }
+    ],
+    "resolver_checked_against": "Escalation vs. scene163_beat1 (armed breaking-and-entering)"
+   },
+   "reviewed": {
+    "status": "verdict changed",
+    "comparison_beat_id": "scene163_beat1",
+    "shape": "type change (boundary)",
+    "trait": "armed pursuit: from armed and prepared to lethal force used against a person",
+    "note": "Was throughline_evolution (batch 3 no-op); changed to boundary_revealed under finding 19's two-axis test. No prior JOHN beat shows lethal force at a person.",
+    "sources": [
+     "FOG_JOHN_REVIEW.md:974",
+     "FOG_JOHN_REVIEW.md:1027"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": [
+    762
+   ]
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene175_beat1",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "boundary_revealed",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene172_beat7",
+      "trait_it_relates_to": "Willing to defy direct orders/warnings and escalate physical risk in pursuit of a lead"
+     }
+    ],
+    "resolver_checked_against": "Escalation vs. scene172_beat7 -- boundary_revealed"
+   },
+   "reviewed": {
+    "status": "confirmed, reasoning corrected",
+    "comparison_beat_id": "scene172_beat7",
+    "shape": "boundary",
+    "trait": "life-preserving instinct, extended to his attacker",
+    "note": "“Let me make a call.” read (author's reading, not stated text) as asking for his phone back to call help for Reggie.",
+    "sources": [
+     "FOG_JOHN_REVIEW.md:501",
+     "FOG_JOHN_REVIEW.md:576",
+     "FOG_JOHN_REVIEW.md:912"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene217_beat1",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene185_beat2",
+      "trait_it_relates_to": "Holds to a personal philosophy that willful blindness ('see no evil, hear no evil') is how people survive"
+     }
+    ],
+    "resolver_checked_against": "Escalation vs. scene185_beat2 (willful blindness re: father's secret)"
+   },
+   "reviewed": {
+    "status": "verdict changed",
+    "comparison_beat_id": "scene185_beat2",
+    "shape": "type change (boundary)",
+    "trait": "justice treated as independent of his own action (rooted in guilt over Andy): omission becomes commission",
+    "note": "Was throughline_evolution (batch 4 no-op). First active intervention: handing Trudy the car keys.",
+    "sources": [
+     "FOG_JOHN_REVIEW.md:973",
+     "FOG_JOHN_REVIEW.md:1010",
+     "FOG_JOHN_REVIEW.md:1018"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": [
+    761
+   ]
+  },
+  {
+   "character": "JOHN",
+   "beat_id": "scene223_beat1",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene14_beat4",
+      "trait_it_relates_to": "Holds to a personal philosophy that willful blindness ('see no evil, hear no evil') is how people survive"
+     }
+    ],
+    "resolver_checked_against": "Echo vs. scene14_beat4 (willful-blindness survival philosophy)"
+   },
+   "reviewed": {
+    "status": "verdict changed twice",
+    "comparison_beat_id": "scene213_beat3",
+    "shape": "type change (boundary)",
+    "trait": "reciprocal honesty under the right conditions (first shown scene213_beat3)",
+    "note": "Draft throughline_evolution -> consistent (log 750) -> boundary_revealed (log 763): the first proactive, unilateral disclosure. The echo of scene14_beat4 stays rejected.",
+    "sources": [
+     "FOG_JOHN_REVIEW.md:975",
+     "FOG_JOHN_REVIEW.md:1049",
+     "FOG_JOHN_REVIEW.md:1053"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": [
+    750,
+    763
+   ]
+  },
+  {
+   "character": "MACKIE",
+   "beat_id": "scene140_beat6",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "boundary_revealed",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene140_beat5",
+      "trait_it_relates_to": "Maintains composed, authoritative control to push his son toward normalcy, minimizing or denying the emotional and moral weight of the crisis"
+     }
+    ],
+    "resolver_checked_against": "Candidate continuation vs scene140_beat5 — independently re-checked"
+   },
+   "reviewed": {
+    "status": "re-anchored",
+    "comparison_beat_id": null,
+    "shape": "own origin (8a)",
+    "trait": "a previously untested capacity for physical violence against his own son",
+    "note": "Was a trait-2 continuation of scene140_beat5. No comparison beat; Principle 11 instance. weight_proportionality mismatch -> matched (log 809).",
+    "sources": [
+     "FOG_MACKIE_REVIEW.md:86",
+     "FOG_MACKIE_REVIEW.md:115",
+     "FOG_MACKIE_REVIEW.md:128"
+    ],
+    "comparison_source": null,
+    "author_checked": true,
+    "verification": "author-checked 2026-10-05"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "O’SHEA",
+   "beat_id": "scene154_beat2",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "boundary_revealed",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene153_beat1",
+      "trait_it_relates_to": "Uses a firearm and aggressive physical posture to confront a perceived threat to Cheyenne"
+     }
+    ],
+    "resolver_checked_against": "Uses a firearm and aggressive physical posture to confront a perceived threat to Cheyenne (first shown scene153_beat1); candidate boundary_revealed vs scene153_beat1"
+   },
+   "reviewed": {
+    "status": "verdict changed",
+    "comparison_beat_id": "scene153_beat1",
+    "shape": "escalation",
+    "trait": "trait 1: uses a firearm and aggressive posture against a perceived threat to Cheyenne",
+    "note": "Drafted boundary_revealed; the claimed limit rested on John's act (disarming him), not O'Shea's own.",
+    "sources": [
+     "FOG_OSHEA_REVIEW.md:112",
+     "FOG_OSHEA_REVIEW.md:117",
+     "FOG_OSHEA_REVIEW.md:124"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": [
+    796
+   ]
+  },
+  {
+   "character": "O’SHEA",
+   "beat_id": "scene155_beat12",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene155_beat1",
+      "trait_it_relates_to": "Uses a firearm and aggressive physical posture to confront a perceived threat to Cheyenne"
+     }
+    ],
+    "resolver_checked_against": "Echo of scene155_beat1 (John confiscating and emptying O'Shea's gun)"
+   },
+   "reviewed": {
+    "status": "re-anchored",
+    "comparison_beat_id": "scene155_beat8",
+    "shape": "escalation",
+    "trait": "trait 3: genuine tenderness and concern for Cheyenne beneath the tough exterior",
+    "note": "Was a trait-1 echo of scene155_beat1; the gun hand-back is John's act. Now: verbal gentleness becomes demonstrated physical care.",
+    "sources": [
+     "FOG_OSHEA_REVIEW.md:189",
+     "FOG_OSHEA_REVIEW.md:254",
+     "FOG_OSHEA_REVIEW.md:271"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "RAYMOND",
+   "beat_id": "scene205_beat1",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "boundary_revealed",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene201_beat5",
+      "trait_it_relates_to": "Remains calm, composed, and physically non-resistant when directly confronted or threatened"
+     }
+    ],
+    "resolver_checked_against": "Candidate continuation vs scene201_beat5 (boundary revealed)"
+   },
+   "reviewed": {
+    "status": "re-anchored",
+    "comparison_beat_id": null,
+    "shape": "own origin",
+    "trait": "genuine break under interrogation: escalating self-harm",
+    "note": "Was a continuation of scene201_beat5 (trait 4); 201_5 never cracked anything. No comparison beat.",
+    "sources": [
+     "FOG_RAYMOND_REVIEW.md:72",
+     "FOG_RAYMOND_REVIEW.md:119",
+     "FOG_RAYMOND_REVIEW.md:131"
+    ],
+    "comparison_source": null,
+    "author_checked": true,
+    "verification": "author-checked 2026-10-05"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene134_beat2",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene132_beat1",
+      "trait_it_relates_to": "Maintains a hidden, secretive private space/behavior apart from his sociable public persona"
+     }
+    ],
+    "resolver_checked_against": "Maintains a hidden, secretive private space/behavior apart from his sociable public persona (escalation vs scene132_beat1)"
+   },
+   "reviewed": {
+    "status": "verdict changed, re-anchored",
+    "comparison_beat_id": null,
+    "shape": "own origin (8a)",
+    "trait": "trait 8 (as now recorded): premeditated violence, with concealment inherent to it",
+    "note": "Drafted throughline_evolution (trait 7 escalation vs. scene132_beat1). Trait 7 was later retired into trait 8, which originates here.",
+    "sources": [
+     "FOG_REGGIE_REVIEW.md:275",
+     "FOG_REGGIE_REVIEW.md:585",
+     "FOG_REGGIE_REVIEW.md:592",
+     "FOG_REGGIE_REVIEW.md:981"
+    ],
+    "comparison_source": null,
+    "author_checked": true,
+    "verification": "author-checked 2026-10-05"
+   },
+   "characterization_consistency_logs": [
+    766
+   ]
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene172_beat1",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene95_beat1",
+      "trait_it_relates_to": "Appoints himself protector/enforcer of 'his town,' asserting an authority he doesn't actually hold"
+     }
+    ],
+    "resolver_checked_against": "Appoints himself protector/enforcer of 'his town' (escalation vs scene95_beat1)"
+   },
+   "reviewed": {
+    "status": "verdict changed, re-scored",
+    "comparison_beat_id": "scene134_beat2",
+    "shape": "type change (boundary)",
+    "trait": "trait 8: premeditated violence, first confrontational use (obstructing the 911 call)",
+    "note": "Drafted throughline_evolution (trait 5 escalation vs. scene95_beat1); re-scored to trait 8 under 8b. The comparison beat is the trait 8 origin, derived from the review's reasoning (396-414).",
+    "sources": [
+     "FOG_REGGIE_REVIEW.md:370",
+     "FOG_REGGIE_REVIEW.md:396",
+     "FOG_REGGIE_REVIEW.md:595",
+     "FOG_REGGIE_REVIEW.md:976"
+    ],
+    "comparison_source": "derived from the review's reasoning (FOG_REGGIE_REVIEW.md:396-414)",
+    "author_checked": true,
+    "verification": "author-checked 2026-10-05"
+   },
+   "characterization_consistency_logs": [
+    769
+   ]
+  },
+  {
+   "character": "REGGIE",
+   "beat_id": "scene172_beat6",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene172_beat5",
+      "trait_it_relates_to": "Willing to use lethal force to enforce his own sense of justice"
+     }
+    ],
+    "resolver_checked_against": "Willing to use lethal force to enforce his own sense of justice (continuation vs scene172_beat1/5)"
+   },
+   "reviewed": {
+    "status": "verdict changed, re-anchored",
+    "comparison_beat_id": "scene95_beat1",
+    "shape": "type change (boundary)",
+    "trait": "loyalty to Mackie personally (planted scene95_beat1); trait 8 is the mechanism",
+    "note": "Drafted throughline_evolution (continuation vs. scene172_beat5). Anchor moved from synthesis trait 1 (scene53_beat1) to the Mackie-personally thread.",
+    "sources": [
+     "FOG_REGGIE_REVIEW.md:596",
+     "FOG_REGGIE_REVIEW.md:755",
+     "FOG_REGGIE_REVIEW.md:763"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": [
+    759
+   ]
+  },
+  {
+   "character": "RICARDO",
+   "beat_id": "scene119_beat9",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene119_beat7",
+      "trait_it_relates_to": "Denies knowledge or wrongdoing to protect himself under threat"
+     }
+    ],
+    "resolver_checked_against": "continuation vs. scene119_beat7 (admission cracking under pressure)"
+   },
+   "reviewed": {
+    "status": "re-anchored",
+    "comparison_beat_id": "scene119_beat1",
+    "shape": "escalation",
+    "trait": "trait 4: cooperates with basic, low-risk factual answers once caught",
+    "note": "Was a trait-5 (denial) continuation of scene119_beat7. Naming the two men is cooperation, from low-risk answers to consequential disclosure.",
+    "sources": [
+     "FOG_RICARDO_REVIEW.md:201",
+     "FOG_RICARDO_REVIEW.md:245",
+     "FOG_RICARDO_REVIEW.md:251"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene40_beat3",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "boundary_revealed",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene32_beat2",
+      "trait_it_relates_to": "Nurturing caretaker of family"
+     }
+    ],
+    "resolver_checked_against": "echo vs. scene32_beat2 (Nurturing caretaker of family) -- candidate boundary_revealed"
+   },
+   "reviewed": {
+    "status": "confirmed",
+    "comparison_beat_id": "scene32_beat2",
+    "shape": "boundary",
+    "trait": "steady caretaker of the family: who cares for whom reverses",
+    "note": "Confirmed as drafted.",
+    "sources": [
+     "FOG_TRUDY_REVIEW.md:205"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene143_beat7",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "boundary_revealed",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene143_beat6",
+      "trait_it_relates_to": "Hidden resentment/jealousy toward Cheyenne and Holly"
+     }
+    ],
+    "resolver_checked_against": "escalation vs. scene143_beat6 (Hidden resentment)"
+   },
+   "reviewed": {
+    "status": "confirmed; trait reworded",
+    "comparison_beat_id": "scene143_beat6",
+    "shape": "boundary (depth reveal)",
+    "trait": "resentment/jealousy over the family's favoritism toward Cheyenne and Holly (reworded trait 6)",
+    "note": "Confirmed. The synthesis trait was split: concealment went to scene57_beat2, resentment re-anchored at scene143_beat6.",
+    "sources": [
+     "FOG_TRUDY_REVIEW.md:207",
+     "FOG_TRUDY_REVIEW.md:319",
+     "FOG_TRUDY_REVIEW.md:356"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene188_beat1",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene131_beat1",
+      "trait_it_relates_to": "Devout, ritual-based Catholic faith"
+     }
+    ],
+    "resolver_checked_against": "escalation vs. scene131_beat1 (Devout, ritual-based Catholic faith)"
+   },
+   "reviewed": {
+    "status": "verdict changed",
+    "comparison_beat_id": null,
+    "shape": "boundary (untested register)",
+    "trait": "her faith: the first private, solitary devotional act",
+    "note": "Drafted throughline_evolution vs. scene131_beat1; review set that comparison aside (every earlier faith beat is public or social).",
+    "sources": [
+     "FOG_TRUDY_REVIEW.md:289",
+     "FOG_TRUDY_REVIEW.md:396",
+     "FOG_TRUDY_REVIEW.md:541",
+     "FOG_TRUDY_REVIEW.md:593"
+    ],
+    "comparison_source": null,
+    "author_checked": true,
+    "verification": "author-checked 2026-10-05"
+   },
+   "characterization_consistency_logs": [
+    736
+   ]
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene213_beat2",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "boundary_revealed",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene34_beat2",
+      "trait_it_relates_to": "Frames personal pain through calm faith-based acceptance"
+     }
+    ],
+    "resolver_checked_against": "echo vs. scene34_beat2 (Frames personal pain through calm faith-based acceptance)"
+   },
+   "reviewed": {
+    "status": "confirmed",
+    "comparison_beat_id": "scene34_beat2",
+    "shape": "boundary",
+    "trait": "calm, faith-based acceptance of personal pain: her faith cracking",
+    "note": "Confirmed as drafted.",
+    "sources": [
+     "FOG_TRUDY_REVIEW.md:208"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene213_beat7",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "boundary_revealed",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene30_beat1",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification"
+     }
+    ],
+    "resolver_checked_against": "escalation vs. scene30_beat1 (Capacity for premeditated, extreme action under religious justification)"
+   },
+   "reviewed": {
+    "status": "confirmed, re-anchored",
+    "comparison_beat_id": null,
+    "shape": "own origin",
+    "trait": "arranging harm: hiring Raymond to take Holly (finding 18 limit E)",
+    "note": "Confirmed. The turning point is her act of confessing, not only the past hiring; limit E is first shown here. The cold comparison scene30_beat1 is dropped. The synthesis trait's “under religious justification” is not on the page at this beat.",
+    "sources": [
+     "FOG_TRUDY_REVIEW.md:133",
+     "FOG_TRUDY_REVIEW.md:160",
+     "FOG_TRUDY_REVIEW.md:107",
+     "FOG_TRUDY_REVIEW.md:585"
+    ],
+    "comparison_source": null,
+    "author_checked": true,
+    "verification": "author-checked 2026-10-05"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene214_beat4",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "boundary_revealed",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene214_beat3",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification"
+     }
+    ],
+    "resolver_checked_against": "continuation of scene214_beat3"
+   },
+   "reviewed": {
+    "status": "confirmed as a new limit",
+    "comparison_beat_id": "scene213_beat7",
+    "shape": "boundary",
+    "trait": "personal physical violence overriding a victim's visible resistance",
+    "note": "The synthesis called it a continuation of the arranging limit; review split it out as its own limit.",
+    "sources": [
+     "FOG_TRUDY_REVIEW.md:136",
+     "FOG_TRUDY_REVIEW.md:162",
+     "FOG_TRUDY_REVIEW.md:167"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene216_beat5",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "boundary_revealed",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene216_beat4",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification"
+     }
+    ],
+    "resolver_checked_against": "continuation of scene216_beat4"
+   },
+   "reviewed": {
+    "status": "verdict changed",
+    "comparison_beat_id": "scene214_beat4",
+    "shape": "escalation",
+    "trait": "personal physical violence (the scene214_beat4 limit): strikes after forced submersion",
+    "note": "Drafted boundary_revealed; recorded as throughline_evolution, an escalation of the scene214_beat4 limit.",
+    "sources": [
+     "FOG_TRUDY_REVIEW.md:141",
+     "FOG_TRUDY_REVIEW.md:183"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": [
+    729
+   ]
+  },
+  {
+   "character": "TRUDY",
+   "beat_id": "scene216_beat7",
+   "verdict": "boundary_revealed",
+   "cold": {
+    "draft_verdict": "boundary_revealed",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene216_beat6",
+      "trait_it_relates_to": "Capacity for premeditated, extreme action under religious justification"
+     }
+    ],
+    "resolver_checked_against": "continuation of scene216_beat6"
+   },
+   "reviewed": {
+    "status": "confirmed",
+    "comparison_beat_id": "scene216_beat6",
+    "shape": "boundary",
+    "trait": "composure cracking into real horror",
+    "note": "Confirmed; distinct from both premeditated-violence limits. The comparison beat was carried from the AI draft and confirmed by the author.",
+    "sources": [
+     "FOG_TRUDY_REVIEW.md:143",
+     "FOG_TRUDY_REVIEW.md:174",
+     "FOG_TRUDY_REVIEW.md:591"
+    ],
+    "comparison_source": "carried from the AI draft, confirmed by the author",
+    "author_checked": true,
+    "verification": "author-checked 2026-10-05"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "YOUNG JOHN",
+   "beat_id": "scene75_beat3",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "throughline_evolution",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene75_beat2",
+      "trait_it_relates_to": "Insists on taking personal blame/responsibility to protect Andy from consequences"
+     }
+    ],
+    "resolver_checked_against": "escalation vs. scene75_beat2 -- verbal assertion becomes a concrete false-confession offer"
+   },
+   "reviewed": {
+    "status": "confirmed, reasoning corrected",
+    "comparison_beat_id": "scene75_beat2",
+    "shape": "escalation",
+    "trait": "trait 4: takes the blame himself to protect Andy",
+    "note": "It is a true account, not a false confession: from arguing with his father to offering to tell the authorities himself.",
+    "sources": [
+     "FOG_YOUNGJOHN_REVIEW.md:85",
+     "FOG_YOUNGJOHN_REVIEW.md:99",
+     "FOG_YOUNGJOHN_REVIEW.md:101"
+    ],
+    "comparison_source": "stated in the review record",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": []
+  },
+  {
+   "character": "YOUNG JOHN",
+   "beat_id": "scene140_beat2",
+   "verdict": "throughline_evolution",
+   "cold": {
+    "draft_verdict": "boundary_revealed",
+    "synthesis_turning_points": [
+     {
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene67_beat1",
+      "trait_it_relates_to": "Falls into shock/psychological distress when a situation exceeds his coping capacity"
+     }
+    ],
+    "resolver_checked_against": "escalation vs. scene67_beat1's quiet shock response"
+   },
+   "reviewed": {
+    "status": "verdict changed",
+    "comparison_beat_id": "scene67_beat1",
+    "shape": "escalation",
+    "trait": "trait 3: shock and distress when a situation exceeds his coping capacity",
+    "note": "Drafted boundary_revealed; quiet shock becomes a full panic attack, triggered by the funeral.",
+    "sources": [
+     "FOG_YOUNGJOHN_REVIEW.md:278",
+     "FOG_YOUNGJOHN_REVIEW.md:294",
+     "FOG_YOUNGJOHN_REVIEW.md:301"
+    ],
+    "comparison_source": "carried from the AI draft, not restated in review",
+    "author_checked": false,
+    "verification": "transcribed from author-confirmed review records"
+   },
+   "characterization_consistency_logs": [
+    803
+   ]
+  }
+ ]
+}

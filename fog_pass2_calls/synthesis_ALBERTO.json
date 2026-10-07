@@ -1,0 +1,58 @@
+{
+  "synthesis": [
+    {
+      "trait": "Alberto is shown as a brutalized torture victim, revealed in a state of extreme physical devastation and unable to do more than react to his captivity",
+      "first_shown_beat_id": "scene170_beat2"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene170_beat6",
+      "trait_it_relates_to": "Alberto is shown as a brutalized torture victim, revealed in a state of extreme physical devastation and unable to do more than react to his captivity",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene170_beat2",
+      "what_changes": "Where beats 2-3 showed Alberto only as a silent, mutilated body being revealed, here he produces his first coherent words -- naming his tormentor 'Diablo' -- moving from wordless physical suffering to articulated psychological terror.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene170_beat7",
+      "trait_it_relates_to": "Alberto is shown as a brutalized torture victim, revealed in a state of extreme physical devastation and unable to do more than react to his captivity",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene170_beat6",
+      "what_changes": "The whispered naming of 'Diablo' immediately breaks into a full blood-curdling scream -- the same unbroken beat of terror continuing and intensifying with no gap.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene171_beat1",
+      "trait_it_relates_to": "Alberto is shown as a brutalized torture victim, revealed in a state of extreme physical devastation and unable to do more than react to his captivity",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene170_beat7",
+      "what_changes": "Alberto's scream from the previous beat carries directly across the scene cut, the same act of terror continuing into the next scene without interruption.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene172_beat7",
+      "trait_it_relates_to": "Alberto is shown as a brutalized torture victim, revealed in a state of extreme physical devastation and unable to do more than react to his captivity",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene170_beat7",
+      "what_changes": "His earlier scream was a reaction to captivity/torture; here he screams amid live gunfire in the room, his helpless body now also at risk of being struck by a stray bullet -- a new, distinct kind of danger layered onto his existing suffering.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene172_beat8",
+      "trait_it_relates_to": "Alberto is shown as a brutalized torture victim, revealed in a state of extreme physical devastation and unable to do more than react to his captivity",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene172_beat7",
+      "what_changes": "The gunfight's scream directly continues into wails as the chaos moves upstairs -- the same unbroken moment of terror extending, not a new escalation.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene182_beat1",
+      "trait_it_relates_to": "Alberto is shown as a brutalized torture victim, revealed in a state of extreme physical devastation and unable to do more than react to his captivity",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene172_beat8",
+      "what_changes": "Alberto's last conscious state was wailing in terror; here he is found comatose on a ventilator, having lost all capacity to scream, speak, or react -- exposing the ultimate limit his body's ordeal has reached.",
+      "likely_category": "boundary_revealed"
+    }
+  ]
+}

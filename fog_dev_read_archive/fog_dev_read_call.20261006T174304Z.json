@@ -1,0 +1,62 @@
+{
+  "model": "claude-sonnet-5",
+  "max_tokens": 16000,
+  "prompt_version": 3,
+  "system_sha256": "a21f65af02acdcc1c459454af9be70940588026b483f77335161e0f6d45edaef",
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "genre": {
+            "type": "string"
+          },
+          "synopsis": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "genre",
+          "synopsis"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "timestamp_utc": "2026-10-06T00:26:06.138071+00:00",
+      "request_id": "req_011Cfk2uxfF1k6V8PiaCTyDJ",
+      "model_returned": "claude-sonnet-5",
+      "stop_reason": "end_turn",
+      "user_sha256": "b5380ad19f9348949a9ad9e75f6e6e88856d1954cb522d515fb67d1831b7a5dc",
+      "retry_violations": null,
+      "usage": {
+        "input_tokens": 66967,
+        "output_tokens": 484
+      },
+      "cost_usd": 0.1388,
+      "raw_text": "{\"genre\": \"Crime drama / mystery thriller\", \"synopsis\": \"In Dover, New Hampshire, eleven-year-old Holly Roberts vanishes from the woods, leaving behind only her hobbyhorse. LAPD detective John Kierstead returns home for his father Mackie's funeral and is pulled into the investigation when he learns Holly is the daughter of his former girlfriend Cheyenne. Tracing a cryptic nickname, \\\"El Vaquero,\\\" John uncovers that his late father and family friend Reggie, a Marine veteran, were running their own vigilante operation, torturing a wrongly suspected man, Alberto Gomez, and trafficking stolen pharmaceuticals. Reggie dies in a shootout with John after revealing Mackie's secret involvement. Holly's body then washes ashore, and intellectually disabled local man Raymond Olsen is arrested and charged after a coerced, ethically dubious interrogation. During his confession to FBI agents, Raymond implicates John's sister Trudy. John confronts Trudy in a church confessional, where she admits she arranged Holly's abduction to \\\"baptize\\\" her against Cheyenne's wishes and drowned her when she resisted. John lets Trudy flee in his rental car rather than turn her in, then visits the family of his friend Andy, who died in a boating accident twenty-two years earlier that Mackie covered up, intending finally to tell the truth.\"}"
+    },
+    {
+      "attempt": 2,
+      "timestamp_utc": "2026-10-06T00:26:12.263042+00:00",
+      "request_id": "req_011Cfk2vYWDCxboZvT2LFHCs",
+      "model_returned": "claude-sonnet-5",
+      "stop_reason": "end_turn",
+      "user_sha256": "60e11dcf60022ad16e17412d5216a9d77484ce233c94c6ce0ab833fcc8f2024d",
+      "retry_violations": [
+        "[quote] quoted text 'baptize' is not verbatim in fog_full.txt",
+        "[length] synopsis is 192 words; the limit is 70-140 (the prompt asks for under 110)"
+      ],
+      "usage": {
+        "input_tokens": 67072,
+        "output_tokens": 394
+      },
+      "cost_usd": 0.1381,
+      "raw_text": "{\"genre\":\"Crime drama/mystery thriller\",\"synopsis\":\"In Dover, New Hampshire, eleven-year-old Holly Roberts vanishes from the woods, leaving behind only her hobbyhorse. Detective John Kierstead, a troubled LA cop, returns home for his father Mackie's funeral and is pulled into the investigation alongside Doug, his sister Trudy's boyfriend on the force. John uncovers that Mackie and family friend Reggie had been violently pursuing a suspect called El Vaquero, torturing an innocent man. Reggie is killed confronting John at the family cabin. Authorities arrest Raymond Olsen, a disabled man, for Holly's murder. John discovers Trudy's car at a church and finds her in a confessional: she admits she arranged Holly's abduction to punish Holly's mother Cheyenne, then drowned Holly during a makeshift baptism ritual when the girl resisted. John gives Trudy his keys and lets her drive off, choosing silence over turning her in. He then arrives at the door of his late friend Andy's parents, preparing to finally confess the truth about Andy's death twenty years earlier.\"}"
+    }
+  ]
+}

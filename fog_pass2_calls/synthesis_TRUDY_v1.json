@@ -1,0 +1,154 @@
+{
+  "synthesis": [
+    {
+      "trait": "Devout Catholic faith expressed through comforting ritual words and worship",
+      "first_shown_beat_id": "scene30_beat1"
+    },
+    {
+      "trait": "Nurturing caretaker/protector of family, especially John, during crisis",
+      "first_shown_beat_id": "scene26_beat3"
+    },
+    {
+      "trait": "Quiet grief over infertility that curdles into resentment toward Cheyenne and Holly",
+      "first_shown_beat_id": "scene34_beat2"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene131_beat1",
+      "trait_it_relates_to": "Devout Catholic faith expressed through comforting ritual words and worship",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene30_beat1",
+      "what_changes": "Her established plain, comforting devotion (feeding the poor, offering faith-based words) shifts into an overtly sensory, almost erotic register during communion, a qualitatively different intensity of religious expression not seen before.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene143_beat7",
+      "trait_it_relates_to": "Quiet grief over infertility that curdles into resentment toward Cheyenne and Holly",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene34_beat2",
+      "what_changes": "Her earlier private, resigned sadness about infertility ('maybe it's just not in God's plan') escalates into overt hostile judgment of Cheyenne as an unfit mother and the chilling suggestion that 'Holly would've been better off' -- a concrete jump from quiet grief to expressed vindictiveness toward Holly's fate.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene213_beat2",
+      "trait_it_relates_to": "Devout Catholic faith expressed through comforting ritual words and worship",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene30_beat1",
+      "what_changes": "Having only ever voiced unwavering faith-affirming words to others, she now confesses open doubt in God for the first time, tied to her mother's death and her infertility -- a previously unknown crack in her devotion.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene213_beat4",
+      "trait_it_relates_to": "Quiet grief over infertility that curdles into resentment toward Cheyenne and Holly",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene213_beat2",
+      "what_changes": "The same unbroken conversation continues; her focus shifts from confessing doubt to guardedly asking 'How much does Doug know?', directly preceding the full confession.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene213_beat5",
+      "trait_it_relates_to": "Quiet grief over infertility that curdles into resentment toward Cheyenne and Holly",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene213_beat4",
+      "what_changes": "Immediate continuation of the same exchange -- her trembling signals the confession is about to break, with no gap from the prior beat.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene213_beat7",
+      "trait_it_relates_to": "Quiet grief over infertility that curdles into resentment toward Cheyenne and Holly",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene213_beat5",
+      "what_changes": "The same unbroken confession culminates in her admitting she hired Raymond to kidnap Holly 'to teach Cheyenne a lesson' -- the full, previously unknown scope of her resentment as an actual criminal conspiracy is exposed.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene214_beat1",
+      "trait_it_relates_to": "Quiet grief over infertility that curdles into resentment toward Cheyenne and Holly",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene213_beat7",
+      "what_changes": "The confession continues directly into flashback, explaining her panic when her father got involved -- an unbroken extension of the same reveal.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene214_beat3",
+      "trait_it_relates_to": "Quiet grief over infertility that curdles into resentment toward Cheyenne and Holly",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene214_beat1",
+      "what_changes": "Continuing the same flashback, she reveals she personally retrieved Holly from Raymond and had been religiously grooming her as 'Godmother,' now leading her to the boat's edge.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene214_beat4",
+      "trait_it_relates_to": "Quiet grief over infertility that curdles into resentment toward Cheyenne and Holly",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene214_beat3",
+      "what_changes": "The unbroken flashback sequence turns from ritual preparation into enacted violence as she forces Holly's head underwater.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene215_beat1",
+      "trait_it_relates_to": "Quiet grief over infertility that curdles into resentment toward Cheyenne and Holly",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene214_beat4",
+      "what_changes": "Holly's struggle underwater continues directly and without a gap from the previous beat's action.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene216_beat1",
+      "trait_it_relates_to": "Devout Catholic faith expressed through comforting ritual words and worship",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene215_beat1",
+      "what_changes": "She hauls Holly up and recites baptismal liturgy while continuing the same unbroken drowning, fusing her established faith ritual with ongoing violence.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene216_beat2",
+      "trait_it_relates_to": "Devout Catholic faith expressed through comforting ritual words and worship",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene216_beat1",
+      "what_changes": "She dunks Holly again while continuing the same liturgy, extending the identical ritual-murder sequence.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene216_beat4",
+      "trait_it_relates_to": "Devout Catholic faith expressed through comforting ritual words and worship",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene216_beat2",
+      "what_changes": "She continues reciting full baptismal vows ('Do you reject Satan...') as Holly fights back, deepening the fusion of ritual and violence within the same unbroken act.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene216_beat5",
+      "trait_it_relates_to": "Quiet grief over infertility that curdles into resentment toward Cheyenne and Holly",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene216_beat4",
+      "what_changes": "When Holly begins to overpower her, she escalates within this same continuous act to striking her repeatedly and forcing her deeper underwater -- the violence itself intensifies mid-sequence.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene216_beat6",
+      "trait_it_relates_to": "Devout Catholic faith expressed through comforting ritual words and worship",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene216_beat5",
+      "what_changes": "She finishes the liturgy as Holly stops struggling, the same unbroken ritual reaching its conclusion.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene216_beat7",
+      "trait_it_relates_to": "Quiet grief over infertility that curdles into resentment toward Cheyenne and Holly",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene216_beat6",
+      "what_changes": "Immediately following the completed act, she registers that Holly is dead and looks horrified -- revealing that even she is shaken rather than purely triumphant, a limit on the fervor just displayed.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene217_beat1",
+      "trait_it_relates_to": "Devout Catholic faith expressed through comforting ritual words and worship",
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene216_beat4",
+      "what_changes": "John's closing line 'It's between you and God now' directly answers the religious vows and blessings she herself recited while drowning Holly, reframing her own faith as the sole reckoning she now faces alone, with no human confession or absolution granted.",
+      "likely_category": "boundary_revealed"
+    }
+  ]
+}

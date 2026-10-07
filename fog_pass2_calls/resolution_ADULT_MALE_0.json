@@ -1,0 +1,8 @@
+{
+  "character": "ADULT MALE",
+  "chunk": 0,
+  "expected_ids": [
+    "scene10_beat1"
+  ],
+  "raw_text": "{\"beat_resolutions\": [{\"beat_id\": \"scene10_beat1\", \"checked_against\": \"Questions witnesses methodically to establish basic facts (first shown: scene10_beat1)\", \"weight_proportionality\": \"matched\", \"characterization_consistency\": \"consistent\", \"rationale\": \"This is the beat that establishes the pattern itself -- the character calmly and methodically questions witnesses to nail down basic facts, appropriate to an officer gathering information at the start of an investigation.\"}]}"
+}

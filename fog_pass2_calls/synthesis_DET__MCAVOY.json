@@ -1,0 +1,38 @@
+{
+  "synthesis": [
+    {
+      "trait": "Needles John with mocking, personal insults framed as banter/hostility",
+      "first_shown_beat_id": "scene14_beat7"
+    },
+    {
+      "trait": "Escalates to genuinely hostile, vulgar hostility when provoked",
+      "first_shown_beat_id": "scene14_beat9"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene14_beat9",
+      "trait_it_relates_to": "Needles John with mocking, personal insults framed as banter/hostility",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene14_beat7",
+      "what_changes": "The first beat is a light jab about tardiness/rehab framed as welcome-back banter; here McAvoy responds to John's crude insult with a raw obscenity and open hostility ('Fuck you, Kierstead'), a clear escalation in vulgarity and personal animosity beyond the earlier teasing.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene14_beat11",
+      "trait_it_relates_to": "Escalates to genuinely hostile, vulgar hostility when provoked",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene14_beat9",
+      "what_changes": "The same escalating confrontation continues unbroken: McAvoy pushes further from a personal curse to actively wishing John relapses, raising the stakes from insult to weaponizing John's addiction/recovery against him.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene14_beat12",
+      "trait_it_relates_to": "Escalates to genuinely hostile, vulgar hostility when provoked",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene14_beat11",
+      "what_changes": "The same confrontation resolves in the same unbroken sequence: Sarge intervenes with authority, McAvoy is ordered out, mutters a final insult, and leaves -- the direct continuation and endpoint of the escalating exchange begun in the prior two beats.",
+      "likely_category": "consistent"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "title": "Full of Grace",
+  "title_printed": "FULL OF GRACE",
+  "title_source": "code: fog_full.txt title page",
+  "genre": "Crime Drama / Thriller",
+  "logline": "A burnt-out, hard-drinking LA detective returns to his New Hampshire hometown for his father's funeral and gets pulled into investigating the disappearance of a young girl, a case his late father secretly worked before his death, forcing him to confront buried secrets from his own past and his family's hidden involvement.",
+  "synopsis": "Detective John Kierstead, suspended to desk duty in Los Angeles after a leave of absence, returns to Dover, New Hampshire when his father Mackie, a decorated police officer, dies. There he reunites with his sister Trudy and learns that Holly Roberts, the young daughter of his former girlfriend Cheyenne, has been missing for a week after vanishing near a wooded nature preserve, leaving behind only her hobbyhorse. Mackie had been quietly consulting on the case before his death. Pulled in by Cheyenne's plea for help, John begins reviewing his father's incomplete case notes and discovers inconsistencies, including a mysterious texting contact Holly called \"El Vaquero.\"\n\nJohn's investigation leads him to a Maine workshop that makes custom hobbyhorses, where he chases down a worker, Ricardo, who directs him toward another former employee, Raymond Olsen, a man with Down Syndrome who performs music under the name El Vaquero. John also tangles with Cheyenne's boyfriend O'Shea, a drug dealer who reveals that Mackie and family friend Reggie Lund, a Marine veteran, had been shaking him down for drugs and threatening to pin Holly's disappearance on him. Interwoven flashbacks reveal that twenty-two years earlier, a teenage John piloted a boat during a confrontation with jet-skiers that led to his friend Andy's death, and that Mackie covered up John's role, telling him to keep silent.\n\nWhile investigating further, John discovers Reggie has been holding a disfigured, tortured man, Alberto Gomez, captive in the cabin's cellar, having concluded Gomez was El Vaquero and responsible for Holly's disappearance. Reggie, high and armed, confronts John and is shot and killed after refusing to lower his weapon. In the aftermath, John receives word that Holly's body has washed up in the bay, and he personally tells Cheyenne.\n\nGomez is identified as an unrelated registered sex offender and is set to be extradited, leaving Raymond Olsen implicated instead by circumstantial evidence; he is arrested by the FBI. During interrogation, Raymond states he was following instructions from someone named Trudy, claiming he was doing \"the Lord's work\" and that he \"gave Holly back\" to her. John, stunned, tracks Trudy down at a church, where in a confessional she admits that she arranged for Raymond to take Holly temporarily to teach Cheyenne a lesson, then took Holly from Raymond herself once their father became involved. In a flashback, Trudy is shown repeatedly submerging Holly in bay water while reciting a baptismal rite, and Holly dies during the ritual. In the present, John takes Trudy's car keys, gives her his rental keys instead, kisses her forehead, and tells her it is now between her and God, allowing her to drive off alone. The film ends with John arriving at the home of Andy's parents, preparing to finally tell them the truth about their son's death.",
+  "model": "claude-sonnet-5",
+  "call_file": "fog_dev_read_call.json",
+  "attempts": 2,
+  "total_cost_usd": 0.2913,
+  "prompt_version": 5,
+  "inputs": "fog_full.txt page 2 on only; no plot facts, tags or review data",
+  "source": "ai_accepted_after_rule_change",
+  "accepted_attempt": 2,
+  "accepted_note": "Attempt 2 of the prompt-v5 run (462 words) was rejected only for length under the old 250-450 limit; the author changed the hard limit to 250-500 words and the prompt target to about 300-380 (2026-10-06). Re-checked against the full guard with no API call; genre and logline are the ones already stored.",
+  "accepted_under": {
+    "logline_words": [
+      15,
+      60
+    ],
+    "synopsis_words": [
+      250,
+      500
+    ],
+    "prompt_version_of_attempt": 5
+  },
+  "formatting_repair": {
+    "field": "synopsis",
+    "date": "2026-10-06",
+    "old": "silent.a While",
+    "new": "silent.\n\nWhile",
+    "note": "Formatting repair: one stray character removed and one paragraph break restored; no words changed.",
+    "ai_original": "Detective John Kierstead, suspended to desk duty in Los Angeles after a leave of absence, returns to Dover, New Hampshire when his father Mackie, a decorated police officer, dies. There he reunites with his sister Trudy and learns that Holly Roberts, the young daughter of his former girlfriend Cheyenne, has been missing for a week after vanishing near a wooded nature preserve, leaving behind only her hobbyhorse. Mackie had been quietly consulting on the case before his death. Pulled in by Cheyenne's plea for help, John begins reviewing his father's incomplete case notes and discovers inconsistencies, including a mysterious texting contact Holly called \"El Vaquero.\"\n\nJohn's investigation leads him to a Maine workshop that makes custom hobbyhorses, where he chases down a worker, Ricardo, who directs him toward another former employee, Raymond Olsen, a man with Down Syndrome who performs music under the name El Vaquero. John also tangles with Cheyenne's boyfriend O'Shea, a drug dealer who reveals that Mackie and family friend Reggie Lund, a Marine veteran, had been shaking him down for drugs and threatening to pin Holly's disappearance on him. Interwoven flashbacks reveal that twenty-two years earlier, a teenage John piloted a boat during a confrontation with jet-skiers that led to his friend Andy's death, and that Mackie covered up John's role, telling him to keep silent.a While investigating further, John discovers Reggie has been holding a disfigured, tortured man, Alberto Gomez, captive in the cabin's cellar, having concluded Gomez was El Vaquero and responsible for Holly's disappearance. Reggie, high and armed, confronts John and is shot and killed after refusing to lower his weapon. In the aftermath, John receives word that Holly's body has washed up in the bay, and he personally tells Cheyenne.\n\nGomez is identified as an unrelated registered sex offender and is set to be extradited, leaving Raymond Olsen implicated instead by circumstantial evidence; he is arrested by the FBI. During interrogation, Raymond states he was following instructions from someone named Trudy, claiming he was doing \"the Lord's work\" and that he \"gave Holly back\" to her. John, stunned, tracks Trudy down at a church, where in a confessional she admits that she arranged for Raymond to take Holly temporarily to teach Cheyenne a lesson, then took Holly from Raymond herself once their father became involved. In a flashback, Trudy is shown repeatedly submerging Holly in bay water while reciting a baptismal rite, and Holly dies during the ritual. In the present, John takes Trudy's car keys, gives her his rental keys instead, kisses her forehead, and tells her it is now between her and God, allowing her to drive off alone. The film ends with John arriving at the home of Andy's parents, preparing to finally tell them the truth about their son's death."
+  },
+  "author_check": {
+    "date": "2026-10-06",
+    "by": "author (Shane O'Connor)",
+    "note": "The author fact-checked the logline and synopsis against the script. The AI's words are left unchanged; these points are not accurate:",
+    "issues": [
+      {
+        "field": "logline",
+        "text": "a case his late father secretly worked",
+        "issue": "Mackie was not working the case secretly; Doug gave John Mackie's case files."
+      },
+      {
+        "field": "synopsis",
+        "text": "Mackie had been quietly consulting on the case",
+        "issue": "Same issue as the logline: Mackie was not working the case secretly."
+      },
+      {
+        "field": "synopsis",
+        "text": "suspended to desk duty",
+        "issue": "Not in the script."
+      },
+      {
+        "field": "synopsis",
+        "text": "someone named Trudy",
+        "issue": "Phrased as if Trudy were a stranger; the synopsis itself earlier identifies her as John's sister."
+      }
+    ],
+    "closing": "Otherwise confirmed accurate by the author.",
+    "previous_check": "fog_dev_read_archive/fog_dev_read.20261006T174304Z.json (author check of 2026-10-05, on the prompt-v3 synopsis it covered)"
+  },
+  "generated_by_prompt_version": 5,
+  "generating_prompt_file": "fog_dev_read_archive/fog_dev_read_prompt.v5.93f60624.json"
+}

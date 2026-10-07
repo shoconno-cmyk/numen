@@ -1,0 +1,74 @@
+{
+  "synthesis": [
+    {
+      "trait": "Nurturing caretaker who looks out for her friends and their animals' well-being",
+      "first_shown_beat_id": "scene3_beat1"
+    },
+    {
+      "trait": "Playful, mischievous, competitive troublemaker who initiates games and dares among friends",
+      "first_shown_beat_id": "scene3_beat2"
+    },
+    {
+      "trait": "Genuine fear/vulnerability surfaces beneath her playful exterior when confronted with real danger",
+      "first_shown_beat_id": "scene6_beat3"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene6_beat3",
+      "trait_it_relates_to": "Playful, mischievous, competitive troublemaker who initiates games and dares among friends",
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene3_beat2",
+      "what_changes": "The text explicitly states 'her mischief falls from her face' -- a precise, concrete reversal of the exact playful/mischievous quality established when she broke into a gallop teasing the others, now stripped away by real danger.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene7_beat3",
+      "trait_it_relates_to": "Genuine fear/vulnerability surfaces beneath her playful exterior when confronted with real danger",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene6_beat3",
+      "what_changes": "The danger she spotted in the previous beat materializes without a gap: her own scream is heard, cut off suddenly as if by force, the direct unbroken continuation of the threat she reacted to.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene214_beat2",
+      "trait_it_relates_to": "Genuine fear/vulnerability surfaces beneath her playful exterior when confronted with real danger",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene7_beat3",
+      "what_changes": "The abduction implied by her cut-off scream is now shown realized: she is bound, blindfolded, and trembling as a captive, a further exposed limit -- total physical helplessness -- beyond the earlier fear reaction alone.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene215_beat1",
+      "trait_it_relates_to": "Genuine fear/vulnerability surfaces beneath her playful exterior when confronted with real danger",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene214_beat2",
+      "what_changes": "She moves from passive trembling captivity to actively, physically struggling as her head is held underwater -- a clear escalation from passive fear to active resistance never previously shown.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene216_beat3",
+      "trait_it_relates_to": "Genuine fear/vulnerability surfaces beneath her playful exterior when confronted with real danger",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene215_beat1",
+      "what_changes": "The same drowning struggle continues without a break: she is lifted and immediately screams for help, the direct extension of her fight for survival begun in the prior beat.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene216_beat5",
+      "trait_it_relates_to": "Genuine fear/vulnerability surfaces beneath her playful exterior when confronted with real danger",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene216_beat3",
+      "what_changes": "Her resistance escalates past screaming and struggling to physically beginning to overpower her attacker -- the greatest scale of active resistance yet -- before being repeatedly struck and forced under again, exposing the limit of her strength against Trudy's violence.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene216_beat7",
+      "trait_it_relates_to": "Genuine fear/vulnerability surfaces beneath her playful exterior when confronted with real danger",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene216_beat5",
+      "what_changes": "The same physical struggle continues to its end without a gap: her resistance finally leaves her entirely and she goes lifeless, the ultimate and final limit of the fight for survival begun earlier.",
+      "likely_category": "boundary_revealed"
+    }
+  ]
+}

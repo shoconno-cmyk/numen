@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Numen Walkthrough</title>
+<style>/* numen_theme.css -- the one shared stylesheet for every Numen page: the
+   Story Report (public and review builds), the walkthrough and the four
+   demo cards. Fonts, color tokens (light and dark) and the AI / human
+   review label chips live here and nowhere else. Builders inline it via
+   numen_theme.py, which rewrites the font URLs relative to each page.
+
+   Type: Fraunces for headings and the Numen wordmark; Inter for body
+   text, labels, buttons and captions; Courier Prime for script text only.
+   Bundled weights: Fraunces 400/500, Inter 400/500/600 (600 is bold body
+   text and lead-ins), Courier Prime 400 only (script text is never bold,
+   as in a real screenplay). Weight synthesis is off, so nothing is faked.
+
+   Color (author-approved mapping, 2026-10-06): the AI is teal (--accent,
+   AI chips, AI Output banners); human review is neutral gray (--human-rule,
+   human chips, Human Reviewed banners, review boxes, badges). Amber
+   (--claim) is kept only for "Worth knowing" notes and review-build
+   outlines; --verdict only for review-build outlines. Trickster and Chorus
+   sit in yellow-green, clear of the teal accent. */
+
+@font-face { font-family: "Fraunces"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("fonts/fraunces-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Fraunces"; font-style: normal; font-weight: 500; font-display: swap;
+  src: url("fonts/fraunces-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("fonts/inter-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap;
+  src: url("fonts/inter-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: swap;
+  src: url("fonts/inter-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Courier Prime"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("fonts/courier-prime-latin-400-normal.woff2") format("woff2"); }
+
+:root {
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-script: "Courier Prime", "Courier New", Courier, monospace;
+  --font-code: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --bg: #f4f2ee; --panel: #fbfaf8; --ink: #1f1d1a; --muted: #6d675f; --faint: #9a948b;
+  --rule: #dcd7cf; --lane: #efece6; --claim: #8a5a12; --verdict: #2f6b45;
+  --shadow: 0 1px 2px rgba(0,0,0,.08), 0 4px 18px rgba(0,0,0,.06);
+  --scrim: rgba(20,18,15,.28);
+  /* The Big Seven, in BIG_SEVEN_DEFINITIONS order */
+  --s1: #2a78d6; --s2: #eb6834; --s3: #87a400; --s4: #eda100;
+  --s5: #e87ba4; --s6: #3d7d0f; --s7: #4a3aa7;
+  /* The AI (teal) and human review (neutral gray) */
+  --accent: #0F6E56;
+  --ai-chip-bg: #E1F5EE; --ai-chip-ink: #085041;
+  --human-chip-bg: #ECEAE6; --human-chip-ink: #4A4640;
+  --human-rule: #8C867D;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1a1918; --panel: #232220; --ink: #ece8e2; --muted: #a39d94; --faint: #7c766e;
+    --rule: #3a3734; --lane: #2b2a27; --claim: #e0b268; --verdict: #8fcfa4;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 18px rgba(0,0,0,.3); --scrim: rgba(0,0,0,.5);
+    --s1: #3987e5; --s2: #d95926; --s3: #a6c21a; --s4: #c98500;
+    --s5: #d55181; --s6: #5c9a2a; --s7: #9085e9;
+    --accent: #5DCAA5;
+    --ai-chip-bg: #085041; --ai-chip-ink: #9FE1CB;
+    --human-chip-bg: #3A3835; --human-chip-ink: #D2CDC5;
+    --human-rule: #8F897F;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1a1918; --panel: #232220; --ink: #ece8e2; --muted: #a39d94; --faint: #7c766e;
+  --rule: #3a3734; --lane: #2b2a27; --claim: #e0b268; --verdict: #8fcfa4;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 18px rgba(0,0,0,.3); --scrim: rgba(0,0,0,.5);
+  --s1: #3987e5; --s2: #d95926; --s3: #a6c21a; --s4: #c98500;
+  --s5: #d55181; --s6: #5c9a2a; --s7: #9085e9;
+  --accent: #5DCAA5;
+  --ai-chip-bg: #085041; --ai-chip-ink: #9FE1CB;
+  --human-chip-bg: #3A3835; --human-chip-ink: #D2CDC5;
+  --human-rule: #8F897F;
+}
+
+html { font-synthesis-weight: none; }
+body { font-family: var(--font-body); }
+b, strong { font-weight: 600; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 500; letter-spacing: 0; }
+.wordmark { font-family: var(--font-display); font-weight: 500; color: var(--accent); }
+.script-text { font-family: var(--font-script); }
+code, kbd { font-family: var(--font-code); }
+
+/* Labels: the AI is a teal chip, human review a gray one. */
+.chip-ai, .chip-human { display: inline-block; font-family: var(--font-body); font-size: 12.5px; font-weight: 500;
+  line-height: 1.4; letter-spacing: .01em; text-transform: none; padding: 2px 10px; border-radius: 999px; }
+.chip-ai { background: var(--ai-chip-bg); color: var(--ai-chip-ink); }
+.chip-human { background: var(--human-chip-bg); color: var(--human-chip-ink); }
+
+/* Fonts and color tokens: numen_theme.css (shared), inlined ahead of this. */
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.55 var(--font-body); }
+main { max-width: 1240px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 28px; line-height: 1.2; font-weight: 500; margin: 0 0 4px; }
+h2 { font-size: 21px; font-weight: 500; margin: 0 0 10px; }
+.sub { color: var(--muted); margin: 0 0 20px; }
+.status { font-size: 13px; color: var(--muted); border: 1px dashed var(--rule);
+  border-radius: 6px; padding: 8px 12px; margin: 0 0 24px; }
+.panel { background: var(--panel); border-radius: 8px; box-shadow: var(--shadow); padding: 20px 20px 24px; }
+.toggle { display: inline-flex; border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; margin: 0 0 10px; }
+.toggle button { all: unset; cursor: pointer; padding: 8px 16px; font-size: 14px; font-weight: 600; color: var(--muted); }
+.toggle button[aria-pressed="true"] { background: var(--ink); color: var(--panel); }
+.toggle button:focus-visible { outline: 2px solid var(--muted); outline-offset: -2px; }
+.banner { font-size: 14px; padding: 9px 12px; border-radius: 6px; margin: 0 0 16px;
+  border-left: 4px solid var(--accent); background: var(--lane); }
+.banner.reviewed { border-left-color: var(--human-rule); }
+.intro p { margin: 0 0 10px; max-width: 72ch; }
+.intro { margin: 0 0 16px; }
+.what { margin: 0 0 18px; padding: 12px 14px; border-radius: 6px; background: var(--lane); }
+.what h3 { margin: 0; font-size: 16px; font-weight: 500; }
+.what p { margin: 8px 0 0; max-width: 72ch; font-size: 14px; }
+.legend-h { margin: 0 0 6px; font-size: 13px; font-weight: 650; color: var(--ink); }
+.legend { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 6px 18px;
+  font-size: 13px; color: var(--muted); margin: 0 0 18px; }
+.legend > span { display: flex; align-items: baseline; gap: 7px; }
+.legend b { color: var(--ink); font-weight: 600; }
+.key { flex: none; display: inline-block; width: 12px; height: 12px; border-radius: 3px; transform: translateY(1px); }
+.key.out { border: 2px solid var(--muted); }
+.note { font-size: 13px; color: var(--muted); margin: 0 0 14px; max-width: 72ch; }
+.char { border-top: 1px solid var(--rule); padding: 14px 0 8px; }
+.char-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; margin: 0 0 6px; }
+.char-head h3 { font-size: 17px; margin: 0; font-weight: 500; }
+.char-head .sum { font-size: 13px; color: var(--muted); }
+.row { display: grid; grid-template-columns: 110px minmax(0, 1fr); align-items: center; gap: 10px; min-height: 26px; }
+.row .lab { font-size: 12.5px; color: var(--ink); font-weight: 600; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.track { position: relative; height: 22px; background: var(--lane); border-radius: 4px; }
+.mk { all: unset; box-sizing: border-box; position: absolute; top: 2px; width: 10px; height: 18px; margin-left: -5px;
+  border-radius: 3px; box-shadow: 0 0 0 1.5px var(--lane); cursor: pointer; }
+.mk.out { background: var(--lane); border: 2px solid; box-shadow: none; }
+.mk:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.mk::after { content: ""; position: absolute; inset: -6px -5px; }
+.axis { position: relative; height: 22px; font-size: 11px; color: var(--faint); }
+.axis > span { position: absolute; top: 4px; transform: translateX(-50%); white-space: nowrap; }
+.axis-row { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 10px; }
+details.more { margin-top: 18px; border-top: 1px solid var(--rule); padding-top: 12px; }
+details > summary { cursor: pointer; font-weight: 600; font-size: 14px; color: var(--muted); }
+summary:focus-visible { outline: 2px solid var(--muted); outline-offset: 3px; }
+.hood { font-size: 13px; color: var(--muted); }
+.hood p { max-width: 80ch; }
+.hood code, .sheet code { font-size: 12px; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; font-size: 13px; margin-top: 12px; width: 100%; }
+th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; }
+td.n { font-variant-numeric: tabular-nums; }
+.tip { position: fixed; z-index: 10; pointer-events: none; max-width: 300px; background: var(--panel);
+  color: var(--ink); border: 1px solid var(--rule); border-radius: 6px; box-shadow: var(--shadow);
+  padding: 8px 10px; font-size: 12.5px; line-height: 1.45; display: none; }
+.tip .t1 { font-weight: 650; }
+.tip .t2 { color: var(--muted); }
+.scrim { position: fixed; inset: 0; background: var(--scrim); z-index: 20; display: none; }
+.sheet { position: fixed; z-index: 21; display: none; background: var(--panel); color: var(--ink);
+  box-shadow: var(--shadow); overflow-y: auto; overscroll-behavior: contain;
+  top: 16px; right: 16px; bottom: 16px; width: min(480px, calc(100vw - 32px)); border-radius: 10px;
+  padding: 18px 20px 24px; }
+.sheet.open, .scrim.open { display: block; }
+.sheet h3 { font-size: 18px; margin: 0 40px 2px 0; line-height: 1.3; }
+.sheet .gl { color: var(--muted); font-size: 13.5px; margin: 0 0 4px; }
+.sheet .where { color: var(--muted); font-size: 13px; margin: 0 0 4px; }
+.script pre + p, .script p + pre { margin-top: 9px; }
+.sheet h4 { font-size: 13px; color: var(--muted); font-weight: 500; margin: 18px 0 6px; }
+.close { all: unset; position: absolute; top: 12px; right: 12px; width: 36px; height: 36px; border-radius: 6px;
+  display: grid; place-items: center; cursor: pointer; font-size: 24px; line-height: 1; color: var(--muted); }
+.close:hover { background: var(--lane); }
+.close:focus-visible { outline: 2px solid var(--ink); }
+.script { background: var(--lane); border-radius: 6px; padding: 12px 14px; font: 14px/1.5 var(--font-script); }
+.script p { margin: 0 0 9px; }
+.script p:last-child { margin: 0; }
+.script .cue { display: block; font-size: 14px; }
+.script .slug { font-size: 14px; }
+.script pre { margin: 0; font: 12.5px/1.45 var(--font-script); white-space: pre; overflow-x: auto; }
+.reason dl { margin: 0; display: grid; gap: 8px; }
+.reason dt { font-size: 12.5px; color: var(--muted); font-weight: 600; }
+.reason dd { margin: 0; }
+.reason .lead { margin: 0 0 10px; font-size: 13.5px; color: var(--muted); }
+.changed { margin: 0; border-left: 4px solid var(--human-rule); background: var(--lane); border-radius: 6px; padding: 9px 12px; }
+.sheet details { margin-top: 18px; border-top: 1px solid var(--rule); padding-top: 10px; }
+.sheet details p { font-size: 12.5px; color: var(--muted); margin: 6px 0; overflow-wrap: anywhere; }
+.panel + .panel { margin-top: 24px; }
+.why { margin: 0 0 24px; }
+.why h2 { margin-bottom: 8px; }
+.why p, .why li { max-width: 72ch; }
+.why p { margin: 0 0 10px; }
+.why ul { margin: 0 0 12px; padding-left: 22px; }
+.why li { margin: 0 0 6px; }
+.why p:last-child { margin-bottom: 0; }
+.not-measured p { margin: 0; max-width: 72ch; }
+.dr { margin: 0 0 12px; display: grid; gap: 4px 0; max-width: 72ch; }
+.dr dt { font-size: 13px; color: var(--muted); font-weight: 650; margin-top: 8px; }
+.dr dd { margin: 0; }
+.dr .dr-title { font-size: 17px; font-weight: 650; }
+.muted { font-weight: 400; }
+.deflink { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.defs .defs-intro { margin: 0 0 8px; max-width: 72ch; color: var(--muted); font-size: 14px; }
+.defs h3 { font-size: 15px; margin: 18px 0 4px; scroll-margin-top: 16px; }
+.defs h3:target { color: var(--accent); }
+.defs p { margin: 0; max-width: 80ch; font-size: 14px; }
+.dr-syn { margin: 4px 0 12px; max-width: 72ch; }
+.dr-syn > summary { cursor: pointer; font-weight: 600; font-size: 14px; color: var(--muted); }
+.dr-syn > div { margin-top: 8px; }
+.dr-syn p { margin: 0 0 10px; }
+.ai-label { margin: 10px 0 0; }
+.sec h3 { font-size: 17px; font-weight: 500; margin: 22px 0 6px; }
+.sec h3:first-of-type { margin-top: 4px; }
+.sec .lead { margin: 0 0 10px; max-width: 72ch; }
+.sec .count { margin: 0 0 12px; font-size: 14px; color: var(--muted); }
+.types { display: grid; gap: 4px; margin: 0 0 12px; font-size: 13.5px; max-width: 80ch; }
+.types b { font-weight: 650; }
+.tp-row { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 4px 12px; padding: 8px 0;
+  border-top: 1px solid var(--rule); align-items: baseline; }
+.tp-row .who { font-weight: 650; font-size: 14px; }
+.tp-row .grp { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; margin: 0 0 4px; }
+.tp-row .grp:last-child { margin: 0; }
+.tp-row .gl2 { font-size: 13px; color: var(--muted); margin-right: 2px; }
+.chip { all: unset; box-sizing: border-box; cursor: pointer; font-size: 12.5px; font-variant-numeric: tabular-nums;
+  padding: 2px 8px; border-radius: 999px; border: 1px solid var(--rule); background: var(--lane); color: var(--ink);
+  white-space: nowrap; min-height: 24px; display: inline-flex; align-items: center; }
+.chip:hover { border-color: var(--muted); }
+.chip:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+/* Turning-point chips (.ev, .br): neutral ink, told apart by their label text. */
+.roles { display: grid; gap: 6px; }
+.roles > div { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; }
+.roles .what2 { font-size: 14px; margin-right: 4px; }
+.flag { border-top: 1px solid var(--rule); padding: 12px 0 10px; }
+.flag .scope { display: inline-block; font-size: 12px; font-weight: 650; color: var(--muted);
+  border: 1px solid var(--rule); border-radius: 4px; padding: 1px 6px; margin-right: 8px; }
+.flag .head { font-weight: 650; }
+.flag p { margin: 6px 0 8px; max-width: 72ch; }
+.flag .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.empty { font-size: 15px; margin: 4px 0 8px; padding: 12px 14px; border-radius: 6px; background: var(--lane); }
+.hold td.n { white-space: nowrap; }
+footer { margin-top: 28px; font-size: 12px; color: var(--muted); }
+/* Section 4, archetype timeline. Wide: pages left to right, one row per lane.
+   Narrow (max-width 640px, set in JS): pages top to bottom, lanes side by side. */
+.tl-chart { position: relative; margin: 4px 0 0; }
+.tl-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; transform: translateY(1px); }
+.tl-dot.hollow { background: transparent; border: 2px solid; margin-right: 8px; }
+.tl-row { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 10px; align-items: start; }
+.tl-row + .tl-row { margin-top: 4px; }
+.tl-row .lab { display: flex; justify-content: flex-end; align-items: center; gap: 6px; padding-top: 3px;
+  font-size: 12.5px; font-weight: 600; white-space: nowrap; }
+.tl-track { position: relative; background: var(--lane); border-radius: 4px; }
+.tl-grid { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--rule); }
+.tl-axis { position: relative; height: 20px; font-size: 11px; color: var(--faint); }
+.tl-axis > span { position: absolute; top: 3px; transform: translateX(-50%); white-space: nowrap; }
+.tlm { all: unset; box-sizing: border-box; position: absolute; width: 10px; height: 10px; margin: -5px 0 0 -5px;
+  border-radius: 50%; background: var(--c); box-shadow: 0 0 0 1.5px var(--lane); cursor: pointer; }
+.tlm.hollow { background: var(--lane); border: 2px solid var(--c); }
+.tlm::after { content: ""; position: absolute; inset: -4px; border-radius: 50%; }
+.tlm:focus-visible, .tlm[aria-expanded="true"] { outline: 2px solid var(--ink); outline-offset: 2px; }
+.tl-lab, .tl-vlab { position: absolute; color: var(--ink); font-weight: 600; pointer-events: none; }
+.tl-lab { font-size: 11.5px; line-height: 14px; white-space: nowrap; }
+.tl-vlab { font-size: 10.5px; line-height: 12px; text-align: center; overflow-wrap: normal; }
+.tl-vhead { position: sticky; top: 0; z-index: 2; display: grid; background: var(--panel);
+  padding: 6px 0 6px; border-bottom: 1px solid var(--rule); }
+.tl-vh { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 5px; }
+.tl-vh span { writing-mode: vertical-rl; transform: rotate(180deg); font-size: 11.5px; font-weight: 600; white-space: nowrap; }
+.tl-vh .key { width: 10px; height: 10px; }
+.tl-vh.ax span { font-weight: 400; color: var(--faint); font-size: 11px; }
+.tl-vbody { position: relative; margin-top: 6px; }
+.tl-vcol { position: absolute; top: 0; bottom: 0; background: var(--lane); border-radius: 4px; }
+.tl-vgrid { position: absolute; right: 0; height: 1px; background: var(--rule); }
+.tl-vtick { position: absolute; left: 0; text-align: right; font-size: 10.5px; line-height: 12px; color: var(--faint);
+  transform: translateY(-50%); }
+.tl-pop { position: fixed; z-index: 12; display: none; max-width: 280px; background: var(--panel); color: var(--ink);
+  border: 1px solid var(--rule); border-radius: 6px; box-shadow: var(--shadow); padding: 8px 12px 10px;
+  font-size: 13px; line-height: 1.45; }
+.tl-pop.open { display: block; }
+.tl-pop .t1 { font-weight: 650; }
+.tl-pop .t2 { color: var(--muted); }
+.tl-pop a { display: inline-block; margin-top: 4px; padding: 2px 0; color: var(--ink); text-underline-offset: 2px; }
+.tl-pop a:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+@media (max-width: 640px) {
+  .axis .pw { display: none; }
+  .row, .axis-row { grid-template-columns: 78px minmax(0, 1fr); gap: 6px; }
+  .row .lab { font-size: 11px; }
+  .tp-row { grid-template-columns: 1fr; }
+  .sheet { top: auto; left: 0; right: 0; bottom: 0; width: 100%; max-height: 86vh;
+    border-radius: 14px 14px 0 0; padding: 18px 16px 28px; }
+}
+
+main { max-width: 760px; }
+.wt-head { margin: 8px 0 24px; }
+.wt-head h1 { font-size: 24px; }
+.wt-head p { margin: 8px 0 0; max-width: 60ch; color: var(--muted); }
+.stage { position: relative; }
+.stage .num { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 50%;
+  background: var(--ink); color: var(--panel); font-weight: 650; font-size: 14px; margin-right: 10px; flex: none; }
+.stage h2 { display: flex; align-items: center; margin-bottom: 12px; }
+.io { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 0 0 12px; }
+.io > div { background: var(--lane); border-radius: 6px; padding: 9px 12px; }
+.io h3, .does h3 { margin: 0 0 3px; font-family: var(--font-body); font-size: 12.5px; font-weight: 500; color: var(--muted);
+  text-transform: uppercase; letter-spacing: .04em; }
+.io p, .does p { margin: 0; font-size: 14px; }
+.does { margin: 0 0 12px; }
+.does p + p { margin-top: 8px; }
+.plain { border-left: 4px solid var(--ink); padding-left: 10px; }
+.ex { margin: 14px 0 0; }
+.ex figcaption { font-size: 13px; color: var(--muted); margin: 0 0 6px; }
+.ex .script { overflow-wrap: break-word; }
+.rows { margin: 0; display: grid; gap: 8px; background: var(--lane); border-radius: 6px; padding: 10px 14px; }
+.rows dt { font-size: 12.5px; color: var(--muted); font-weight: 600; }
+.rows dd { margin: 0; overflow-wrap: break-word; }
+.sig { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.sig li { font-size: 12.5px; border: 1px solid var(--rule); background: var(--panel); border-radius: 999px; padding: 2px 9px; }
+.wnote { margin: 14px 0 0; font-size: 14px; border-left: 4px solid var(--claim); background: var(--lane);
+  border-radius: 6px; padding: 9px 12px; }
+.wnote b { display: block; font-size: 12.5px; color: var(--muted); }
+.connector { width: 2px; height: 22px; background: var(--rule); margin: 0 auto; }
+.panel + .connector { margin-top: 0; }
+.connector + .panel { margin-top: 0; }
+.rtrack { margin-top: 36px; border: 2px dashed var(--human-rule); box-shadow: none; }
+.chip-lab { margin: 0 0 8px; }
+.rtrack > p { max-width: 64ch; }
+.rtrack .figure { font-size: 18px; font-weight: 650; }
+.cards { margin: 6px 0 0; padding-left: 20px; }
+.cards li { margin: 0 0 6px; }
+a { color: var(--ink); text-underline-offset: 2px; }
+.close-link { margin: 28px 0 0; font-size: 16px; font-weight: 650; }
+.steps { padding-left: 20px; }
+.hoodwrap details.more { margin-top: 0; border-top: 0; padding-top: 0; }
+.steps li { margin: 0 0 8px; overflow-wrap: anywhere; }
+@media (max-width: 640px) {
+  .io { grid-template-columns: 1fr; }
+  .panel { padding: 16px 14px 18px; }
+}
+</style></head>
+<body><main>
+<header class="wt-head"><h1><span class="wordmark">Numen</span>: Archetype and Character-Arc Analysis for Screenplays</h1><p>This walkthrough follows one feature-length script, Full of Grace, from the script’s PDF to its final Story Report.</p></header>
+<section class="panel stage" aria-labelledby="st1-h"><h2 id="st1-h"><span class="num" aria-hidden="true">1</span><span class="ttl">The Script Read</span></h2><div class="io"><div><h3>WHAT GOES IN:</h3><p>The script PDF.</p></div><div><h3>WHAT COMES OUT:</h3><p>223 scenes, with every line labelled as a scene heading, action, character name, dialogue or a direction.</p></div></div><div class="does"><h3>WHAT IT DOES:</h3><p>The text is pulled out of the script PDF with its layout kept, split into scenes, and every line is labelled by what it is.</p></div><figure class="ex"><figcaption>Holly goes missing, as pulled from the script PDF (page 4).</figcaption><div class="script" data-locked="Script text, printed from fog_full.txt"><p>Krista frowns. Beth hangs up her phone, unable to reach Holly. She begins to tap out a text --</p><p><span class="cue">BETH (CONT’D)</span>Where r-u you dumb... little... sh-</p><p>A SCREAM. A girl’s scream. Holly. Distant and cut-off suddenly as if by force.</p></div></figure><figure class="ex"><figcaption>Part of the same scene after labelling:</figcaption><dl class="rows"><dt>Scene heading</dt><dd data-locked="Pipeline output, from fog_parsed_scenes.json"><span class="script-text">EXT. RIVERBANK - LATER</span></dd><dt>Character</dt><dd data-locked="Pipeline output, from fog_parsed_scenes.json"><span class="script-text">BETH</span></dd><dt>Dialogue</dt><dd data-locked="Pipeline output, from fog_parsed_scenes.json"><span class="script-text">It’s been twenty minutes. I’m calling her.</span></dd><dt>Action</dt><dd data-locked="Pipeline output, from fog_parsed_scenes.json"><span class="script-text">Beth takes out her cell, begins to dial.</span></dd></dl></figure><p class="wnote"><b>WORTH KNOWING:</b>When two characters’ lines are printed side by side (dual dialogue), pulling the text from the PDF can scramble them. One of Trudy’s lines on page 123 lost her name and had words out of order; it was repaired by hand, checked against a second extraction.</p></section><div class="connector" aria-hidden="true"></div><section class="panel stage" aria-labelledby="st2-h"><h2 id="st2-h"><span class="num" aria-hidden="true">2</span><span class="ttl">Finding the Moments</span></h2><div class="io"><div><h3>WHAT GOES IN:</h3><p>The 223 labelled scenes.</p></div><div><h3>WHAT COMES OUT:</h3><p>460 moments, each holding its full text and the signals that marked where it begins and ends.</p></div></div><div class="does"><h3>WHAT IT DOES:</h3><p>Each scene is split into moments wherever the text shifts — a pause, a line that stops short, a sharp swing in tone.</p></div><figure class="ex"><figcaption>The end of one moment, and the signals that closed it:</figcaption><div class="script" data-locked="Pipeline output, from fog_scaffold.json"><p><span class="cue">BETH</span>Where r-u you dumb... little... sh-</p></div><ul class="sig" data-locked="Pipeline output, from fog_scaffold.json"><li>embedded pause (...)</li><li>cut off (--)</li><li>sentiment delta 0.54</li><li>sentiment magnitude -0.51</li></ul></figure><figure class="ex"><figcaption>The next moment opens:</figcaption><div class="script" data-locked="Pipeline output, from fog_scaffold.json"><p>A SCREAM. A girl’s scream. Holly. Distant and cut-off suddenly as if by force.</p></div></figure><p class="wnote"><b>WORTH KNOWING:</b>These signals read the words one at a time, not what they amount to. A tone measure built on them was tested as an emotional wave across the script and eventually left out: it read Holly’s scream as close to neutral.</p></section><div class="connector" aria-hidden="true"></div><section class="panel stage" aria-labelledby="st3-h"><h2 id="st3-h"><span class="num" aria-hidden="true">3</span><span class="ttl">The AI Labels the Archetypes</span></h2><div class="io"><div><h3>WHAT GOES IN:</h3><p>Each of the 460 moments, one at a time, with its full text.</p></div><div><h3>WHAT COMES OUT:</h3><p>Each character in each moment gets one of The Big Seven, or no archetype. The AI also records how the audience sees the moment, how the character sees it, and what the character feels and wants. The run made 470 AI calls.</p></div></div><div class="does"><h3>WHAT IT DOES:</h3><p>The AI reads one moment at a time and says which of The Big Seven, if any, each character presents as; an answer outside the allowed terms is rejected and asked for again.</p></div><figure class="ex"><figcaption>The script, page 2.</figcaption><div class="script" data-locked="Script text, printed from fog_full.txt"><p>Holly produces an apple from her pocket. Gives it to Krista.</p><p><span class="cue">HOLLY</span>Here. This’ll calm Bella down.</p><p>Krista takes the apple. She smiles. She role-plays feeding the apple to Bella.</p><p><span class="cue">HOLLY (CONT’D)</span>Last one to the river mucks all our stalls for a week!</p><p>Holly suddenly breaks into a gallop down the wooded trail, leaving Beth and Krista in the dust.</p><p><span class="cue">BETH</span>Hey! Not fair!</p></div></figure><figure class="ex"><figcaption>The AI’s call for Holly, from its saved response:</figcaption><dl class="rows"><dt>Character</dt><dd data-locked="The AI's text, from its saved response">HOLLY</dd><dt>Archetype</dt><dd data-locked="The AI's text, from its saved response">Trickster</dd><dt>How an audience would see it</dt><dd data-locked="The AI's text, from its saved response">an impish, high-spirited child who gives a sweet gift and then gleefully cheats the start of a game</dd><dt>How Holly sees it</dt><dd data-locked="The AI's text, from its saved response">playfully kind toward Krista, then cleverly seizing an advantage by launching the race before the others are ready</dd></dl></figure><p class="wnote"><b>WORTH KNOWING:</b>In one confrontation, the AI put John’s Hero call on the argument, not on the acts that follow. A Hero call needs the act itself, and review moved it.</p></section><div class="connector" aria-hidden="true"></div><section class="panel stage" aria-labelledby="st4-h"><h2 id="st4-h"><span class="num" aria-hidden="true">4</span><span class="ttl">The AI Tracks Character Changes</span></h2><div class="io"><div><h3>WHAT GOES IN:</h3><p>Every moment for each character with 3 or more moments.</p></div><div><h3>WHAT COMES OUT:</h3><p>524 judgments across 29 characters: whether each reaction fits the moment and fits the character, and where a character changes or shows a limit we haven’t seen before.</p></div></div><div class="does"><h3>WHAT IT DOES:</h3><p>The AI reads each character’s full arc first, names the traits that define them, then measures every moment against those traits.</p><p class="plain">It never checks a moment on its own; it waits until the character’s whole arc is in view. Note that it worked from human-reviewed archetype calls: 196 corrections had already been made to the previous stage.</p></div><figure class="ex"><figcaption>The script, page 84.</figcaption><div class="script" data-locked="Script text, printed from fog_full.txt"><p>Without warning, Mackie’s big powerful hand grabs John’s throat, squeezing.</p></div></figure><figure class="ex"><figcaption>The AI on Mackie, from its saved response:</figcaption><dl class="rows"><dt>A trait the AI named</dt><dd data-locked="The AI's text, from its saved response">Maintains composed, authoritative control to push his son toward normalcy, minimizing or denying the emotional and moral weight of the crisis</dd><dt>Its label for this moment</dt><dd data-locked="The AI's text, from its saved response">continuation</dd><dt>What it says changes</dt><dd data-locked="The AI's text, from its saved response">Within the same unbroken confrontation, the failure of verbal control immediately snaps into physical violence -- Mackie grabs his son&#x27;s throat -- a capacity for violence never before shown or hinted at.</dd></dl></figure><p class="wnote"><b>WORTH KNOWING:</b>The AI tracks John and Young John as two people, so it can’t connect the two halves of one life. The report shows them as one person, but these judgments were made separately.</p></section><div class="connector" aria-hidden="true"></div><section class="panel stage" aria-labelledby="st5-h"><h2 id="st5-h"><span class="num" aria-hidden="true">5</span><span class="ttl">The Story Report</span></h2><div class="io"><div><h3>WHAT GOES IN:</h3><p>The script text, and everything the AI produced in the stages above.</p></div><div><h3>WHAT COMES OUT:</h3><p>The Story Report: 4 sections, each tied to pages of the script.</p></div></div><div class="does"><h3>WHAT IT DOES:</h3><p>The AI writes a genre, logline and synopsis from the script alone, code assembles the rest from the earlier stages, and a check rejects wording that passes judgment on the script.</p></div><figure class="ex"><figcaption>The AI’s genre and logline, as the report shows them:</figcaption><dl class="rows"><dt>Genre</dt><dd data-locked="The AI's text, from the development read">Crime Drama / Thriller</dd><dt>Logline</dt><dd data-locked="The AI's text, from the development read">A burnt-out, hard-drinking LA detective returns to his New Hampshire hometown for his father&#x27;s funeral and gets pulled into investigating the disappearance of a young girl, a case his late father secretly worked before his death, forcing him to confront buried secrets from his own past and his family&#x27;s hidden involvement.</dd></dl></figure><p class="wnote"><b>WORTH KNOWING:</b>One stray letter in the AI’s synopsis was removed and a lost paragraph break restored. The repair is logged, and no words were changed.</p></section>
+<section class="panel rtrack" aria-labelledby="track-h"><p class="chip-lab"><span class="chip-human">Human review track</span></p><h2 id="track-h">How the AI Is Measured</h2><p>The aim of the finished product is to be AI-only, with no human review. This track shows how close the AI currently gets: a person checked the AI’s work on the Full of Grace script, call by call.</p><p class="figure">57 of the AI’s 82 archetype calls were kept as made.</p><p>The AI never called a moment ordinary behavior; review did, 19 times.</p><figure class="ex"><figcaption>One call review changed: Mackie, page 84.</figcaption><dl class="rows"><dt><span class="chip-ai">The AI’s call</span></dt><dd data-locked="The AI's text, from its saved response"><b>Great Mother</b><br>A protective/older figure snapping into sudden, frightening violence against a child in his care</dd><dt><span class="chip-human">After review</span></dt><dd data-locked="Review record"><b>Shadow</b><br>a sudden, frightening break from composure -- violence erupting without warning</dd><dt>What changed, in plain words</dt><dd data-locked="Story Report text: edit it on the report's review page">Great Mother changed to Shadow. The grab at John’s throat is a sudden, wordless eruption, not care.</dd><dt>Review’s reading of the turn</dt><dd data-locked="Review record">a previously untested capacity for physical violence against his own son</dd></dl></figure><p>4 moments, each shown the way review checks it:</p><ul class="cards"><li><a href="demo_prototype/holly_scene3_beat2_card.html" data-locked="Card title, from the card's own page">Holly: Trickster Archetype</a></li><li><a href="demo_prototype/mackie_scene140_beat6_card.html" data-locked="Card title, from the card's own page">Mackie: Great Mother or Shadow Archetype?</a></li><li><a href="demo_prototype/pete_scene122_beat1_card.html" data-locked="Card title, from the card's own page">Pete: Limit Revealed or Character-Consistent?</a></li><li><a href="demo_prototype/protected_protector_card.html" data-locked="Card title, from the card's own page">The Protected Becomes the Protector</a></li></ul></section>
+<p class="close-link"><a href="fog_story_report.html">Read the Story Report for Full of Grace</a></p>
+<section class="panel hoodwrap" aria-label="Under the hood" style="margin-top:24px">
+<details class="more hood"><summary>Under the hood</summary>
+<p><b>The 10 real steps.</b> The stages above group these; the human steps are the review track.</p>
+<ol class="steps"><li><b>Text extraction</b> (stage 1). Run: <code>pdftotext -layout</code>. In: the script PDF. Out: <code>fog_full.txt</code>.</li><li><b>Parsing and hand patches</b> (stage 1). Run: <code>build_fog_scaffold.py</code>, <code>parser.py</code>, <code>fog_hand_patches.py</code>. In: <code>fog_full.txt</code>. Out: <code>fog_parsed_scenes.json</code>.</li><li><b>Beat detection</b> (stage 2). Run: <code>build_fog_scaffold.py</code>, <code>beat_detector.py</code>, <code>signals.py</code>, <code>suspense_signals.py</code>. In: <code>fog_parsed_scenes.json</code>. Out: <code>fog_scaffold.json</code>.</li><li><b>Pass 1 tagging (AI)</b> (stage 3). Run: <code>fog_tagging_harness.py</code>, <code>llm_orchestration.py</code>, <code>integration.py</code>, <code>tagging_schema.py</code>. In: <code>fog_scaffold.json</code>. Out: <code>fog_tagged.json</code>, <code>fog_tagging_calls.jsonl</code>.</li><li><b>Human archetype review</b> (the human review track). Run: by hand. In: <code>fog_tagged.json</code>. Out: <code>fog_tagged.json</code>, <code>FOG_*_REVIEW.md</code>.</li><li><b>Pass 2 (AI)</b> (stage 4). Run: <code>fog_pass2_runner.py</code>, <code>pass2_orchestration.py</code>. In: <code>fog_tagged.json</code>. Out: <code>fog_pass2_calls/</code>, <code>fog_tagged.json</code>.</li><li><b>Human Pass 2 review</b> (the human review track). Run: <code>build_fog_turning_points_reviewed.py</code>. In: <code>fog_tagged.json</code>, <code>fog_pass2_calls/</code>, <code>FOG_*_REVIEW.md</code>. Out: <code>fog_tagged.json</code>, <code>FOG_*_REVIEW.md</code>, <code>FOG_PASS2_CLOSEOUT.md</code>, <code>fog_turning_points_reviewed.json</code>.</li><li><b>Development read (AI)</b> (stage 5). Run: <code>fog_dev_read_runner.py</code>, <code>report_guard.py</code>. In: <code>fog_full.txt</code>. Out: <code>fog_dev_read.json</code>, <code>fog_dev_read_call.json</code>, <code>fog_dev_read_archive/</code>.</li><li><b>Report data</b> (stage 5). Run: <code>report_data.py</code>. In: <code>fog_tagged.json</code>, <code>fog_full.txt</code>. Out: <code>fog_line_index.json</code>, <code>fog_report_model.json</code>.</li><li><b>Story Report</b> (stage 5). Run: <code>report.py</code>, <code>report_guard.py</code>. In: <code>fog_report_model.json</code>, <code>fog_line_index.json</code>, <code>fog_full.txt</code>, <code>fog_tagged.json</code>, <code>fog_turning_points_reviewed.json</code>, <code>fog_dev_read.json</code>, <code>FOG_*_REVIEW.md</code>. Out: <code>fog_story_report.html</code>.</li></ol>
+<p><b>When Pass 2 ran.</b> The first 196 corrections-log entries (commits <code>1fe11c8</code> to <code>d294e1c</code>) are human corrections, all in <code>fog_tagged.json</code> before the 524 Pass 2 drafts were applied (<code>e26724d</code>, partial; <code>8079f93</code>, complete). The log now holds 847 entries.</p>
+<p><b>A side step: plot facts.</b> After the cold run, <code>fog_plot_facts_runner.py</code> pulled 3 settled plot facts from the script into <code>fog_tagged.json</code>. They were not available to the AI when it called the archetypes, and nothing in the report uses them.</p>
+<p><b>Page and line numbers.</b> The pipeline counts by PDF page (the title page first), by the script’s own printed page number (1–125), and by line in <code>fog_full.txt</code> (6665 lines). Holly’s scream is line 198: PDF page 5, printed page 4. This page and the report show printed pages only.</p>
+<p><b>John and Young John.</b> JOHN and YOUNG JOHN, and CHEYENNE and YOUNG CHEYENNE, are each shown as one character. The pipeline tracked the younger versions in the flashbacks as separate characters (FOG_COLD_RUN_FINDINGS.md finding 21). This page shows them as one person, as the report does.</p>
+<p><b>How this page is checked.</b> Every number is computed from the data when the page is built, every excerpt is checked word for word against its file, and the wording passes the report’s own checks. Built by <code>walkthrough.py</code>; no API call.</p>
+</details>
+</section>
+<footer>Built by walkthrough.py. No API call was made to build this page.</footer>
+</main>
+
+</body></html>

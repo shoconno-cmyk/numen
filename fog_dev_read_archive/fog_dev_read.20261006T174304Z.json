@@ -1,0 +1,40 @@
+{
+  "title": "Full of Grace",
+  "title_printed": "FULL OF GRACE",
+  "title_source": "code: fog_full.txt title page",
+  "genre": "Crime drama/mystery thriller",
+  "synopsis": "In Dover, New Hampshire, eleven-year-old Holly Roberts vanishes from the woods, leaving behind only her hobbyhorse. Detective John Kierstead, a troubled LA cop, returns home for his father Mackie's funeral and is pulled into the investigation alongside Doug, his sister Trudy's boyfriend on the force. John uncovers that Mackie and family friend Reggie had been violently pursuing a suspect called El Vaquero, torturing an innocent man. Reggie is killed confronting John at the family cabin. Authorities arrest Raymond Olsen, a disabled man, for Holly's murder. John discovers Trudy's car at a church and finds her in a confessional: she admits she arranged Holly's abduction to punish Holly's mother Cheyenne, then drowned Holly during a makeshift baptism ritual when the girl resisted. John gives Trudy his keys and lets her drive off, choosing silence over turning her in. He then arrives at the door of his late friend Andy's parents, preparing to finally confess the truth about Andy's death twenty years earlier.",
+  "model": "claude-sonnet-5",
+  "call_file": "fog_dev_read_call.json",
+  "attempts": 2,
+  "total_cost_usd": 0.2769,
+  "prompt_version": 3,
+  "inputs": "fog_full.txt page 2 on only; no plot facts, tags or review data",
+  "source": "ai_accepted_after_rule_change",
+  "accepted_attempt": 2,
+  "accepted_note": "Attempt 2 of the prompt-v3 run (161 words) was rejected only for length under the old 70-140 limit; the author changed the hard limit to 70-170 words (2026-10-05). Re-checked against the full guard with no API call.",
+  "accepted_under": {
+    "words_hard": [
+      70,
+      170
+    ],
+    "prompt_version_of_attempt": 3
+  },
+  "author_check": {
+    "date": "2026-10-05",
+    "by": "author (Shane O'Connor)",
+    "note": "Checked by the author against the script; two minor slips left as written: Holly's age (“eleven-year-old”; the script says 12, fog_full.txt line 52) and “twenty years earlier” (the flashbacks say 22 YEARS AGO, line 1886).",
+    "slips_left_as_written": [
+      {
+        "text": "eleven-year-old",
+        "script": "HOLLY (12)",
+        "line": 52
+      },
+      {
+        "text": "twenty years earlier",
+        "script": "22 YEARS AGO...",
+        "line": 1886
+      }
+    ]
+  }
+}

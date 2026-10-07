@@ -1,0 +1,4 @@
+{
+  "character": "MAN",
+  "raw_text": "{\n  \"established_pattern_synthesis\": [\n    {\n      \"trait\": \"Quietly, without meeting anyone's gaze, accepts an act of charity (a bowl of soup) and withdraws\",\n      \"first_shown_beat_id\": \"scene30_beat2\"\n    },\n    {\n      \"trait\": \"Forcefully interrupts an ongoing interrogation and asserts his professional authority to halt it\",\n      \"first_shown_beat_id\": \"scene202_beat1\"\n    }\n  ],\n  \"turning_points\": []\n}"
+}

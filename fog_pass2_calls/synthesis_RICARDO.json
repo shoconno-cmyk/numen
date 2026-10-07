@@ -1,0 +1,98 @@
+{
+  "synthesis": [
+    {
+      "trait": "Freezes and reacts with visible fear when summoned by an authority figure",
+      "first_shown_beat_id": "scene106_beat1"
+    },
+    {
+      "trait": "Stalls/delays complying, quietly evading rather than confronting directly",
+      "first_shown_beat_id": "scene106_beat2"
+    },
+    {
+      "trait": "Flees physically to avoid capture when directly confronted",
+      "first_shown_beat_id": "scene111_beat1"
+    },
+    {
+      "trait": "Cooperates with basic, low-risk factual answers once caught and questioned",
+      "first_shown_beat_id": "scene119_beat1"
+    },
+    {
+      "trait": "Denies knowledge or wrongdoing to protect himself under threat",
+      "first_shown_beat_id": "scene119_beat5"
+    }
+  ],
+  "turning_points": [
+    {
+      "beat_id": "scene111_beat1",
+      "trait_it_relates_to": "Stalls/delays complying, quietly evading rather than confronting directly",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene106_beat2",
+      "what_changes": "Passive stalling (slowly removing gear before responding) escalates into an actual physical escape attempt, running and vaulting a fence into a trailer lot -- a far greater risk than mere delay.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene114_beat1",
+      "trait_it_relates_to": "Flees physically to avoid capture when directly confronted",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene111_beat1",
+      "what_changes": "The same unbroken chase continues, now with Ricardo leaping between parked trailers as John closes in, extending the flight sequence at heightened physical risk.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene115_beat1",
+      "trait_it_relates_to": "Flees physically to avoid capture when directly confronted",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene114_beat1",
+      "what_changes": "The chase sequence concludes here in one continuous motion -- Ricardo's leap is followed immediately by John tackling him to the ground, exposing that his capacity to evade has a limit and he can be physically overtaken.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene119_beat4",
+      "trait_it_relates_to": "Freezes and reacts with visible fear when summoned by an authority figure",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene106_beat1",
+      "what_changes": "His fear response, first triggered by a routine PA summons, now escalates to visible terror under the explicit threat of an ICE call -- a categorically higher personal stake than the earlier workplace summons.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene119_beat7",
+      "trait_it_relates_to": "Denies knowledge or wrongdoing to protect himself under threat",
+      "turning_point_type": "escalation",
+      "comparison_beat_id": "scene119_beat5",
+      "what_changes": "After flatly denying any knowledge ('I know nothing... I love America'), he now answers 'Yes' and begins to admit involvement once John intensifies the threat -- his denial cracks under greater pressure than it had faced before, revealing the limit of that self-protective lie.",
+      "likely_category": "boundary_revealed"
+    },
+    {
+      "beat_id": "scene119_beat9",
+      "trait_it_relates_to": "Denies knowledge or wrongdoing to protect himself under threat",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene119_beat7",
+      "what_changes": "Directly continuing the admission just extracted, he now names specific coworkers (Alberto, Raymond), extending the same unbroken confession further into concrete, incriminating detail.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene119_beat10",
+      "trait_it_relates_to": "Denies knowledge or wrongdoing to protect himself under threat",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene119_beat9",
+      "what_changes": "The same unbroken disclosure continues as he volunteers further specifics about Raymond's firing, without prompting resistance or reversion to denial.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene119_beat11",
+      "trait_it_relates_to": "Denies knowledge or wrongdoing to protect himself under threat",
+      "turning_point_type": "continuation",
+      "comparison_beat_id": "scene119_beat10",
+      "what_changes": "Cooperation continues uninterrupted as he adds personal detail -- the bar, the friendship with Alberto -- deepening the same ongoing disclosure rather than starting a new one.",
+      "likely_category": "throughline_evolution"
+    },
+    {
+      "beat_id": "scene119_beat12",
+      "trait_it_relates_to": "Flees physically to avoid capture when directly confronted",
+      "turning_point_type": "echo",
+      "comparison_beat_id": "scene111_beat1",
+      "what_changes": "Ricardo's own line -- 'I think ICE get him. That's why I run from you.' -- directly and concretely answers the earlier unexplained flight through the trailer lot, supplying in his own words the motive the story had withheld until now.",
+      "likely_category": "throughline_evolution"
+    }
+  ]
+}
