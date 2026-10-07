@@ -139,7 +139,7 @@ frames.forEach(f => f.addEventListener('load', () => setTimeout(() => {
   if (--left === 0) document.getElementById('out').textContent = JSON.stringify(out);
 }, 500)));
 """
-TARGET = {"fog_story_report_review.html": "#why-h", "numen_walkthrough_review.html": "header.wt-head p",
+TARGET = {"fog_story_report_review.html": "#why-h", "numen_walkthrough_review.html": "header.wt-head p:not(.tagline)",
           **{f"demo_prototype/{c}_review.html": "dt" for c in CARDS}}
 
 

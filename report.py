@@ -2069,6 +2069,7 @@ def page(data, model, stats, review=False):
 
 <footer>Built by report.py. No API call was made to build this page.</footer>
 </main>
+{"" if review else numen_theme.home_button(ROOT)}
 <div id="tip" class="tip" role="tooltip"></div>
 <div id="scrim" class="scrim"></div>
 <div id="sheet" class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-h"></div>

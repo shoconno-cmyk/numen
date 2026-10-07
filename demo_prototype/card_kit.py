@@ -342,6 +342,7 @@ def page_shell(title, body, review=None):
 <body>
 {body}
 <footer>Tap a page to enlarge it.</footer>
+{"" if review else numen_theme.home_button(OUT_DIR)}
 <dialog id="lightbox" aria-label="Enlarged script page">
   <div class="wrap"><img alt=""></div>
 </dialog>

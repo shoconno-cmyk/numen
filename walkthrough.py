@@ -66,9 +66,21 @@ GARBLED_BEAT = "scene216_beat6"    # finding 12
 # --- framing: every reader-facing line (approved by the author 2026-10-06; the author's
 # review edits applied 2026-10-07) -----------------------------------------------------
 # Templates only: {name} fields are filled from numbers(); no digit may be typed.
-TAGLINE = "Numen: Archetype and Character-Arc Analysis for Screenplays"
+NAME = "Numen"   # the title, set as the wordmark (as on index.html)
+TAGLINE = "Jungian Archetype and Character-Arc Analysis for Screenplays"   # the subtitle
 OPENING = ("This walkthrough follows one feature-length script, Full of Grace, from the script’s PDF to its "
            "final Story Report.")
+# "What are The Big Seven?" (author, 2026-10-07): BIG7_LINK in BIG7 links to the
+# Story Report's definitions appendix.
+BIG7_HEADING = "What are The Big Seven?"
+BIG7 = ("The psychologist Carl Jung proposed that certain character patterns, which he called archetypes, "
+        "recur across myths, stories and dreams in every culture and era, and that audiences recognize them "
+        "both consciously and unconsciously: the hero, the wise guide, the dark double. The Big Seven are the "
+        "archetypes that seem to appear most often in screenplays and films: six from Jung (Hero, Mentor, "
+        "Shadow, Trickster, Great Mother and Persona), plus the Chorus from Greek drama. This walkthrough shows "
+        "how Numen finds where each character presents as one of them, moment by moment.")
+BIG7_LINK = "The Big Seven"
+DEFS_ANCHOR = "#defs-h"
 # No separate excerpt label line (author edit 2026-10-07): each excerpt's own caption
 # is its label. The final scan exempts excerpts from the word checks only while
 # every caption is on the page word for word (excerpt_labels()).
@@ -154,7 +166,7 @@ HOOD = "Under the hood"
 
 
 def framing_templates():
-    out = [TAGLINE, OPENING, CLOSE, HOOD, *LBL.values(), *CAP.values(), *ROW.values(),
+    out = [NAME, TAGLINE, OPENING, BIG7_HEADING, BIG7, CLOSE, HOOD, *LBL.values(), *CAP.values(), *ROW.values(),
            *TRACK.values()]
     for s in STAGES:
         out += [s["title"]] + [s[k] for k in ("in", "out", "does", "plain", "note") if k in s]
@@ -450,8 +462,11 @@ def hood_html(N, po, model):
 CSS = r"""
 main { max-width: 760px; }
 .wt-head { margin: 8px 0 24px; }
-.wt-head h1 { font-size: 24px; }
+.wt-head h1 { font-size: 30px; margin: 0 0 6px; }
 .wt-head p { margin: 8px 0 0; max-width: 60ch; color: var(--muted); }
+.wt-head p.tagline { margin: 0 0 12px; }
+.big7 h2 { margin: 0 0 8px; }
+.big7 p { margin: 0; }
 .stage { position: relative; }
 .stage .num { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 50%;
   background: var(--ink); color: var(--panel); font-weight: 650; font-size: 14px; margin-right: 10px; flex: none; }
@@ -516,7 +531,9 @@ def page(N, po, lines, review=False):
 <title>Numen Walkthrough</title>
 <style>{numen_theme.css(ROOT)}{report.CSS}{CSS}{review_mode.CSS if review else ""}</style></head>
 <body><main>
-<header class="wt-head"><h1>{wordmark_h1()}</h1><p>{report.e(OPENING)}</p></header>
+<header class="wt-head"><h1><span class="wordmark">{report.e(NAME)}</span></h1><p class="tagline">{report.e(TAGLINE)}</p>
+<p>{report.e(OPENING)}</p></header>
+<section class="panel big7" aria-labelledby="big7-h"><h2 id="big7-h">{report.e(BIG7_HEADING)}</h2><p>{big7_html()}</p></section>
 {stages}
 {track_html(N)}
 <p class="close-link"><a href="{REPORT_HTML}">{report.e(CLOSE)}</a></p>
@@ -525,6 +542,7 @@ def page(N, po, lines, review=False):
 </section>
 <footer>Built by walkthrough.py. No API call was made to build this page.</footer>
 </main>
+{"" if review else numen_theme.home_button(ROOT)}
 {review_bar(N) if review else ""}
 </body></html>
 """
@@ -532,14 +550,15 @@ def page(N, po, lines, review=False):
 
 # Review mode (local only): the shared implementation in review_mode.py.
 REVIEW_STORE = "numen-review-edits:walkthrough"
-REVIEW_CAND = "h1, .ttl, #track-h, h3, p, li, dt, figcaption"
+REVIEW_CAND = "h1, #big7-h, .ttl, #track-h, h3, p, li, dt, figcaption"
 REVIEW_SKIP = "button, #review-bar, .num, .script, footer, summary"
 
 
 def review_bar(N):
     """The review bar for this page, with every framing line mapped to its
     constant and walkthrough.py line."""
-    entries = [("TAGLINE", TAGLINE, None), ("OPENING", OPENING, None),
+    entries = [("NAME", NAME, None), ("TAGLINE", TAGLINE, None), ("OPENING", OPENING, None),
+               ("BIG7_HEADING", BIG7_HEADING, None), ("BIG7", BIG7, None),
                ("CLOSE", CLOSE, None), ("HOOD", HOOD, None)]
     for name, d in (("LBL", LBL), ("CAP", CAP), ("ROW", ROW), ("TRACK", TRACK)):
         entries += [(f"{name}[{k!r}]", v.format(**N, name="Holly"), v) for k, v in d.items()]
@@ -551,12 +570,13 @@ def review_bar(N):
                            "not in the source map: search walkthrough.py for the original text")
 
 
-def wordmark_h1():
-    """The tagline, with "Numen" set as the wordmark (same words, same order)."""
-    name, rest = TAGLINE.split(":", 1)
-    if name != "Numen":
-        sys.exit("ABORT: the tagline no longer starts with the Numen wordmark")
-    return f'<span class="wordmark">{report.e(name)}</span>:{report.e(rest)}'
+def big7_html():
+    """BIG7, with its first "The Big Seven" linked to the Story Report's
+    definitions appendix (same words, same order)."""
+    a, sep, b = BIG7.partition(BIG7_LINK)
+    if not sep:
+        sys.exit("ABORT: the Big Seven paragraph no longer names The Big Seven")
+    return f'{report.e(a)}<a href="{REPORT_HTML}{DEFS_ANCHOR}">{report.e(BIG7_LINK)}</a>{report.e(b)}'
 
 
 def excerpt_labels(N):

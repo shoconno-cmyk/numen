@@ -1,6 +1,6 @@
 # Numen
 
-**Numen: Archetype and Character-Arc Analysis for Screenplays**
+**Numen: Jungian Archetype and Character-Arc Analysis for Screenplays**
 
 Numen reads a screenplay and maps where each character presents as one of seven recurring character patterns, beat by beat, with the page and the text behind every call.
 

@@ -92,6 +92,20 @@ code, kbd { font-family: var(--font-code); }
 .chip-ai { background: var(--ai-chip-bg); color: var(--ai-chip-ink); }
 .chip-human { background: var(--human-chip-bg); color: var(--human-chip-ink); }
 
+/* "Back to Main Page" (numen_theme.home_button): public pages only. On wide
+   screens a small floating button in the bottom-left corner; on phones and
+   tablets it sits in the page flow at the very end, so it never covers a
+   toggle, the timeline or any text. */
+.home-btn { display: block; width: fit-content; margin: 0 16px 32px; padding: 8px 14px;
+  border: 1px solid var(--rule); border-radius: 999px; background: var(--panel); color: var(--ink);
+  box-shadow: var(--shadow); font: 600 13px/1.2 var(--font-body); text-decoration: none; }
+.home-btn:hover { border-color: var(--accent); color: var(--accent); }
+.home-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (min-width: 861px) {
+  .home-btn { position: fixed; left: 16px; bottom: 16px; margin: 0; z-index: 11; }
+  body:has(.home-btn) { padding-bottom: 56px; }
+}
+
 body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 var(--font-body); }
 main { max-width: 640px; margin: 0 auto; padding: 40px 16px 64px; }
 h1 { font-size: 30px; margin: 0 0 6px; } h2 { font-size: 19px; margin: 28px 0 8px; }
@@ -100,8 +114,8 @@ a { color: var(--ink); text-underline-offset: 2px; }
 </style></head>
 <body><main>
 <h1><span class="wordmark">Numen</span></h1>
-<p>Archetype and Character-Arc Analysis for Screenplays</p>
-<h2>Full of Grace</h2>
+<p>Jungian Archetype and Character-Arc Analysis for Screenplays</p>
+<h2>The Screenplay: Full of Grace</h2>
 <ul>
 <li><a href="numen_walkthrough.html">The Walkthrough: From PDF to Story Report</a></li>
 <li><a href="fog_story_report.html">The Story Report</a></li>

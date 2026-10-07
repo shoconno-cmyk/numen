@@ -99,9 +99,10 @@ class Framing(unittest.TestCase):
     def test_opening(self):
         h = page()["html"]
         h1 = re.search(r"<h1>(.*?)</h1>", h, re.S).group(1)
-        self.assertEqual(html.unescape(re.sub(r"<[^>]+>", "", h1)), w.TAGLINE)
-        self.assertIn('<span class="wordmark">Numen</span>', h1)
-        self.assertEqual(w.TAGLINE, "Numen: Archetype and Character-Arc Analysis for Screenplays")
+        self.assertEqual(h1, '<span class="wordmark">Numen</span>')
+        self.assertEqual(w.NAME, "Numen")
+        self.assertEqual(w.TAGLINE, "Jungian Archetype and Character-Arc Analysis for Screenplays")
+        self.assertIn(f'<p class="tagline">{w.TAGLINE}</p>', h)
         self.assertIn("Full of Grace", w.OPENING)
         self.assertIn("from the script’s PDF to its final Story Report", w.OPENING)
 
