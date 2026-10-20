@@ -2,3 +2,5 @@
 history_snapshots/** -text
 *.pdf binary
 *.woff2 binary
+*.mp4 binary
+*.jpg binary

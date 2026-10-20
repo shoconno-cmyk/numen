@@ -10,6 +10,7 @@ Numen reads a screenplay and maps where each character presents as one of seven 
 
 All built from one feature script, *Full of Grace*:
 
+- **[Watch the Trailer](https://shoconno-cmyk.github.io/numen/trailer.html)**
 - **[The Walkthrough](https://shoconno-cmyk.github.io/numen/numen_walkthrough.html)**: the same script followed from PDF to report, stage by stage.
 - **[The Story Report](https://shoconno-cmyk.github.io/numen/fog_story_report.html)**: the finished report, with an AI Output / Human Reviewed switch on each section.
 - **[Frequently Asked Questions](https://shoconno-cmyk.github.io/numen/faq.html)**: what Numen does and doesn't do, how accurate it is, and which AI it uses.
