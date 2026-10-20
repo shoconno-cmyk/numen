@@ -4,9 +4,10 @@ shared design (numen_theme.css: same tokens, fonts, light and dark themes),
 with the wordmark and tagline at the top as on the walkthrough.
 
 The video is numen_trailer.mp4 (repo root), shown with native controls at
-full content width in a 16:9 box. A poster frame is used only if
-numen_trailer_poster.jpg exists (ffmpeg, about 2 seconds in: the title
-card); without it the page has no poster. The build stops if the video is
+full content width in a 16:9 box, playing from 0:00. The poster,
+numen_trailer_poster.jpg, is the frame at 2.0 seconds (the title card),
+drawn to a canvas in headless Chrome and saved as JPEG (1920x1080); it is
+used only if the file exists. The build stops if the video is
 missing or over GitHub's 100 MB file limit.
 
 No API call. The page's text passes the "model" check, the old-name check
@@ -27,8 +28,6 @@ import walkthrough  # noqa: E402
 OUT = os.path.join(ROOT, "trailer.html")
 VIDEO = "numen_trailer.mp4"
 POSTER = "numen_trailer_poster.jpg"
-# Media fragment: browsers show the frame at 2 seconds (the title card) as the preview.
-START = "#t=2"
 MAX_BYTES = 100 * 1024 * 1024   # GitHub's per-file limit
 TITLE = "Watch the Trailer"
 LINE = "Numen in about a minute: one screenplay, from PDF to Story Report."
@@ -71,7 +70,7 @@ def page():
 <header class="tr-head"><h1><span class="wordmark">{report.e(walkthrough.NAME)}</span></h1><p class="tagline">{report.e(walkthrough.TAGLINE)}</p>
 <h2>{report.e(TITLE)}</h2></header>
 <video class="video" controls playsinline preload="metadata"{poster}>
-<source src="{VIDEO}{START}" type="video/mp4">
+<source src="{VIDEO}" type="video/mp4">
 </video>
 <p class="tr-line">{report.e(LINE)}</p>
 <p><a href="{WALKTHROUGH_HTML}">{report.e(WALKTHROUGH_LINK)}</a></p>

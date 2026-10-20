@@ -30,13 +30,22 @@ class Video(unittest.TestCase):
     def test_video_tag(self):
         h = page()
         self.assertRegex(h, r'<video class="video" controls playsinline preload="metadata"[^>]*>')
-        self.assertIn('<source src="numen_trailer.mp4#t=2" type="video/mp4">', h)
+        self.assertIn('<source src="numen_trailer.mp4" type="video/mp4">', h)
         self.assertIn("aspect-ratio: 16 / 9", h)
         self.assertIn(".video { display: block; width: 100%;", h)
 
-    def test_poster_only_if_present(self):
-        has = os.path.exists(os.path.join(ROOT, t.POSTER))
-        self.assertEqual(f'poster="{t.POSTER}"' in page(), has)
+    def test_starts_at_zero(self):
+        self.assertNotIn("#t=", page())
+        self.assertNotIn("currentTime", page())
+
+    def test_poster_is_a_16x9_jpeg(self):
+        self.assertIn(f'poster="{t.POSTER}"', page())
+        with open(os.path.join(ROOT, t.POSTER), "rb") as f:
+            data = f.read()
+        self.assertEqual(data[:3], bytes([0xFF, 0xD8, 0xFF]))
+        sof = re.search(rb"\xff[\xc0-\xc2]..\x08(..)(..)", data, re.S)
+        h, w_ = int.from_bytes(sof.group(1), "big"), int.from_bytes(sof.group(2), "big")
+        self.assertEqual(w_ * 9, h * 16)
 
 
 class Page(unittest.TestCase):
