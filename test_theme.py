@@ -23,6 +23,7 @@ from test_report_timeline import CHROME  # noqa: E402
 PAGES = {
     "fog_story_report.html": ROOT,
     "numen_walkthrough.html": ROOT,
+    "faq.html": ROOT,
     **{f"demo_prototype/{c}": os.path.join(ROOT, "demo_prototype") for c in (
         "holly_scene3_beat2_card.html", "mackie_scene140_beat6_card.html",
         "pete_scene122_beat1_card.html", "protected_protector_card.html")},
@@ -75,7 +76,7 @@ class SharedStylesheet(unittest.TestCase):
                 self.assertEqual(page.count("--bg: #f4f2ee"), 1, "color tokens defined once, in the theme")
 
     def test_builders_hold_no_color_tokens(self):
-        for rel in ("report.py", "walkthrough.py", "demo_prototype/card_kit.py"):
+        for rel in ("report.py", "walkthrough.py", "faq.py", "demo_prototype/card_kit.py"):
             with self.subTest(builder=rel):
                 self.assertNotRegex(read(rel), r"--(bg|panel|ink|claim|verdict|accent|s\d): #")
 

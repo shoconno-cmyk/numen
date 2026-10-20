@@ -12,6 +12,7 @@ All built from one feature script, *Full of Grace*:
 
 - **[The Walkthrough](https://shoconno-cmyk.github.io/numen/numen_walkthrough.html)**: the same script followed from PDF to report, stage by stage.
 - **[The Story Report](https://shoconno-cmyk.github.io/numen/fog_story_report.html)**: the finished report, with an AI Output / Human Reviewed switch on each section.
+- **[Frequently Asked Questions](https://shoconno-cmyk.github.io/numen/faq.html)**: what Numen does and doesn't do, how accurate it is, and which AI it uses.
 - Four demo cards, one moment each, shown the way review checks it:
   - [Holly: Trickster Archetype](https://shoconno-cmyk.github.io/numen/demo_prototype/holly_scene3_beat2_card.html)
   - [Mackie: Great Mother or Shadow Archetype?](https://shoconno-cmyk.github.io/numen/demo_prototype/mackie_scene140_beat6_card.html)
