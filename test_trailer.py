@@ -30,7 +30,7 @@ class Video(unittest.TestCase):
     def test_video_tag(self):
         h = page()
         self.assertRegex(h, r'<video class="video" controls playsinline preload="metadata"[^>]*>')
-        self.assertIn('<source src="numen_trailer.mp4" type="video/mp4">', h)
+        self.assertIn('<source src="numen_trailer.mp4#t=2" type="video/mp4">', h)
         self.assertIn("aspect-ratio: 16 / 9", h)
         self.assertIn(".video { display: block; width: 100%;", h)
 

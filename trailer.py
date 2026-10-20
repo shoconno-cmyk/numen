@@ -27,6 +27,8 @@ import walkthrough  # noqa: E402
 OUT = os.path.join(ROOT, "trailer.html")
 VIDEO = "numen_trailer.mp4"
 POSTER = "numen_trailer_poster.jpg"
+# Media fragment: browsers show the frame at 2 seconds (the title card) as the preview.
+START = "#t=2"
 MAX_BYTES = 100 * 1024 * 1024   # GitHub's per-file limit
 TITLE = "Watch the Trailer"
 LINE = "Numen in about a minute: one screenplay, from PDF to Story Report."
@@ -69,7 +71,7 @@ def page():
 <header class="tr-head"><h1><span class="wordmark">{report.e(walkthrough.NAME)}</span></h1><p class="tagline">{report.e(walkthrough.TAGLINE)}</p>
 <h2>{report.e(TITLE)}</h2></header>
 <video class="video" controls playsinline preload="metadata"{poster}>
-<source src="{VIDEO}" type="video/mp4">
+<source src="{VIDEO}{START}" type="video/mp4">
 </video>
 <p class="tr-line">{report.e(LINE)}</p>
 <p><a href="{WALKTHROUGH_HTML}">{report.e(WALKTHROUGH_LINK)}</a></p>
